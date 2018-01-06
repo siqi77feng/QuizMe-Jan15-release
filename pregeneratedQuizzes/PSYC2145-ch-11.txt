@@ -1,0 +1,99 @@
+{
+	"fillInTheBlank": [ {
+		"keys": ["future", "facts", "past", "remembering", "spatial", "neglect"],
+		"sentence": "And, in fact, that is the pattern of the results: Patients with left [[4]] [[5]] have a harder time [[3]] [[2]] [[1]] about Marta (in the example we sketched) and an easier time [[3]] [[0]] [[1]]."
+	}, {
+		"keys": ["patterns", "activity", "brain", "actual"],
+		"sentence": "In some studies, this \"decoding\" is based on a comparison between participants' [[2]] [[1]] while visualizing and their [[1]] while seeing, confirming that the [[1]] [[0]] for images are indeed similar to those evoked by [[3]] visual inputs."
+	}, {
+		"keys": ["layout", "mental", "spatial"],
+		"sentence": "In important ways, [[1]] images are picturelike, representing in a direct fashion the [[2]] [[0]] of the represented scene."
+	}, {
+		"keys": ["actual", "mental"],
+		"sentence": "Likewise, [[1]] \"pictures\" cannot be [[0]] pictures; with no eye deep inside the brain, who or what would inspect such pictures?"
+	}, {
+		"keys": ["proportional", "imaged", "actual", "world"],
+		"sentence": "In these studies, response times are directly [[0]] to the amount of zoom required, suggesting once again that travel in the [[1]] [[3]] resembles travel in the [[2]] [[3]], at least with regard to timing (Figure 11.3)."
+	}, {
+		"keys": ["represent", "layout", "rotation", "spatial"],
+		"sentence": "As it turns out, though, we can set aside these concerns, allowing us to maintain the claims we've already sketched\u2014namely, that the scanning and [[2]] data are as they are, not through simulation but, indeed, because of how images [[0]] [[3]] [[1]]."
+	},  {
+		"keys": ["brain", "high", "face"],
+		"sentence": "The row marked \"a\" shows [[0]] sites more activated when participants were viewing faces than places; not surprisingly, activity levels are [[1]] in the so-called fusiform [[2]] area (FFA)."
+	}, {
+		"keys": ["proportional", "mental", "rotation"],
+		"sentence": "In tests requiring [[1]] [[2]], response times with blind research participants are [[0]] to the amount of \"[[2]]\" needed, just as with participants who have normal vision."
+	}, {
+		"keys": ["vivid", "detailed", "objects"],
+		"sentence": "People with [[0]] imagery report that their images are truly picturelike\u2014in color, quite [[1]], and with all of the depicted [[2]] viewed from a particular distance and a particular viewing angle."
+	}, {
+		"keys": ["actual", "vivid", "mental"],
+		"sentence": "This stands in clear contrast to the reports offered by [[1]] imagers; for them, [[2]] seeing really does seem like [[0]] seeing."
+	}, {
+		"keys": ["mental", "reports"],
+		"sentence": "However, concerns about how we should interpret these self-[[1]] have led investigators to seek more objective means of studying [[0]] imagery."
+	}, {
+		"keys": ["actual", "mental"],
+		"sentence": "All of this points toward the similarity between [[1]] images and [[0]] out-in-the-world pictures."
+	}, {
+		"keys": ["actual", "takes", "movement"],
+		"sentence": "Thus, once again, imagined \"[[2]]\" resembles [[0]] [[2]]: The farther you have to imagine a form rotating, the longer the evaluation [[1]]."
+	}, {
+		"keys": ["activity", "brain", "rotation"],
+		"sentence": "Related data comes from [[1]] scans\u2014with more [[1]] [[0]] needed for a 40-degree [[2]] than for no [[2]] at all, and even more [[0]] needed for an 80-degree or 120-degree [[2]]."
+	}, {
+		"keys": ["mental", "rotation"],
+		"sentence": "In both [[0]] [[1]] and [[0]] scanning, the farther the imagined \"travel,\" the longer it takes."
+	}, {
+		"keys": ["actual", "mental", "stimuli"],
+		"sentence": "It seems that there really are parallels between visual images and [[0]] visual [[2]], and this leads to a question: If images are so much like pictures, then are the [[1]] processes used to inspect images similar to those used to inspect [[2]]?"
+	}, {
+		"keys": ["signals", "stimuli", "detect"],
+		"sentence": "In a study by Segal and Fusella (1970, 1971), participants were asked to [[2]] very faint [[0]]\u2014either dim visual [[1]] or soft tones."
+	}, {
+		"keys": ["signals", "led"],
+		"sentence": "In addition, visual images often [[1]] to \"false alarms\" for participants trying to detect visual [[0]]; auditory images [[1]] to false alarms for auditory [[0]]."
+	}, {
+		"keys": ["structures", "brain"],
+		"sentence": "As we discussed in Chapter 3, we know a great deal about the specific [[1]] [[0]] required for vision, and it turns out that many of the same [[0]] are crucial for imagery."
+	}, {
+		"keys": ["brain", "movement"],
+		"sentence": "In a similar fashion, certain areas in the [[0]] are highly sensitive to motion in ordinary visual perception, and it turns out that the same [[0]] areas are particularly activated when participants are asked to imagine [[1]] patterns (Goebel, KhorramSefat, Muckli, Hacker, & Singer, 1998)."
+	}, {
+		"keys": ["brain", "system"],
+		"sentence": "Area VI, recall, is the [[0]] area where axons from the visual [[1]] first reach the occipital cortex (see Chapter 2)."
+	}, {
+		"keys": ["brain"],
+		"sentence": "Spatial imagery, in contrast, relies on different [[0]] areas, and so damage to visual areas won't interfere with this form of imagery, and damage to [[0]] sites needed for this imagery won't interfere with vision (see Figure 11.9)."
+	}, {
+		"keys": ["compared", "vivid", "mental"],
+		"sentence": "To explore this issue, a number of studies have [[0]] \"[[1]] imagers\" and \"non-imagers\" on tasks that depend on [[2]] imagery, with the obvious prediction that people with [[1]] imagery will do better in these tasks and those with sparse imagery will do worse."
+	}, {
+		"keys": ["vivid", "mental", "rotation"],
+		"sentence": "The results, however, have often been otherwise, with many studies finding no difference between [[0]] imagers and sparse imagers in how they do [[1]] [[2]], how quickly or accurately they scan across their images, and so on (e.g., Ernest, 1977; Katz, 1983; Marks, 1983; Richardson, 1980)."
+	}, {
+		"keys": ["mental", "rotation", "spatial"],
+		"sentence": "In contrast, tasks like [[0]] [[1]] or scanning can be performed with either [[2]] imagery or visual imagery."
+	}, {
+		"keys": ["vivid", "objects", "enable"],
+		"sentence": "People who (claim they) have [[0]] imagery do perform better on these visual tasks\u2014presumably, because their [[0]] images [[2]] them to \"see\" exactly what the imagined [[1]] look like (e.g., Cui, Jeter, Yang, Montague, & Eagleman, 2006; Finke & Kosslyn, 1980; Keogh & Pearson, 2011; Kozhevnikov, Kosslyn, & Shephard, 2005; McKelvie, 1995; Pearson, Rademaker & Tong, 2011)."
+	}, {
+		"keys": ["patterns", "written", "recall"],
+		"sentence": "For example, Stromeyer (1982) described a woman who could [[2]] poetry [[1]] in a language she did not understand, even years after she'd seen the poem; she was also able to [[2]] complicated random dot [[0]] after viewing them only briefly."
+	}, {
+		"keys": ["layout", "key"],
+		"sentence": "Like pictures, percepts are depictions, representing [[1]] aspects of the three-dimensional [[0]] of the world."
+	}, {
+		"keys": ["performance", "recall"],
+		"sentence": "The results showed poorest [[1]] [[0]] by the rehearsal group and intermediate [[0]] by the group that generated the sentences."
+	}, {
+		"keys": ["objects", "attention"],
+		"sentence": "Her data showed that participants tended to look twice as long at the unexpected [[0]] as they did at the expected ones; clearly, these [[0]] did catch the participants' [[1]]."
+	},  {
+		"keys": ["mental"],
+		"sentence": "In other words, he asked his research participants to introspect, or \"look within\" (a method that we first met in Chapter 1), and to report on their own [[0]] contents."
+	}, {
+		"keys": ["actual", "specific"],
+		"sentence": "Their descriptions also made it clear that they were \"viewing their images from a certain position and a certain distance\u2014just as they'd look at an [[0]] scene from a [[1]] viewing perspective."
+	}]
+}

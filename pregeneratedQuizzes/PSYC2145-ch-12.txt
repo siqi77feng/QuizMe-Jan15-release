@@ -1,0 +1,93 @@
+{
+ 	"fillInTheBlank": [{
+ 		"sentence": "More broadly, these results provide a compelling indication of the power of [[0]] bias\u2014a form of bias that can even influence trained professionals and can certainly influence people making highly consequential judgments.",
+ 		"keys": ["confirmation"]
+ 	}, {
+ 		"sentence": "Those who had seen the compassionate guard indicated that they [[1]] [[0]] [[3]] in general were decent people; those who had seen the contemptuous guard [[2]] more negative views of [[3]].",
+ 		"keys": ["prison", "believed", "reported", "guards"]
+ 	}, {
+ 		"sentence": "\"Normal control\" participants--people with no [[1]] [[0]]\u2014quickly learned about the decks, and were soon [[2]] most of their choices from the advantageous deck.",
+ 		"keys": ["damage", "brain", "making"]
+ 	}, {
+ 		"sentence": "People seem not to [[2]] their decisions on [[1]] calculations; this is evident in the fact that many factors (including the decision's frame) have a [[0]] impact on decisions even though these factors do not change utilities in any way.",
+ 		"keys": ["strong", "utility", "base"]
+ 	}, {
+ 		"sentence": "There are several sources of error, and even experts make the errors\u2014for example, skilled financial managers making claims about investments (e.g., Hilton, 2003; Kahneman, 2011) and physicians diagnosing cancer (but ignoring [[0]] rates; Eddy, 1982; also see Koehler, Brenner, & Griffin, 2002).",
+ 		"keys": ["base"]
+ 	}, {
+ 		"sentence": "As part of its ongoing efforts to uncover over-hyped health claims in food advertising, the [[0]] has issued an administrative complaint charging the makers of [[1]] Wonderful 100% Pomegranate Juice and POMx supplements with making false and unsubstantiated claims that their products will prevent or treat heart disease, prostate cancer, and erectile dysfunction.",
+ 		"keys": ["Federal Trade Commission", "POM"]
+ 	}, {
+ 		"sentence": "We've also said that Type 2 [[1]] require [[0]], so this form of thinking is more likely if the person can focus [[2]] on the judgment being made (De Neys, 2006; Ferreira et al., 2006; Gilbert, 1989; for some complexity, though, see Chun & Kruglanski, 2006).",
+ 		"keys": ["effort", "judgments", "attention"]
+ 	}, {
+ 		"sentence": "We have already said that people often [[0]] [[1]] rates\u2014and, as a result, often misinterpret the evidence they encounter.",
+ 		"keys": ["ignore", "base"]
+ 	}, {
+ 		"sentence": "In contrast, if the frame casts the choice in terms of gains, decision makers [[0]] to [[1]] risk aversion: They refuse to gamble, choosing instead to hold tight to what they already have.",
+ 		"keys": ["tend", "demonstrate"]
+ 	}, {
+ 		"sentence": "In the same fashion, anticipated events can also [[0]] bodily arousal, and Damasio (1994) suggests that you use these sensations\u2014somatic markers, as he calls them\u2014as a [[2]] to decision [[1]].",
+ 		"keys": ["produce", "making", "guide"]
+ 	}, {
+ 		"sentence": "Framing [[0]] leave them open to manipulation and self-contradiction, and errors in affective forecasting guarantee that people will often take steps to avoid regrets that in reality they wouldn't have felt, and pay for expensive toys that they'll soon lose interest in.",
+ 		"keys": ["effects"]
+ 	}, {
+ 		"sentence": "These errors have been demonstrated not just in novices working with unfamiliar materials but also in experts dealing with the sorts of [[0]] [[1]] materials they [[2]] in their professional work.",
+ 		"keys": ["highly", "familiar", "encounter"]
+ 	}, {
+ 		"sentence": "However, Type 1 thinking can be observed even in the absence of time pressure or distraction, and even when the matter being judged is both [[1]] and highly [[0]].",
+ 		"keys": ["consequential", "familiar"]
+ 	}, {
+ 		"sentence": "Some investigators have proposed that people's goal in [[0]] decisions is not to maximize [[1]] but, instead, to make decisions that they think are reasonable or justified.",
+ 		"keys": ["making", "utility"]
+ 	}, {
+ 		"sentence": "In a [[0]] range of circumstances, people use cognitive shortcuts, or \"heuristics,\" to make [[1]].",
+ 		"keys": ["wide", "judgments"]
+ 	}, {
+ 		"sentence": "However, heuristic use is far from inevitable, and in some circumstances people rely on more sophisticated forms of reasoning\u2014with the result that they judge covariation [[1]], are sensitive to [[0]] rates, are alert to the problems of drawing a conclusion from a small sample of evidence, and so on.",
+ 		"keys": ["base", "accurately"]
+ 	}, {
+ 		"sentence": "Another [[0]] influencing decision [[1]] is emotion.",
+ 		"keys": ["factor", "making"]
+ 	}, {
+ 		"sentence": "As a substitute, you base your judgment on availability\u2014how easily and how quickly you can come up with [[0]] examples.",
+ 		"keys": ["relevant"]
+ 	}, {
+ 		"sentence": "Let's look at these two [[0]]--[[1]] and [[2]] in more detail.",
+ 		"keys": ["heuristics", "availability", "representativeness"]
+ 	}, {
+ 		"sentence": "This probably plays a part in people's willingness to buy lottery tickets; they overestimate the likelihood of [[0]].",
+ 		"keys": ["winning"]
+ 	}, {
+ 		"sentence": "Thus, if a job [[0]] [[1]] successful hires you've made, you conclude that the person will probably be a successful hire; if someone you meet at a party [[1]] engineers you've known, you assume that the person is likely to be an engineer.",
+ 		"keys": ["candidate", "resembles"]
+ 	}, {
+ 		"sentence": "One proposal focuses on the evidence that people consider in judging covariation, because in [[0]] these [[1]] people seem to consider only a subset of the evidence, and it's a subset that's skewed by their prior expectations (Baron, 1988; Evans, 1989; Gilovich, 1991; Jennings, Amabile, & Ross, 1982).",
+ 		"keys": ["making", "judgments"]
+ 	}, {
+ 		"sentence": "Despite the importance of [[1]] rates, people often [[0]] them.",
+ 		"keys": ["ignore", "base"]
+ 	}, {
+ 		"sentence": "We [[0]] the opposite (and correct) conclusion, though, when we consider the [[1]] rate: The overall cure rate in these data is also two thirds, so your chances of cure are the same with leeches or without.",
+ 		"keys": ["draw", "base"]
+ 	}, {
+ 		"sentence": "Consistent with this claim, [[1]]-rate neglect is indeed widespread and can be observed both in laboratory tasks and in many real-world [[0]] (Dawes, 1988; Griffin et al., 2012; Klayman & Brown, 1993; Pennycook, Trippas, Handley, & Thompson, 2014).",
+ 		"keys": ["judgments", "base"]
+ 	}, {
+ 		"sentence": "Before we make these claims, however, let's acknowledge\u2014and celebrate\u2014 another side to our story: Sometimes [[0]] judgment rises above the heuristics we've described so far.",
+ 		"keys": ["human"]
+ 	}, {
+ 		"sentence": "Thus, people often rely on availability in judging frequency, but sometimes they seek other (more accurate) bases for [[0]] their [[1]] (Oppenheimer, 2004; Schwarz, 1998; Winkielman & Schwarz, 2001 ).",
+ 		"keys": ["making", "judgments"]
+ 	}, {
+ 		"sentence": "As we've seen, however, people rely on Type 1 's heuristics even when incentives are offered for accuracy, even when making important professional [[0]], even when making medical diagnoses that may, in some cases, literally be matters of life and death.",
+ 		"keys": ["judgments"]
+ 	}, {
+ 		"sentence": "Base-rate neglect is more likely if the [[0]] information is cast in terms of probabilities or proportions: \"There is a .01 chance that people like Mary will have this disease\"; \"Only 5% of the people in this group are lawyers.\"",
+ 		"keys": ["relevant"]
+ 	}, {
+ 		"sentence": "Third, when people [[1]] [[0]] evidence, they take it at face value; when they [[1]] disconfirming evidence, they reinterpret the evidence to diminish its impact.",
+ 		"keys": ["confirming", "encounter"]
+ 	}]
+}

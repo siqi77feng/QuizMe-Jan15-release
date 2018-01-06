@@ -1,0 +1,18 @@
+<!-- uploadADoc.html -->
+<div class="box upload-text">
+    <form id="upload-text" ng-submit="uploadText()">
+        <div class="uploadForm">
+        	<h3> Create a Custom Quiz from Text</h3>
+            <p>Paste text to generate a quiz.</p>
+            <p><textarea id="pasted-textarea" class="pasted-textarea"></textarea></p>
+            <p>
+                <button type="submit" class="startAQuiz-button" form="upload-text">Generate Quiz</button>
+            </p> 
+        </div>
+    </form>
+</div>
+
+
+<script>
+    $.getScript("./src/js/quiz.js");
+</script>

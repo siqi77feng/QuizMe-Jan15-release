@@ -1,0 +1,63 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["sultan"],
+		"sentence": "The shortest war in history was fought between the United Kingdom and Zanzibar over succession to the throne of the [[0]] and lasted approximately 38 minutes."
+	}, {
+		"keys": ["quipu"],
+		"sentence": "Without access to written language, the Inca used a system called [[0]] to communicate using knots in rope or string."
+	}, {
+		"keys": ["temples"],
+		"sentence": "The most renowned of Greek [[0]] was the Parthenon which held a giant statue of the goddess Athena."
+	}, {
+		"keys": ["jelly beans"],
+		"sentence": "Ronald Reagan was known for always having [[0]] on his desk"
+	}, {
+		"keys": ["printing press"],
+		"sentence": "Johannes Gutenbergs [[0]] is widely regarded as the most important invention of the second millennium."
+	}, {
+		"keys": ["pillows"],
+		"sentence": "In ancient Egypt, only the rich could afford [[0]], which were commonly made from stone."
+	}, {
+		"keys": ["Nimrod"],
+		"sentence": "Ernest Shackleton led his first expedition to Antarctica and the South Pole on his boat, the [[0]]."
+	}, {
+		"keys": ["ziggurat"],
+		"sentence": "A [[0]] is a massive raised structure found in ancient Mesopotamia that served both as a shrine and as a place to escape rising flood waters.  "
+	}, {
+		"keys": ["Eureka"],
+		"sentence": "Archimedes is commonly credited with first expressing the phrase [[0]]!"
+	}, {
+		"keys": ["LEGO"],
+		"sentence": "[[0]] was launched by Dutch toymakers in 1958 and means play well"
+	}, {
+		"keys": ["Rosetta stone"],
+		"sentence": "Hieroglyphics were deciphered as a result of the discovery of the [[0]]."
+	}, {
+		"keys": ["Cuba"],
+		"sentence": "Spain ceded Florida to Britain in exchange for [[0]]."
+	}, {
+		"keys": ["Ethiopia"],
+		"sentence": "Italian dictator Benito Mussolini invaded [[0]] in 1935."
+	}, {
+		"keys": ["Portugal"],
+		"sentence": "Mozambique declared independence from [[0]] in 1975."
+	}, {
+		"keys": ["remote control"],
+		"sentence": "Among many other inventions, Nicola Tesla invented the precursor to [[0]] technology."
+	}, {
+		"keys": ["Nauset"],
+		"sentence": "When the Pilgrims landed in Massachusetts, the first Native Americans they encountered were the [[0]] tribe."
+	}, {
+		"keys": ["facial hair"],
+		"sentence": "The last American president to have [[0]] was President Taft."
+	}, {
+		"keys": ["Pennsylvania"],
+		"sentence": "[[0]] was the first American colony to legalize witchcraft."
+	}, {
+		"keys": ["toothpaste"],
+		"sentence": "The first TV commercial advertisement was for a brand of [[0]]."
+	}, {
+		"keys": ["aqueducts"],
+		"sentence": "The romans built [[0]] to convey water."
+	}]
+}

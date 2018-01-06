@@ -1,0 +1,123 @@
+{
+	"fillInTheBlank": [{
+		"sentence": "This point enables us to link the [[1]] proposal to claims about [[3]] memory (Chapter 6) and to the [[4]] [[0]] associated with [[3]] memory's function\u2014specifically, the prefrontal [[2]] (or PFC; Goldman-Rakic, 1987).",
+		"keys": ["areas", "workspace", "cortex", "working", "brain"]
+	}, {
+		"sentence": "By linking the various [[0]] [[1]], the [[2]] makes it possible to compare what's going on in one module with what's going on elsewhere in the [[3]], and this activity allows you to detect conflict\u2014if, for example, two simultaneous stimuli are triggering incompatible responses, or if a stimulus is triggering a response incompatible with your goals.",
+		"keys": ["processing", "modules", "workspace", "brain"]
+	}, {
+		"sentence": "The neuronal [[4]] [[0]] begins with the fact that most of the [[2]] in the [[5]] is carried out by separate, [[1]] [[3]].",
+		"keys": ["hypothesis", "specialized", "processing", "modules", "workspace", "brain"]
+	}, {
+		"sentence": "The [[2]] neurons themselves don't carry the content of consciousness; the content\u2014the sense of seeing something red, the sense of seeing something moving\u2014is represented in the same neurons, the same [[0]] [[1]], that analyzed the perceptual information in the first place.",
+		"keys": ["processing", "modules", "workspace"]
+	}, {
+		"sentence": "We should mention, though, that some researchers have offered alternatives to the [[4]] conception, although most of these alternatives also emphasize mechanisms that can coordinate and [[1]] [[0]] [[2]] [[3]]; see, for example, Morsella & Bargh, 2011; Morsella, Krieger, & Bargh, 2010.)",
+		"keys": ["distinct", "integrate", "processing", "modules", "workspace"]
+	}, {
+		"sentence": "The [[3]], for example, supports the comparisons among [[1]] streams that enable the executive to [[2]] [[0]] processes; the [[3]] also supports the sustained neural activity that makes it posSible for the executive to keep its goals and plans in view.",
+		"keys": ["mental", "processing", "monitor", "workspace"]
+	}, {
+		"sentence": "From a biological perspective, we know that most operations of the [[2]] are made possible by highly [[0]] [[1]].",
+		"keys": ["specialized",  "modules", "brain"]
+	}, {
+		"sentence": "These [[1]] can be interrelated by means of [[2]] neurons, literally connecting one area of the [[3]] to another and allowing the integration of different [[0]] streams.",
+		"keys": ["processing", "modules", "workspace", "brain"]
+	}, {
+		"sentence": "Psychologists refer to this behind-the-scenes activity as the cognitive [[0]]\u2014mental activity that you're not aware of but that makes possible your ordinary interactions with the world.",
+		"keys": ["unconscious"]
+	}, {
+		"sentence": "The processes that [[2]] in the cognitive [[3]] are sophisticated and [[1]], and as we'll see, it's actually quite helpful that a lot of [[0]] work can take place without conscious supervision.",
+		"keys": ["mental", "powerful", "unfold", "unconscious"]
+	}, {
+		"sentence": "Even here, though, there's a role for the cognitive [[2]], because even here a [[0]] [[3]] is needed\u2014one that exists at (what philosophers have [[1]]) the \"fringe\" or the \"horizon\" of your conscious thoughts (Husserl, 1931; James, 1890).",
+		"keys": ["support", "called", "unconscious", "structure"]
+	}, {
+		"sentence": "The idea, then, is that [[3]] processes\u2014in perception, memory, and [[0]] as a sophisticated and [[2]] useful set of \"[[1]] reflexes.\"",
+		"keys": ["reasoning\u2014serve", "mental", "highly", "unconscious"]
+	}, {
+		"sentence": "Part of the answer is straightforwardly biological, and the sequence of events for some [[2]] [[1]] (e.g., the steps needed for perception) is likely built into the essential [[3]] of the nervous [[0]].",
+		"keys": ["system", "processing", "unconscious", "structure"]
+	}, {
+		"sentence": "This aspect of consciousness is compromised when someone suffers [[1]] to certain sites in either the thalamus or the reticular activating [[0]] in the [[2]] stem\u2014a [[0]] that controls the overall arousal level of the forebrain and that also helps control the cycling between sleep and wakefulness (e.g., Koch, 2008).",
+		"keys": ["system", "damage", "brain"]
+	}, {
+		"sentence": "According to one version, a brain structure called the [[0]] (shown in blue) is crucial for the [[1]].",
+		"keys": ["claustrum", "workspace"]
+	}, {
+		"sentence": "People seem to answer this question by trying to think of events in the [[0]] in which they've been assertive, and if the [[3]] come easily to mind, they decide that, yes, they are frequently assertive (Schwarz et al., 1991 So here, too, fluency of [[1]] [[2]] your thoughts.",
+		"keys": ["past", "retrieval", "guides", "examples"]
+	}, {
+		"sentence": "The [[0]] neurons make a \"global [[0]],\" and this is what makes consciousness possible; the operations of this [[0]] fit well with many things we know to be true about consciousness.",
+		"keys": ["workspace"]
+	}, {
+		"sentence": "However, profound questions remain about how (or whether) the global [[0]] makes possible the subjective experience that for many theorists is the defining element of consciousness.",
+		"keys": ["workspace"]
+	}, {
+		"sentence": "As we've seen throughout this book, however, these (and other) intellectual activities are possible only because of an elaborate \"[[0]] [[1]]\"\u2014processes and mechanisms working \"behind the scenes.\"",
+		"keys": ["support", "structure"]
+	}, {
+		"sentence": "For example, we saw in Chapter 8 that your memories of the [[1]] seamlessly combine [[0]] [[2]] with some amount of after-the-fact reconstruction.",
+		"keys": ["genuine", "past", "recall"]
+	}, {
+		"sentence": "But this weaving together also creates a risk of error: If, for example, the dinner you're trying to [[1]] was somehow unusual, then assumptions [[0]] on the more typical pattern may be misleading.",
+		"keys": ["based", "recall"]
+	}, {
+		"sentence": "That's why memory errors, when they occur, are undetectable: Since the process that brings you a \"memory\" is [[1]], you can't distinguish [[0]] [[2]] from (potentially misguided) assumption.",
+		"keys": ["genuine", "unconscious", "recall"]
+	}, {
+		"sentence": "Another line of evidence for [[1]] processes comes from patients who have suffered [[2]] [[0]].",
+		"keys": ["damage", "unconscious", "brain"]
+	}, {
+		"sentence": "As we said at the chapter's start, the phenomenon of blind [[0]] is sometimes observed in patients who have suffered [[1]] to the visual [[2]].",
+		"keys": ["sight", "damage", "cortex"]
+	},  {
+		"sentence": "Similarly, when you unconsciously make some response\u2014whether it's an overt action, like reaching for an object that you cannot consciously see, or a [[1]] response, like noting the meaning of a word you did not consciously [[0]]\u2014you're likely to make a [[2]] response, one that's well practiced in that situation.",
+		"keys": ["perceive", "mental", "familiar"]
+	}, {
+		"sentence": "If this proposal is right, then [[2]] [[1]] will usually be [[0]]--governed by by habit or by the setting, not by your current plans or desires.",
+		"keys": ["uncontrollable", "processing", "unconscious"]
+	}, {
+		"sentence": "These various contents for consciousness rely on different [[2]] [[1]]\u2014and so cortical structures in the visual [[0]] are especially active when you're consciously aware of sights in front of your eyes (or aware of a visual image that you have created); cortical structures in the forebrain are essential when you're thinking about a stimulus that is no longer present in your environment; and so on.",
+		"keys": ["system", "areas", "brain"]
+	}, {
+		"sentence": "As we first discussed in Chapter 2, different [[1]] within the bram seem [[2]] [[0]] in their function.",
+		"keys": ["specialized", "areas", "highly"]
+	}, {
+		"sentence": "The [[1]] [[0]] that make vision possible, for example, are separate from the [[1]] [[0]] that support hearing.",
+		"keys": ["areas", "brain"]
+	}, {
+		"sentence": "Instead, various mechanisms [[1]] a competition among different [[2]] processes, and the winner\" in this competition (typically, the most active process) is communicated to other [[2]] [[0]], while other information is not.",
+		"keys": ["areas", "create", "brain"]
+	}, {
+		"sentence": "This [[1]] is therefore a plausible candidate for a [[1]] that serves to [[0]] information from many different sites in the [[2]].",
+		"keys": ["integrate", "structure", "brain"]
+	}, {
+		"sentence": "This integrated coherence, of course, is just what the [[2]] allows: one [[0]], constructed from the coordinated activity of many [[1]] components (Roser & Gazzaniga, 2004).",
+		"keys": ["representation", "processing", "workspace"]
+	}, {
+		"sentence": "Bear in mind that the [[2]] enables you to [[0]] what's going on in one neural [[1]] with what's going on in others.",
+		"keys": ["integrate", "system", "workspace"]
+	}, {
+		"sentence": "In this way, the [[1]] provides a plausible neural basis for executive functioning and, with this, enables you to escape the limits (discussed earlier) that seem to characterize [[2]] [[0]].",
+		"keys": ["processing", "workspace", "unconscious"]
+	}, {
+		"sentence": "The neuronal [[0]] idea also helps us with another puzzle--a shift in consciousness that every one of us experiences virtually every day: specifically, the difference between being awake and being asleep.",
+		"keys": ["workspace"]
+	}, {
+		"sentence": "For example, the [[0]] expressed in a particular memory is influenced by the fluency of [[1]], apparently based on reasoning along the lines of \"That memory came to mind easily; I guess it must be a strong memory and therefore an accurate memory, so I can be confident that the memory is right.\"",
+		"keys": ["confidence", "retrieval"]
+	}, {
+		"sentence": "Fluency is certainly different from the more commonly discussed [[0]] of qualia: the raw experience of tasting chocolate, or the experience of itch, or red.",
+		"keys": ["examples"]
+	}, {
+		"sentence": "Bear in mind that the [[1]] allows an integration from multiple [[2]] [[0]], and it's plausible that this integration is essential when you're trying to decide whether to take a memory (or a perception) seriously.",
+		"keys": ["areas", "workspace", "brain"]
+	},  {
+		"sentence": "With no attention paid to the low-level details of a task, and with no [[0]] given to the exact processes needed for the task, you're able to focus attention instead on other priorities\u2014on your broader goals or on the products (the ideas, memories, and beliefs) resulting from these [[1]], unnoticed processes.",
+		"keys": ["thought", "unconscious"]
+	}, {
+		"sentence": "Even when your thinking is conscious, you are still influenced by [[2]] [[0]] that shape and direct your [[1]].",
+		"keys": ["guides", "thought", "unconscious"]
+	}]
+}

@@ -1,0 +1,63 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["renal"],
+		"sentence": "The adjective [[0]] refers to the kidneys."
+	}, {
+		"keys": ["cornea"],
+		"sentence": "The [[0]] receives oxygen without a blood supply."
+	}, {
+		"keys": ["rubella"],
+		"sentence": "Another name for German measles is [[0]]."
+	}, {
+		"keys": ["epilepsy"],
+		"sentence": "In the early 20th century, rattlesnake venom was used to treat [[0]]."
+	}, {
+		"keys": ["kidney"],
+		"sentence": "The [[0]] is part of the excretory system with small tubules called nephridia."
+	}, {
+		"keys": ["tetanus"],
+		"sentence": "Another name for [[0]] is lockjaw."
+	}, {
+		"keys": ["spleen"],
+		"sentence": "The [[0]] is a large bean-shaped lymph gland that can expand and contract."
+	}, {
+		"keys": ["Tears"],
+		"sentence": "[[0]] are produced in lachrymal glands."
+	}, {
+		"keys": ["ovum"],
+		"sentence": "The largest cell in the human body is the [[0]]."
+	}, {
+		"keys": ["cervical"],
+		"sentence": "The top set of vertebrae are called the [[0]] vertebrae."
+	}, {
+		"keys": ["scapula"],
+		"sentence": "The [[0]] is the term for the shoulder blade."
+	}, {
+		"keys": ["Aspirin"],
+		"sentence": "[[0]] was originally extracted from tree bark."
+	}, {
+		"keys": ["lingual"],
+		"sentence": "The tongue is joined by the [[0]] nerve to the brain."
+	}, {
+		"keys": ["vitamin C"],
+		"sentence": "Ascorbic acid is commonly referred to as [[0]]."
+	}, {
+		"keys": ["sternum"],
+		"sentence": "The common name for the [[0]] is the breastbone."
+	}, {
+		"keys": ["aorta"],
+		"sentence": "The largest artery in the human body is the [[0]]."
+	}, {
+		"keys": ["labyrinth"],
+		"sentence": "The [[0]] in the ear allows for the maintenance of balance."
+	}, {
+		"keys": ["ear"],
+		"sentence": "The otoscope is used to look at the [[0]]."
+	}, {
+		"keys": ["polio"],
+		"sentence": "Infantile paralysis is commonly known as [[0]]."
+	},  {
+		"keys": ["thyroid"],
+		"sentence": "The function of the [[0]] is to regular growth and metabolism."
+	}]
+}

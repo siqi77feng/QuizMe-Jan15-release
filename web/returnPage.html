@@ -1,0 +1,31 @@
+<!-- returnPage.html -->
+<div ng-controller="ReturnCtrl">
+    <div>
+        <div class="box">
+            <h1 ng-hide="validReturnID()"> <b>Day 2 Returning Quiz: Continue if you have completed Tutorial (Day 1) one day ago</b></h1>
+            <section ng-hide="validReturnID()">
+                <p>To continue taking your quiz please enter your <b> Email that you used to begin the tutorial </b></p>
+                <div class="researchParticipantLogin box">
+                    <h2>Return User Email</h2>
+                    <form id="startAQuiz-container" ng-submit="QuizMe()">
+                        <div class="loginForm">
+                            <p>
+                                Return Key:
+                                <input type="text" id="identikey-box" placeholder="Your Email here." name="identikey-box" size="20" autofocus autocomplete="off">
+                                <button type="submit" id="button-QuizMe" class="startAQuiz-button" form="startAQuiz-container">Enter!</button>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <div ng-show="validReturnID()">
+                <h1>Welcome back to the Quiz-Me Tutorial.</h1>
+                <p>You will now take the final test on the facts you studied yesterday. It is important that you try to do as well as possible on this test.</p>
+                <p>After the test, we will display performance on the two strategy types you used (restudy vs. practice quiz) and ask you to reflect on your study habits.</p>
+                <p>Participation credit is only given after the completion of the Tutorial.</p>
+                <p>Press Start to begin the test.</p>
+                <button type="submit" id="button-QuizMe" class="startAQuiz-button" ng-click="RestartQuiz()">Start!</button>
+            </div>
+        </div>
+    </div>
+</div>

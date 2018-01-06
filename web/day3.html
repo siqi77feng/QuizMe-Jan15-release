@@ -1,0 +1,1877 @@
+<div ng-controller="Day3Ctrl">
+    <div>
+        <div class="box">
+            <h1 ng-hide="validReturnID()"> <b>Day 3 Returning Survey: Continue if you have completed Returning Quiz (Day 2) one week ago</b></h1>
+            <section ng-hide="validReturnID()">
+                <p>To continue taking your quiz please enter your <b> Email that you used in the beginning of the tutorial </b></p>
+                <div class="researchParticipantLogin box">
+                    <h2>Return User Email</h2>
+                    <form id="startAQuiz-container" ng-submit="QuizMe()">
+                        <div class="loginForm">
+                            <p>
+                                Return Key:
+                                <input type="text" id="identikey-box" placeholder="Your Email here." name="identikey-box" size="20" autofocus autocomplete="off">
+                                <button type="submit" id="button-QuizMe" class="day3-button" form="startAQuiz-container">Enter!</button>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <div ng-show="validReturnID()">
+            <div class="aaa" id="pageOne">
+                <h1>Brief Survey</h1>
+                <div ng-show="!isTaken()">
+                    <form class="box survey" id="feedback-survey1" ng-submit="">
+                        <h2>Please indicate the extent to which you agree or disagree with the following statement:</h2>
+                        <br>
+                        <h3> How beneficial do you believe that doing practice problems, self-test, or flashcards is for your memory?</h3>
+                        <p class="scale">
+                            (Not at all effective) &nbsp;&nbsp;
+                            <button id="additionalSurvey1Day3_1" ng-click="additionalSurvey1Day3_1()">1</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey1Day3_2" ng-click="additionalSurvey1Day3_2()">2</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey1Day3_3" ng-click="additionalSurvey1Day3_3()">3</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey1Day3_4" ng-click="additionalSurvey1Day3_4()">4</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey1Day3_5" ng-click="additionalSurvey1Day3_5()">5</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey1Day3_6" ng-click="additionalSurvey1Day3_6()">6</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey1Day3_7" ng-click="additionalSurvey1Day3_7()">7</button>
+                            &nbsp;&nbsp;(Very effective)
+                        </p>
+                        <h3> How beneficial do you believe that rereading your notes or textbook is for your memory?</h3>
+                        <p class="scale">
+                            (Not at all effective)&nbsp;&nbsp;
+                            <button id="additionalSurvey2Day3_1" ng-click="additionalSurvey2Day3_1()">1</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey2Day3_2" ng-click="additionalSurvey2Day3_2()">2</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey2Day3_3" ng-click="additionalSurvey2Day3_3()">3</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey2Day3_4" ng-click="additionalSurvey2Day3_4()">4</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey2Day3_5" ng-click="additionalSurvey2Day3_5()">5</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey2Day3_6" ng-click="additionalSurvey2Day3_6()">6</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey2Day3_7" ng-click="additionalSurvey2Day3_7()">7</button>
+                            &nbsp;&nbsp;(Very effective)
+                        </p>
+                        <h3> How often have you studied by using practice problems, self-tests, or flashcards in the last 7 days? </h3>
+                        <p class="scale">
+                            (Not at all)&nbsp;&nbsp;
+                            <button id="additionalSurvey3Day3_1" ng-click="additionalSurvey3Day3_1()">1</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey3Day3_2" ng-click="additionalSurvey3Day3_2()">2</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey3Day3_3" ng-click="additionalSurvey3Day3_3()">3</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey3Day3_4" ng-click="additionalSurvey3Day3_4()">4</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey3Day3_5" ng-click="additionalSurvey3Day3_5()">5</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey3Day3_6" ng-click="additionalSurvey3Day3_6()">6</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey3Day3_7" ng-click="additionalSurvey3Day3_7()">7</button>
+                            &nbsp;&nbsp;(Very often)
+                        </p>
+                        <h3> How often have you studied by re-reading your notes and/or textbook in the last 7 days? </h3>
+                        <p class="scale">
+                            (Not at all)&nbsp;&nbsp;
+                            <button id="additionalSurvey4Day3_1" ng-click="additionalSurvey4Day3_1()">1</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey4Day3_2" ng-click="additionalSurvey4Day3_2()">2</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey4Day3_3" ng-click="additionalSurvey4Day3_3()">3</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey4Day3_4" ng-click="additionalSurvey4Day3_4()">4</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey4Day3_5" ng-click="additionalSurvey4Day3_5()">5</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey4Day3_6" ng-click="additionalSurvey4Day3_6()">6</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey4Day3_7" ng-click="additionalSurvey4Day3_7()">7</button>
+                            &nbsp;&nbsp;(Very much)
+                        </p>
+                        <h3> How strongly would you recommend studying by doing practice problems, self-tests, or flashcards to a friend who needed help? </h3>
+                        <p class="scale">
+                            (Not at all)&nbsp;&nbsp;
+                            <button id="additionalSurvey5Day3_1" ng-click="additionalSurvey5Day3_1()">1</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey5Day3_2" ng-click="additionalSurvey5Day3_2()">2</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey5Day3_3" ng-click="additionalSurvey5Day3_3()">3</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey5Day3_4" ng-click="additionalSurvey5Day3_4()">4</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey5Day3_5" ng-click="additionalSurvey5Day3_5()">5</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey5Day3_6" ng-click="additionalSurvey5Day3_6()">6</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey5Day3_7" ng-click="additionalSurvey5Day3_7()">7</button>
+                            &nbsp;&nbsp;(Very much)
+                        </p>
+                        <h3> How strongly would you recommend studying by re-reading your notes and/or textbook to a friend who needed help? </h3>
+                        <p class="scale">
+                            (Not at all)&nbsp;&nbsp;
+                            <button id="additionalSurvey6Day3_1" ng-click="additionalSurvey6Day3_1()">1</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey6Day3_2" ng-click="additionalSurvey6Day3_2()">2</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey6Day3_3" ng-click="additionalSurvey6Day3_3()">3</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey6Day3_4" ng-click="additionalSurvey6Day3_4()">4</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey6Day3_5" ng-click="additionalSurvey6Day3_5()">5</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey6Day3_6" ng-click="additionalSurvey6Day3_6()">6</button>
+                            &nbsp;-&nbsp;
+                            <button id="additionalSurvey6Day3_7" ng-click="additionalSurvey6Day3_7()">7</button>
+                            &nbsp;&nbsp;(Very much)
+                        </p>
+
+                        <br>
+                        <button class = "name-button">submit</button>
+                    </form>
+                </div>
+
+            </div>
+
+
+            <div ng-show="validReturnID()">
+                <div class="aaa" id="pageTwo">
+                    <div ng-show="!isTaken()">
+                        <form class="box survey" id="feedback-survey" ng-submit="">
+                            <h2>Please indicate the extent to which you agree or disagree with the following statement:</h2>
+                            <br>
+                            <h3> I work hard to do well in my classes even if I don't like what we are doing.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question1_1" ng-click="question1_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question1_2" ng-click="question1_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question1_3" ng-click="question1_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question1_4" ng-click="question1_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question1_5" ng-click="question1_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question1_6" ng-click="question1_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question1_7" ng-click="question1_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I make sure that I keep up with the weekly readings and assignments for my courses.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question2_1" ng-click="question2_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question2_2" ng-click="question2_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question2_3" ng-click="question2_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question2_4" ng-click="question2_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question2_5" ng-click="question2_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question2_6" ng-click="question2_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question2_7" ng-click="question2_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I'm confident I can learn the basic concepts taught in my classes.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question3_1" ng-click="question3_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question3_2" ng-click="question3_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question3_3" ng-click="question3_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question3_4" ng-click="question3_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question3_5" ng-click="question3_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question3_6" ng-click="question3_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question3_7" ng-click="question3_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I like the subject matter of my courses.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question4_1" ng-click="question4_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question4_2" ng-click="question4_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question4_3" ng-click="question4_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question4_4" ng-click="question4_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question4_5" ng-click="question4_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question4_6" ng-click="question4_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question4_7" ng-click="question4_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I am always using the internet.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question5_1" ng-click="question5_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question5_2" ng-click="question5_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question5_3" ng-click="question5_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question5_4" ng-click="question5_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question5_5" ng-click="question5_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question5_6" ng-click="question5_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question5_7" ng-click="question5_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I try to work with other students from my classes to complete the course assignments.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question6_1" ng-click="question6_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question6_2" ng-click="question6_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question6_3" ng-click="question6_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question6_4" ng-click="question6_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question6_5" ng-click="question6_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question6_6" ng-click="question6_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question6_7" ng-click="question6_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> If I can, I want to get better grades in my classes than most of the other students.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question7_1" ng-click="question7_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question7_2" ng-click="question7_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question7_3" ng-click="question7_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question7_4" ng-click="question7_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question7_5" ng-click="question7_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question7_6" ng-click="question7_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question7_7" ng-click="question7_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I try to change the way I study in order to fit the course requirements and the instructor's teaching style.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question8_1" ng-click="question8_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question8_2" ng-click="question8_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question8_3" ng-click="question8_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question8_4" ng-click="question8_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question8_5" ng-click="question8_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question8_6" ng-click="question8_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question8_7" ng-click="question8_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I believe I will receive excellent grades in my classes.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question9_1" ng-click="question9_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question9_2" ng-click="question9_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question9_3" ng-click="question9_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question9_4" ng-click="question9_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question9_5" ng-click="question9_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question9_6" ng-click="question9_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question9_7" ng-click="question9_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I prefer to do tasks by hand rather on the computer.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question10_1" ng-click="question10_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question10_2" ng-click="question10_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question10_3" ng-click="question10_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question10_4" ng-click="question10_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question10_5" ng-click="question10_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question10_6" ng-click="question10_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question10_7" ng-click="question10_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I often feel so lazy or bored when I study for a class that I quit before I finish what I planned to do.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question11_1" ng-click="question11_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question11_2" ng-click="question11_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question11_3" ng-click="question11_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question11_4" ng-click="question11_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question11_5" ng-click="question11_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question11_6" ng-click="question11_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question11_7" ng-click="question11_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> The most satisfying thing for me in my courses is trying to understand the content as thoroughly as possible.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question12_1" ng-click="question12_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question12_2" ng-click="question12_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question12_3" ng-click="question12_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question12_4" ng-click="question12_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question12_5" ng-click="question12_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question12_6" ng-click="question12_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question12_7" ng-click="question12_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When studying for a course, I often set aside time to discuss course material with a group of students from the class.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question13_1" ng-click="question13_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question13_2" ng-click="question13_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question13_3" ng-click="question13_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question13_4" ng-click="question13_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question13_5" ng-click="question13_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question13_6" ng-click="question13_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question13_7" ng-click="question13_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I often find that I have been reading for this class but don't know what it was all about.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question14_1" ng-click="question14_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question14_2" ng-click="question14_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question14_3" ng-click="question14_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question14_4" ng-click="question14_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question14_5" ng-click="question14_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question14_6" ng-click="question14_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question14_7" ng-click="question14_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I want to do well in my classes because it is important to show my ability to my family, friends, employer, or others.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question15_1" ng-click="question15_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question15_2" ng-click="question15_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question15_3" ng-click="question15_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question15_4" ng-click="question15_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question15_5" ng-click="question15_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question15_6" ng-click="question15_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question15_7" ng-click="question15_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I ask myself questions to make sure I understand the material I have been studying in my classes.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question16_1" ng-click="question16_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question16_2" ng-click="question16_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question16_3" ng-click="question16_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question16_4" ng-click="question16_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question16_5" ng-click="question16_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question16_6" ng-click="question16_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question16_7" ng-click="question16_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I expect to do well in my classes.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question17_1" ng-click="question17_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question17_2" ng-click="question17_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question17_3" ng-click="question17_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question17_4" ng-click="question17_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question17_5" ng-click="question17_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question17_6" ng-click="question17_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question17_7" ng-click="question17_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When I have the opportunity in my classes, I choose course assignments that I can learn from even if they don't guarantee a good grade.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question18_1" ng-click="question18_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question18_2" ng-click="question18_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question18_3" ng-click="question18_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question18_4" ng-click="question18_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question18_5" ng-click="question18_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question18_6" ng-click="question18_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question18_7" ng-click="question18_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I find it hard to stick to a study schedule.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question19_1" ng-click="question19_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question19_2" ng-click="question19_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question19_3" ng-click="question19_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question19_4" ng-click="question19_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question19_5" ng-click="question19_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question19_6" ng-click="question19_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question19_7" ng-click="question19_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I'm confident I can understand the most complex material presented by the instructor in my courses.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question20_1" ng-click="question20_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question20_2" ng-click="question20_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question20_3" ng-click="question20_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question20_4" ng-click="question20_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question20_5" ng-click="question20_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question20_6" ng-click="question20_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question20_7" ng-click="question20_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I try to identify students in my classes whom I can ask for help if necessary.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question21_1" ng-click="question21_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question21_2" ng-click="question21_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question21_3" ng-click="question21_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question21_4" ng-click="question21_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question21_5" ng-click="question21_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question21_6" ng-click="question21_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question21_7" ng-click="question21_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I'm confident I can do an excellent job on the assignments and tests in my courses.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question22_1" ng-click="question22_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question22_2" ng-click="question22_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question22_3" ng-click="question22_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question22_4" ng-click="question22_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question22_5" ng-click="question22_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question22_6" ng-click="question22_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question22_7" ng-click="question22_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I'm certain I can master the skills being taught in my classes.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question23_1" ng-click="question23_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question23_2" ng-click="question23_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question23_3" ng-click="question23_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question23_4" ng-click="question23_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question23_5" ng-click="question23_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question23_6" ng-click="question23_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question23_7" ng-click="question23_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When I become confused about something I'm reading for a class, I go back and try to figure it out.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question24_1" ng-click="question24_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question24_2" ng-click="question24_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question24_3" ng-click="question24_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question24_4" ng-click="question24_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question24_5" ng-click="question24_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question24_6" ng-click="question24_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question24_7" ng-click="question24_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When reading for a class, I try to relate the material to what I already know.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question25_1" ng-click="question25_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question25_2" ng-click="question25_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question25_3" ng-click="question25_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question25_4" ng-click="question25_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question25_5" ng-click="question25_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question25_6" ng-click="question25_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question25_7" ng-click="question25_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When I study for a course, I go through the readings and my class notes and try to find the most important ideas.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question26_1" ng-click="question26_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question26_2" ng-click="question26_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question26_3" ng-click="question26_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question26_4" ng-click="question26_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question26_5" ng-click="question26_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question26_6" ng-click="question26_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question26_7" ng-click="question26_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I am excited by new technologies.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question27_1" ng-click="question27_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question27_2" ng-click="question27_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question27_3" ng-click="question27_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question27_4" ng-click="question27_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question27_5" ng-click="question27_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question27_6" ng-click="question27_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question27_7" ng-click="question27_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I think I will be able to use what I learn in one course in other courses.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question28_1" ng-click="question28_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question28_2" ng-click="question28_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question28_3" ng-click="question28_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question28_4" ng-click="question28_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question28_5" ng-click="question28_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question28_6" ng-click="question28_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question28_7" ng-click="question28_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> Whenever possible, I like to own the newest technology.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question29_1" ng-click="question29_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question29_2" ng-click="question29_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question29_3" ng-click="question29_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question29_4" ng-click="question29_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question29_5" ng-click="question29_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question29_6" ng-click="question29_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question29_7" ng-click="question29_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> If course readings are difficult to understand, I change the way I read the material.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question30_1" ng-click="question30_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question30_2" ng-click="question30_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question30_3" ng-click="question30_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question30_4" ng-click="question30_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question30_5" ng-click="question30_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question30_6" ng-click="question30_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question30_7" ng-click="question30_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I prefer course material that arouses my curiosity, even if it is difficult to learn.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question31_1" ng-click="question31_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question31_2" ng-click="question31_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question31_3" ng-click="question31_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question31_4" ng-click="question31_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question31_5" ng-click="question31_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question31_6" ng-click="question31_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question31_7" ng-click="question31_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I have an uneasy, upset feeling when I take an exam.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question32_1" ng-click="question32_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question32_2" ng-click="question32_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question32_3" ng-click="question32_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question32_4" ng-click="question32_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question32_5" ng-click="question32_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question32_6" ng-click="question32_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question32_7" ng-click="question32_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> Getting a good grade in my classes is the most satisfying thing for me right now.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question33_1" ng-click="question33_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question33_2" ng-click="question33_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question33_3" ng-click="question33_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question33_4" ng-click="question33_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question33_5" ng-click="question33_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question33_6" ng-click="question33_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question33_7" ng-click="question33_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> It is my own fault if I don't learn the material in a course.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question34_1" ng-click="question34_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question34_2" ng-click="question34_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question34_3" ng-click="question34_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question34_4" ng-click="question34_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question34_5" ng-click="question34_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question34_6" ng-click="question34_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question34_7" ng-click="question34_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I often find that I don't spend very much time on my courses because of other activities.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question35_1" ng-click="question35_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question35_2" ng-click="question35_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question35_3" ng-click="question35_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question35_4" ng-click="question35_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question35_5" ng-click="question35_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question35_6" ng-click="question35_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question35_7" ng-click="question35_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> During class time, I often miss important points because I'm thinking of other things.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question36_1" ng-click="question36_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question36_2" ng-click="question36_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question36_3" ng-click="question36_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question36_4" ng-click="question36_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question36_5" ng-click="question36_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question36_6" ng-click="question36_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question36_7" ng-click="question36_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I avoid using technologies that seem complicated.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question37_1" ng-click="question37_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question37_2" ng-click="question37_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question37_3" ng-click="question37_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question37_4" ng-click="question37_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question37_5" ng-click="question37_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question37_6" ng-click="question37_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question37_7" ng-click="question37_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I try to play around with ideas of my own related to what I am learning in my courses.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question38_1" ng-click="question38_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question38_2" ng-click="question38_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question38_3" ng-click="question38_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question38_4" ng-click="question38_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question38_5" ng-click="question38_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question38_6" ng-click="question38_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question38_7" ng-click="question38_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When I take a test, I think about how poorly I am doing compared with other students.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question39_1" ng-click="question39_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question39_2" ng-click="question39_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question39_3" ng-click="question39_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question39_4" ng-click="question39_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question39_5" ng-click="question39_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question39_6" ng-click="question39_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question39_7" ng-click="question39_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> Even if I have trouble learning the material in a class, I try to do the work on my own, without help from anyone.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question40_1" ng-click="question40_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question40_2" ng-click="question40_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question40_3" ng-click="question40_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question40_4" ng-click="question40_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question40_5" ng-click="question40_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question40_6" ng-click="question40_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question40_7" ng-click="question40_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> If my family member has problems with their computer, I can help them.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question41_1" ng-click="question41_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question41_2" ng-click="question41_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question41_3" ng-click="question41_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question41_4" ng-click="question41_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question41_5" ng-click="question41_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question41_6" ng-click="question41_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question41_7" ng-click="question41_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> It is important for me to learn the course material in my classes.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question42_1" ng-click="question42_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question42_2" ng-click="question42_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question42_3" ng-click="question42_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question42_4" ng-click="question42_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question42_5" ng-click="question42_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question42_6" ng-click="question42_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question42_7" ng-click="question42_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> If I try hard enough, then I will understand the course material.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question43_1" ng-click="question43_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question43_2" ng-click="question43_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question43_3" ng-click="question43_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question43_4" ng-click="question43_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question43_5" ng-click="question43_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question43_6" ng-click="question43_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question43_7" ng-click="question43_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I try to relate ideas in one subject to those in other courses whenever possible.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question44_1" ng-click="question44_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question44_2" ng-click="question44_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question44_3" ng-click="question44_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question44_4" ng-click="question44_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question44_5" ng-click="question44_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question44_6" ng-click="question44_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question44_7" ng-click="question44_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I try to think through a topic and decide what I am supposed to learn from it rather than just reading it over when studying for a course.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question45_1" ng-click="question45_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question45_2" ng-click="question45_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question45_3" ng-click="question45_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question45_4" ng-click="question45_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question45_5" ng-click="question45_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question45_6" ng-click="question45_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question45_7" ng-click="question45_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I memorize key words to remind me of important concepts in my classes.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question46_1" ng-click="question46_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question46_2" ng-click="question46_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question46_3" ng-click="question46_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question46_4" ng-click="question46_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question46_5" ng-click="question46_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question46_6" ng-click="question46_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question46_7" ng-click="question46_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When I take a test, I think about items on other parts of the test I can't answer.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question47_1" ng-click="question47_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question47_2" ng-click="question47_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question47_3" ng-click="question47_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question47_4" ng-click="question47_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question47_5" ng-click="question47_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question47_6" ng-click="question47_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question47_7" ng-click="question47_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I make good use of my study time for my courses.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question48_1" ng-click="question48_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question48_2" ng-click="question48_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question48_3" ng-click="question48_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question48_4" ng-click="question48_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question48_5" ng-click="question48_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question48_6" ng-click="question48_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question48_7" ng-click="question48_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When I study for a class, I set goals for myself in order to direct my activities in each study period.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question49_1" ng-click="question49_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question49_2" ng-click="question49_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question49_3" ng-click="question49_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question49_4" ng-click="question49_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question49_5" ng-click="question49_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question49_6" ng-click="question49_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question49_7" ng-click="question49_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I rarely find time to review my notes or readings before an exam.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question50_1" ng-click="question50_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question50_2" ng-click="question50_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question50_3" ng-click="question50_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question50_4" ng-click="question50_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question50_5" ng-click="question50_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question50_6" ng-click="question50_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question50_7" ng-click="question50_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When studying for a course I try to determine which concepts I don't understand well.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question51_1" ng-click="question51_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question51_2" ng-click="question51_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question51_3" ng-click="question51_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question51_4" ng-click="question51_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question51_5" ng-click="question51_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question51_6" ng-click="question51_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question51_7" ng-click="question51_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I quiz myself with practice questions in textbooks to help me memorize class material.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question52_1" ng-click="question52_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question52_2" ng-click="question52_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question52_3" ng-click="question52_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question52_4" ng-click="question52_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question52_5" ng-click="question52_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question52_6" ng-click="question52_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question52_7" ng-click="question52_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> If my teacher doesn't assign something I probably won't do it, even if it might help me learn the material.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question53_1" ng-click="question53_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question53_2" ng-click="question53_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question53_3" ng-click="question53_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question53_4" ng-click="question53_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question53_5" ng-click="question53_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question53_6" ng-click="question53_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question53_7" ng-click="question53_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I think the course material in my classes is useful for me to learn.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question54_1" ng-click="question54_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question54_2" ng-click="question54_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question54_3" ng-click="question54_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question54_4" ng-click="question54_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question54_5" ng-click="question54_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question54_6" ng-click="question54_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question54_7" ng-click="question54_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I do assignments the teacher says are optional even if they don't earn extra credit.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question55_1" ng-click="question55_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question55_2" ng-click="question55_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question55_3" ng-click="question55_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question55_4" ng-click="question55_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question55_5" ng-click="question55_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question55_6" ng-click="question55_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question55_7" ng-click="question55_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When I study the readings in a course, I outline the material to help me organize my thoughts.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question56_1" ng-click="question56_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question56_2" ng-click="question56_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question56_3" ng-click="question56_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question56_4" ng-click="question56_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question56_5" ng-click="question56_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question56_6" ng-click="question56_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question56_7" ng-click="question56_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I try to understand the material in a class by making connections between the readings and the concepts
+                                the lectures.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question57_1" ng-click="question57_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question57_2" ng-click="question57_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question57_3" ng-click="question57_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question57_4" ng-click="question57_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question57_5" ng-click="question57_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question57_6" ng-click="question57_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question57_7" ng-click="question57_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I'm certain I can understand the most difficult material presented in the readers for a course.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question58_1" ng-click="question58_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question58_2" ng-click="question58_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question58_3" ng-click="question58_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question58_4" ng-click="question58_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question58_5" ng-click="question58_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question58_6" ng-click="question58_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question58_7" ng-click="question58_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When I study for a course, I write brief summaries of the main ideas from the readings and my class notes.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question59_1" ng-click="question59_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question59_2" ng-click="question59_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question59_3" ng-click="question59_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question59_4" ng-click="question59_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question59_5" ng-click="question59_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question59_6" ng-click="question59_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question59_7" ng-click="question59_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I often find myself questioning things I hear or read in my courses to decide if I find them convincing.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question60_1" ng-click="question60_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question60_2" ng-click="question60_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question60_3" ng-click="question60_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question60_4" ng-click="question60_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question60_5" ng-click="question60_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question60_6" ng-click="question60_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question60_7" ng-click="question60_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I quiz myself by using flashcards to help me memorize class material.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question61_1" ng-click="question61_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question61_2" ng-click="question61_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question61_3" ng-click="question61_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question61_4" ng-click="question61_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question61_5" ng-click="question61_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question61_6" ng-click="question61_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question61_7" ng-click="question61_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I am very interested in the content area of my courses.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question62_1" ng-click="question62_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question62_2" ng-click="question62_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question62_3" ng-click="question62_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question62_4" ng-click="question62_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question62_5" ng-click="question62_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question62_6" ng-click="question62_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question62_7" ng-click="question62_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I attend my classes regularly.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question63_1" ng-click="question63_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question63_2" ng-click="question63_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question63_3" ng-click="question63_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question63_4" ng-click="question63_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question63_5" ng-click="question63_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question63_6" ng-click="question63_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question63_7" ng-click="question63_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When I can't understand the material in a course, I ask another student in the class for help.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question64_1" ng-click="question64_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question64_2" ng-click="question64_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question64_3" ng-click="question64_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question64_4" ng-click="question64_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question64_5" ng-click="question64_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question64_6" ng-click="question64_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question64_7" ng-click="question64_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I consider myself good with computers.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question65_1" ng-click="question65_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question65_2" ng-click="question65_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question65_3" ng-click="question65_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question65_4" ng-click="question65_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question65_5" ng-click="question65_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question65_6" ng-click="question65_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question65_7" ng-click="question65_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I feel my heart beating fast when I take an exam.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question66_1" ng-click="question66_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question66_2" ng-click="question66_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question66_3" ng-click="question66_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question66_4" ng-click="question66_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question66_5" ng-click="question66_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question66_6" ng-click="question66_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question66_7" ng-click="question66_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When studying for a course, I read my class notes and the course readings over and over again.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question67_1" ng-click="question67_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question67_2" ng-click="question67_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question67_3" ng-click="question67_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question67_4" ng-click="question67_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question67_5" ng-click="question67_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question67_6" ng-click="question67_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question67_7" ng-click="question67_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> Considering the difficulty of my courses, the teacher, and my skills, I think I do well in my classes.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question68_1" ng-click="question68_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question68_2" ng-click="question68_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question68_3" ng-click="question68_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question68_4" ng-click="question68_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question68_5" ng-click="question68_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question68_6" ng-click="question68_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question68_7" ng-click="question68_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> If I get confused taking notes in class, I make sure I sort it out afterwards.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question69_1" ng-click="question69_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question69_2" ng-click="question69_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question69_3" ng-click="question69_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question69_4" ng-click="question69_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question69_5" ng-click="question69_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question69_6" ng-click="question69_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question69_7" ng-click="question69_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When course work is difficult, I either give up or only study the easy parts.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question70_1" ng-click="question70_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question70_2" ng-click="question70_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question70_3" ng-click="question70_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question70_4" ng-click="question70_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question70_5" ng-click="question70_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question70_6" ng-click="question70_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question70_7" ng-click="question70_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> Whenever I read or hear an assertion or conclusion in a class, I think about possible alternatives.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question71_1" ng-click="question71_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question71_2" ng-click="question71_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question71_3" ng-click="question71_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question71_4" ng-click="question71_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question71_5" ng-click="question71_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question71_6" ng-click="question71_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question71_7" ng-click="question71_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I make simple charts, diagrams, or tables to help me organize course material.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question72_1" ng-click="question72_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question72_2" ng-click="question72_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question72_3" ng-click="question72_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question72_4" ng-click="question72_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question72_5" ng-click="question72_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question72_6" ng-click="question72_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question72_7" ng-click="question72_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I enjoy learning ways that technology can make tasks more efficient.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question73_1" ng-click="question73_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question73_2" ng-click="question73_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question73_3" ng-click="question73_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question73_4" ng-click="question73_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question73_5" ng-click="question73_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question73_6" ng-click="question73_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question73_7" ng-click="question73_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> The most important thing for me right now is improving my overall grade point average, so my main concern in my classes is getting a good grade.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question74_1" ng-click="question74_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question74_2" ng-click="question74_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question74_3" ng-click="question74_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question74_4" ng-click="question74_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question74_5" ng-click="question74_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question74_6" ng-click="question74_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question74_7" ng-click="question74_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I ask the instructor to clarify concepts I don't understand.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question75_1" ng-click="question75_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question75_2" ng-click="question75_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question75_3" ng-click="question75_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question75_4" ng-click="question75_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question75_5" ng-click="question75_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question75_6" ng-click="question75_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question75_7" ng-click="question75_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I use tools on educational websites to help me study.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question76_1" ng-click="question76_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question76_2" ng-click="question76_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question76_3" ng-click="question76_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question76_4" ng-click="question76_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question76_5" ng-click="question76_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question76_6" ng-click="question76_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question76_7" ng-click="question76_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> I try to apply ideas from course readings in other class activities such as lecture and discussion.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question77_1" ng-click="question77_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question77_2" ng-click="question77_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question77_3" ng-click="question77_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question77_4" ng-click="question77_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question77_5" ng-click="question77_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question77_6" ng-click="question77_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question77_7" ng-click="question77_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When I study for a class, I practice saying the material to myself over and over.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question78_1" ng-click="question78_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question78_2" ng-click="question78_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question78_3" ng-click="question78_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question78_4" ng-click="question78_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question78_5" ng-click="question78_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question78_6" ng-click="question78_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question78_7" ng-click="question78_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When I take tests, I think of the consequences of failing.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question79_1" ng-click="question79_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question79_2" ng-click="question79_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question79_3" ng-click="question79_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question79_4" ng-click="question79_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question79_5" ng-click="question79_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question79_6" ng-click="question79_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question79_7" ng-click="question79_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <h3> When studying for a course, I often try to explain the material to a classmate or friend.</h3>
+                            <p class="scale">
+                                (Strongly Disagree) &nbsp;&nbsp;
+                                <button id="question80_1" ng-click="question80_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question80_2" ng-click="question80_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question80_3" ng-click="question80_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question80_4" ng-click="question80_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question80_5" ng-click="question80_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question80_6" ng-click="question80_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question80_7" ng-click="question80_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> When a theory, interpretation, or conclusion is presented in class or in the readings, I try to decide if there is good supporting evidence.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question81_1" ng-click="question81_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question81_2" ng-click="question81_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question81_3" ng-click="question81_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question81_4" ng-click="question81_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question81_5" ng-click="question81_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question81_6" ng-click="question81_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question81_7" ng-click="question81_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> Understanding the subject matter of my courses is very important to me.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question82_1" ng-click="question82_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question82_2" ng-click="question82_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question82_3" ng-click="question82_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question82_4" ng-click="question82_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question82_5" ng-click="question82_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question82_6" ng-click="question82_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question82_7" ng-click="question82_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> If I study in appropriate ways, then I will be able to learn the material I'm studying.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question83_1" ng-click="question83_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question83_2" ng-click="question83_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question83_3" ng-click="question83_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question83_4" ng-click="question83_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question83_5" ng-click="question83_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question83_6" ng-click="question83_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question83_7" ng-click="question83_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> I prefer course material that really challenges me so I can learn new things.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question84_1" ng-click="question84_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question84_2" ng-click="question84_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question84_3" ng-click="question84_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question84_4" ng-click="question84_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question84_5" ng-click="question84_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question84_6" ng-click="question84_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question84_7" ng-click="question84_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> When I study for a course, I go over my class notes and make an outline of important concepts.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question85_1" ng-click="question85_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question85_2" ng-click="question85_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question85_3" ng-click="question85_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question85_4" ng-click="question85_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question85_5" ng-click="question85_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question85_6" ng-click="question85_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question85_7" ng-click="question85_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> I make lists of important items for my courses and memorize the lists.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question86_1" ng-click="question86_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question86_2" ng-click="question86_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question86_3" ng-click="question86_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question86_4" ng-click="question86_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question86_5" ng-click="question86_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question86_6" ng-click="question86_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question86_7" ng-click="question86_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> When I study for a class, I pull together information from different sources, such as lectures, readings, and discussions.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question87_1" ng-click="question87_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question87_2" ng-click="question87_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question87_3" ng-click="question87_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question87_4" ng-click="question87_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question87_5" ng-click="question87_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question87_6" ng-click="question87_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question87_7" ng-click="question87_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> I usually study in a place where I can concentrate on my course work.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question88_1" ng-click="question88_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question88_2" ng-click="question88_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question88_3" ng-click="question88_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question88_4" ng-click="question88_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question88_5" ng-click="question88_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question88_6" ng-click="question88_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question88_7" ng-click="question88_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> I treat the course material as a starting point and try to develop my own ideas about it.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question89_1" ng-click="question89_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question89_2" ng-click="question89_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question89_3" ng-click="question89_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question89_4" ng-click="question89_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question89_5" ng-click="question89_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question89_6" ng-click="question89_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question89_7" ng-click="question89_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> When reading for a course, I make up questions to help focus my reading.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question90_1" ng-click="question90_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question90_2" ng-click="question90_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question90_3" ng-click="question90_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question90_4" ng-click="question90_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question90_5" ng-click="question90_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question90_6" ng-click="question90_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question90_7" ng-click="question90_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> If I don't understand the course material, it is because I didn't try hard enough.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question91_1" ng-click="question91_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question91_2" ng-click="question91_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question91_3" ng-click="question91_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question91_4" ng-click="question91_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question91_5" ng-click="question91_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question91_6" ng-click="question91_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question91_7" ng-click="question91_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> Even when course materials are dull and uninteresting, I manage to keep working until I finish.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question92_1" ng-click="question92_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question92_2" ng-click="question92_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question92_3" ng-click="question92_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question92_4" ng-click="question92_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question92_5" ng-click="question92_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question92_6" ng-click="question92_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question92_7" ng-click="question92_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> Before I study new course material thoroughly, I often skim it to see how it is organized.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question93_1" ng-click="question93_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question93_2" ng-click="question93_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question93_3" ng-click="question93_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question93_4" ng-click="question93_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question93_5" ng-click="question93_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question93_6" ng-click="question93_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question93_7" ng-click="question93_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+
+                            <h3> I have a regular place set aside for studying.</h3>
+                            <p class="scale">
+                                (Strongly Disagree)&nbsp;&nbsp;
+                                <button id="question94_1" ng-click="question94_1()">1</button>
+                                &nbsp;-&nbsp;
+                                <button id="question94_2" ng-click="question94_2()">2</button>
+                                &nbsp;-&nbsp;
+                                <button id="question94_3" ng-click="question94_3()">3</button>
+                                &nbsp;-&nbsp;
+                                <button id="question94_4" ng-click="question94_4()">4</button>
+                                &nbsp;-&nbsp;
+                                <button id="question94_5" ng-click="question94_5()">5</button>
+                                &nbsp;-&nbsp;
+                                <button id="question94_6" ng-click="question94_6()">6</button>
+                                &nbsp;-&nbsp;
+                                <button id="question94_7" ng-click="question94_7()">7</button>
+                                &nbsp;&nbsp;(Strongly Agree)
+                            </p>
+                            <br>
+                            <input type="submit" form="feedback-survey" class="submitSurvey" value="Submit" ng-click="consume_tutorialFeedback()">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="aaa" id="pagethree">
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;Thanks! You are all done!</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+            </div>
+        </div>
+    </div>
+</div>

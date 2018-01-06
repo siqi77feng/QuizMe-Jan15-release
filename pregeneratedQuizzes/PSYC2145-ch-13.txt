@@ -1,0 +1,120 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["tend", "creative", "elements"],
+		"sentence": "Research suggests, in fact, that highly [[1]] people like Bach and Curie [[0]] to have certain things in common, and perhaps we can think of these shared [[2]] as \"prerequisites\" for creativity (e.g., Hennessey & Amabile, 2010)."
+	}, {
+		"keys": ["factor", "subtests", "elements", "common"],
+		"sentence": "The procedure is called [[0]] analysis; as the name implies, this procedure looks for [[3]] factors\u2014[[2]] that contribute to multiple [[1]] and which therefore link those [[1]]."
+	}, {
+		"keys": ["requiring", "fluid", "tests", "scores"],
+		"sentence": "In contrast, [[2]] that involve [[1]] intelligence (like [[2]] [[0]] speeded performance) peak at age 20 or so and decline thereafter The \"Z-[[3]]\" used here are a common statistical measure used for comparing [[2]] with disparate scoring schemes."
+	}, {
+		"keys": ["dizygotic", "genetic", "ordinary", "siblings", "twins"],
+		"sentence": "The result is [[0]] [[4]]\u2014conceived at the same time and born on the same day, but with only 50% overlap in their [[1]] pattern (the same overlap as [[2]] [[3]])."
+	}, {
+		"keys": ["tend", "genetic", "twins", "identical", "scores"],
+		"sentence": "This is evident in the fact that people who resemble each other more closely in their [[1]] profile (e.g., [[3]] [[2]]) also [[0]] to resemble each other closely in their IQ [[4]]; this remains true even if the [[2]] were separated at birth and raised separately."
+	}, {
+		"keys": ["education", "average", "health", "scores"],
+		"sentence": "For example, American Whites and American Blacks differ in the [[1]] [[3]] for each group, and at least part of the explanation lies in the inferior nutrition, inferior [[2]] care, and inferior [[0]] available to many American Blacks."
+	}, {
+		"keys": ["scale", "puzzles", "assess", "tests"],
+		"sentence": "In the WAIS, for example, there are [[3]] to [[2]] general knowledge, vocabulary, and comprehension (see Figure 13.17 A); a perceptual-reasoning [[0]] includes visual [[1]] like the one shown in Figure 13.17B."
+	}, {
+		"keys": ["require", "tests", "test"],
+		"sentence": "Thus, if intelligence [[1]] truly measure what they're supposed to, then someone's score on the [[2]] should enable us to predict how well that person will do in settings that [[0]] intelligence."
+	}, {
+		"keys": ["factor"],
+		"sentence": "And, in fact, [[0]] analysis confirms that there is a common element shared by all the components of the IQ test; indeed, this common element seems to account for roughly half of the overall data pattern (Arnau & Thompson, 2000; Carroll, 1993; Deary, 2012; Johnson, Carothers, & Deary, 2008; Watkins, Wilson, Kotz, Carbone, & Babula, 2006)."
+	}, {
+		"keys": ["intellectual"],
+		"sentence": "Spearman named this common element general intelligence, usually abbreviated with the letter g. Spearman (1927) proposed that g is called on for virtually any [[0]] task\u2014and so an individual with a high level of g will have an advantage in every [[0]] endeavor; if g is in short supply, the individual will do poorly on a wide range of tasks."
+	}, {
+		"keys": ["fluid", "intellectual", "tests"],
+		"sentence": "We mentioned in the earlier chapter that people with a larger working memory capacity do better on many [[1]] tasks, including, we can now add, [[2]] specifically designed to measure g; this linkage is especially strong for [[0]] intelligence (Burgess, Braver, Conway, & Gray, 2011; Engel & Kane, 2004; Fukuda, Vogel, Mayr, & Awh, 2011)."
+	}, {
+		"keys": ["genetic", "ordinary", "siblings", "twins"],
+		"sentence": "As a result, fraternal [[3]] share only half of their [[0]] material, just as [[1]] (non-twin) [[2]] do (see Figure 13.23)."
+	}, {
+		"keys": ["genetic", "twins", "identical"],
+		"sentence": "It turns out that [[2]] [[1]] also resemble each other in their IQs more than fraternal [[1]] do\u2014just as we'd expect if [[0]] factors play a role in shaping IQ."
+	}, {
+		"keys": ["tend", "twins", "identical", "scores"],
+		"sentence": "Specifically, we've already discussed the fact that [[2]] [[1]] [[0]] to resemble each other in their IQ [[3]] more than fraternal [[1]] do."
+	}, {
+		"keys": ["intellectual", "environmental", "genetic"],
+		"sentence": "Part of the explanation, though, hinges on the fact that [[2]] mechanisms enable someone to make full use of the \"[[1]] inputs that support [[0]] growth \" (Bates et al., 2013, p. 2111)."
+	},  {
+		"keys": ["subtests", "tests", "test"],
+		"sentence": "Most intelligence [[1]] involve numerous [[0]], but people who do well on one portion of the [[2]] tend to do well across the board."
+	}, {
+		"keys": ["creative", "solving", "ordinary"],
+		"sentence": "When closely examined, [[0]] approaches seem to be the result of the same processes that are evident in \"[[2]]\" problem [[1]]\u2014processes hinging on analogies, heuristics, and the like."
+	}, {
+		"keys": ["hill"],
+		"sentence": "One common approach involves the [[0]]-climbing strategy."
+	}, {
+		"keys": ["positions", "masters", "chess"],
+		"sentence": "In one procedure, [[2]] [[1]] were able to remember the [[0]] of 20 pieces after viewing the board for just 5 seconds; novices remembered many fewer (see Figure 13.8)."
+	}, {
+		"keys": ["masters", "chess"],
+		"sentence": "Consistent with this suggestion, the [[0]] showed no memory advantage if they were asked to memorize random configurations of [[1]] pieces."
+	}, {
+		"keys": ["creative", "environments"],
+		"sentence": "Fourth, these highly [[0]] people have generally been \"in the right place at the right time\"\u2014that is, in [[1]] that allowed them freedom, provided them with the appropriate supports, and offered them problems \"ripe\" for solution with the resources available."
+	},  {
+		"keys": ["creative", "memories"],
+		"sentence": "Some research suggests in addition that highly [[0]] people may be especially skillful in how they search through their [[1]]."
+	}, {
+		"keys": ["Wechsler Intelligence Scale", "Children", "Wechsler Adult Intelligence Scale"],
+		"sentence": "One commonly used test is the [[0]] for [[1]] (WISC; Wechsler, 2003); adult intelligence is often evaluated with the [[2]] (WAIS)."
+	}, {
+		"keys": ["subtests", "tests", "test"],
+		"sentence": "Like Binet's original [[2]], these modern [[1]] rely on numerous [[0]]."
+	}, {
+		"keys": ["intellectual", "assess", "subtests"],
+		"sentence": "Separate [[2]] [[1]] working memory and speed of [[0]] processing."
+	}, {
+		"keys": ["Stanford Binet", "Kaufman Assessment Battery", "KABC"],
+		"sentence": "(Other commonly used tests include the fifth edition of the [[0]] test [Roid, 2003] and the [[1]] for Children, or [[2]] [Kaufman & Kaufman, 20041.)"
+	}, {
+		"keys": ["reliability", "test"],
+		"sentence": "The issue here is called [[1]]-retest [[0]]."
+	}, {
+		"keys": ["reliability", "tests", "test"],
+		"sentence": "Research indicates that intelligence [[1]] have strong [[2]]-retest [[0]]."
+	}, {
+		"keys": ["test", "scores"],
+		"sentence": "It seems plain, then, that the capacities measured by the IQ [[0]] play a powerful role in shaping your performance\u2014just as we would expect if the [[0]] [[1]] are a valid measure of intelligence."
+	}, {
+		"keys": ["tests", "test", "scores"],
+		"sentence": "Tests that involve crystallized intelligence (like [[0]] of vocabulary) often show a genuine improvement in [[1]] [[2]] across the lifespan, declining only when\u2014at age 70 or so\u2014the person's overall condition starts to deteriorate."
+	}, {
+		"keys": ["genetic", "influences", "sense"],
+		"sentence": "As we'll see, then, the \"competition\" that's implied by the \"nature versus nurture\" phrase really makes no [[2]].A traditional method for assessing [[0]] [[1]] begins by asking whether people who resemble each other genetically also resemble each other in terms of the target trait."
+	}, {
+		"keys": ["twins", "identical"],
+		"sentence": "In one early data set, for example, the correlation for [[1]] [[0]] was .86; the correlation for fraternal [[0]] was notably lower, around .60 (Bouchard & McGue, 1981)."
+	}, {
+		"keys": ["genetic", "twins", "identical"],
+		"sentence": "More recent data confirm this pattern (see Figure 13.24), strongly suggesting a [[0]] component in the determination of IQ, with greater [[0]] similarity (in [[2]] [[1]]) leading to greater IQ similarity."
+	}, {
+		"keys": ["environments", "genetic", "identical"],
+		"sentence": "It seems, then, that [[2]] [[1]] profiles lead to highly similar IQs even when the individuals grow up in different [[0]]."
+	}, {
+		"keys": ["genetic", "twins", "identical"],
+		"sentence": "This sequence results in monozygotic ([[2]]) [[1]] with 100% overlap in their [[0]] pattern."
+	}, {
+		"keys": ["dizygotic", "twins"],
+		"sentence": "Monozygotic [[1]] tend to resemble each other in intelligence, whether the [[2]] are raised together or not; [[0]] [[1]] show less resemblance, although they resemble each other more than randomly selected (unrelated) individuals do."
+	}, {
+		"keys": ["circumstances", "family", "childhood"],
+		"sentence": "The greater the age difference between the brothers, the more likely it is that the [[1]] [[0]] changed between the years of one brother's [[2]] and the years of the other's."
+	}, {
+		"keys": ["environments", "siblings", "widely"],
+		"sentence": "Thus, a greater age difference would increase the probability that the brothers grew up in different [[0]], and to the degree that these [[0]] shape intelligence, we would expect the more [[2]] spaced brothers to resemble each other less than the closely spaced [[1]] do\u2014just as the data show."
+	}, {
+		"keys": ["development", "intellectual", "environments"],
+		"sentence": "We've also known for years that impoverished [[2]] impede [[1]] [[0]], and these effects are cumulative: The longer the child remains in such an environment, the greater the harm."
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["sultan"],
+		"sentence": "The shortest war in history was fought between the United Kingdom and Zanzibar over succession to the throne of the [[0]] and lasted approximately 38 minutes."
+	}, {
+		"keys": ["temples"],
+		"sentence": "The most renowned of Greek [[0]] was the Parthenon which held a giant status of the goddess Athena."
+	}, {
+		"keys": ["millennium"],
+		"sentence": "Johannes Gutenberg's printing press is widely regarded as the most important invention of the second millennium."
+	}, {
+		"keys": ["Nimrod"],
+		"sentence": "Ernest Shackleton led his first expedition to Antarctica and the South Pole on his boat, the [[0]]."
+	}, {
+		"keys": ["Eureka"],
+		"sentence": "Archimedes is commonly credited with first expressing the phrase [[0]]!"
+	}, {
+		"keys": ["Rosetta stone"],
+		"sentence": "Hieroglyphics were deciphered as a result of the discovery of the [[0]]."
+	}, {
+		"keys": ["Ethiopia"],
+		"sentence": "Italian dictator Benito Mussolini invaded [[0]] in 1935."
+	}, {
+		"keys": ["remote control"],
+		"sentence": "Among many other inventions, Nicola Tesla invented the precursor to [[0]] technology."
+	}, {
+		"keys": ["Taft"],
+		"sentence": "The last American president to have facial hair was President [[0]]."
+	}, {
+		"keys": ["toothpaste"],
+		"sentence": "The first TV commercial advertisement was for a brand of [[0]]."
+	}]
+}

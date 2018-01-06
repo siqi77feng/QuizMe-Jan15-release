@@ -1,0 +1,33 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["ice cream"],
+		"sentence": "Sweden is the European country with the most consumption of [[0]]. "
+	}, {
+		"keys": ["ramekin"],
+		"sentence": "A [[0]] is a small casserole dish for baking and serving an individual portion of food."
+	}, {
+		"keys": ["Saffron"],
+		"sentence": "[[0]] is the world's most expensive spice."
+	}, {
+		"keys": ["medicine"],
+		"sentence": "Licorice was used as a [[0]] in ancient Egypt."
+	}, {
+		"keys": ["avocado"],
+		"sentence": "The [[0]] is the fruit with the highest amount of calories."
+	}, {
+		"keys": ["orchid"],
+		"sentence": "Natural vanilla flavoring comes from the [[0]] plant."
+	}, {
+		"keys": ["cabbage"],
+		"sentence": "Savoy and Late Flat Dutch are both varieties of [[0]]."
+	}, {
+		"keys": ["ewe"],
+		"sentence": "Greek feta cheese is made from the milk of the [[0]]."
+	}, {
+		"keys": ["punt"],
+		"sentence": "The term for the indentation at the base of a wine bottle is the [[0]]."
+	}, {
+		"keys": ["cauliflower"],
+		"sentence": "Mark Twain once described [[0]] as cabbage with a college education."
+	}]
+}

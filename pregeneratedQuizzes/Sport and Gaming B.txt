@@ -1,0 +1,33 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["commissioner"],
+		"sentence": "The National Basketball Association's most valuable player award is named Podoloff Cup after the league's first [[0]]. "
+	}, {
+		"keys": ["patching"],
+		"sentence": "In early baseball, you could be called out on the bases by the act of [[0]], or being struck by a thrown ball."
+	}, {
+		"keys": ["boxer"],
+		"sentence": "Alberto Arizmendi holds the record for youngest professional debut by a [[0]], having turned pro at the age of 10."
+	}, {
+		"keys": ["duck"],
+		"sentence": "A game of cricket in which no runs are scored is called a [[0]]."
+	}, {
+		"keys": ["coach"],
+		"sentence": "In the 1928 Stanley Cup Final, a 44-year old [[0]] came in to replace the goalie."
+	}, {
+		"keys": ["Blades"],
+		"sentence": "Prior to being named the Sharks, the winner of a vote for the San Jose hockey team name was the [[0]]."
+	}, {
+		"keys": ["furlongs"],
+		"sentence": "In horse racing, there are eight [[0]] to a mile."
+	}, {
+		"keys": ["Rowing"],
+		"sentence": "[[0]] is the only sport in which the winning team only moves backwards."
+	}, {
+		"keys": ["ping pong"],
+		"sentence": "The sport with the lightest weight ball is [[0]]."
+	}, {
+		"keys": ["spider"],
+		"sentence": "In the game of snooker, a player can use a [[0]] for extra reach."
+	}]
+}

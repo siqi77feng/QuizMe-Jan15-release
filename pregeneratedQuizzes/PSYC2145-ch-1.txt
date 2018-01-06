@@ -1,0 +1,120 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["span", "report", "memory", "errors"],
+		"sentence": "Specifically, when we measure [[2]] [[0]], we find that people often make [[3]]\u2014they [[1]] letters that they hadn't heard at all\u2014and these [[3]] follow a simple pattern: When people make mistakes in this task, they generally substitute one letter for another with a similar sound."
+	},  {
+		"keys": ["rehearsal", "language", "brain", "areas", "memory"],
+		"sentence": "Recent developments in [[2]]-imaging technology tell us that when a participant is engaged in working-[[4]] [[0]], considerable activity is observed in brain [[3]] that we know (from other evidence) are crucially involved in the production of spoken [[1]], as well as in [[3]] that play an important role in the perception of spoken [[1]]."
+	}, {
+		"keys": ["memory", "unseen"],
+		"sentence": "This finding confirms our hypothesis that working [[0]] is limited in size; but more important for our purposes here, it also provides a simple example of how we can learn about this [[0]]'s properties by seeing how this ([[1]]) [[0]] influences observable performance."
+	}, {
+		"keys": ["sound-alike", "rehearsal", "system", "loop", "memory", "errors"],
+		"sentence": "People who can speak and hear rely on the articulatory [[1]] [[3]] as part of the working-[[4]] [[2]]; as a result, [[5]] in working [[4]] are often \"[[0]] [[5]].\""
+	},  {
+		"keys": ["language", "mentalistic", "behaviorism"],
+		"sentence": "Hence, modern [[2]] has abandoned the radical rejection of [[1]] terms; indeed, it's hard to draw a line between modern [[2]] and a field called \"animal cognition,\" a field that often employs [[1]] [[0]]!"
+	}, {
+		"keys": ["psychology", "behaviorism"],
+		"sentence": "The [[1]] being criticized here is a historically defined [[1]], and it's this perspective that, in large measure, gave birth to modern cognitive [[0]]."
+	}, {
+		"keys": ["memory"],
+		"sentence": "Thus, having seen \"F,\" people are likely to report back \"S\"; they are not likely, in this situation, to report back the similar looking \"E.\"  This finding provides another clue about working [[0]]'s nature, and two British researchers\u2014Alan Baddeley and Graham Hitch\u2014proposed a model to explain both this finding and many other results as well (e.g., Baddeley & Hitch, 1974, or, for a more recent treatment, see Baddeley, 2000)."
+	}, {
+		"keys": ["rehearsal", "loop", "memory"],
+		"sentence": "Working [[2]]'s assistants provide the same benefit, and one of the most important assistants is the articulatory [[0]] [[1]]."
+	}, {
+		"keys": ["rehearsal", "visible", "loop", "errors", "unseen"],
+		"sentence": "Notice, then, that we're using the Kantian logic described earlier: generating a hypothesis about [[4]] mechanisms (e.g., the operation of the [[0]] [[2]]) in order to explain [[1]] data (e.g., the pattern of the [[3]])."
+	}, {
+		"keys": ["system", "loop", "memory", "problems"],
+		"sentence": "(Blocking use of the [[1]] does have an effect when you're reading more complex sentences or doing harder [[3]]; that's because these harder tasks require analysis and the storage of interim steps, and so require the entire working-[[2]] [[0]]\u2014the executive and the assistants.)"
+	}, {
+		"keys": ["language", "task", "areas", "loop", "memory"],
+		"sentence": "When people are engaged in a verbal [[4]] [[1]] (and so using the articulatory [[3]]), activation increases in [[2]] ordinarily used for [[0]] production and perception."
+	}, {
+		"keys": ["rehearsal", "memory"],
+		"sentence": "These examples can easily be multiplied, but by now the point should be clear: Working [[1]] and articulatory [[0]] are relevant to a wide range of mental activities in adults and in children."
+	}, {
+		"keys": ["intellectual", "remembering", "making"],
+		"sentence": "The domain of this field includes activities that are obviously \"[[0]]\" (such as [[1]], or attending, or [[2]] judgments) but also a much broader range of activities that depend on these [[0]] achievements."
+	}, {
+		"keys": [ "movement", "psychology"],
+		"sentence": "It was this perspective that led researchers to the behaviorist theory [[0]], a [[0]] that dominated [[1]] in America for the first half of the 20th century."
+	},  {
+		"keys": ["span", "measure", "memory", "test"],
+		"sentence": "One way to [[1]] working [[2]]'s capacity is via a [[0]] [[3]]."
+	}, {
+		"keys": ["rehearsal", "speech", "silent", "loop"],
+		"sentence": "To launch the [[0]] [[3]], you rely on the process of subvocalization\u2014  [[2]] [[1]]."
+	},  {
+		"keys": ["rehearsal", "loop", "memory", "errors"],
+		"sentence": "It's because they're relying on the [[0]] [[1]], which involves a mechanism (the \"inner ear\") that stores the [[2]] items as (internal representations of) sounds, and so it's no surprise that [[3]], when they occur, are shaped by this mode of storage."
+	}, {
+		"keys": ["span", "loop", "test"],
+		"sentence": "First, note that our original [[0]] [[2]] measured the combined capacities of the central executive and the [[1]]."
+	}, {
+		"keys": ["span", "loop", "memory"],
+		"sentence": "Concurrent articulation is easy, but it blocks use of the articulatory [[1]] and consistently decreases [[2]] [[0]], from roughly seven items to five or so."
+	}, {
+		"keys": ["speech", "brain", "movements", "areas"],
+		"sentence": "It seems likely, therefore, that \"inner [[0]]\" relies on the [[1]] [[3]] responsible for planning and controlling the muscle [[2]] of [[0]] and not on the [[2]] themselves."
+	},  {
+		"keys": ["sound-alike", "task", "memory", "errors"],
+		"sentence": "As a result, they are disrupted if they are asked to wiggle their fingers during a [[2]] [[1]] (akin to a hearing person saying \"Tah-Tah-Tah and they also tend to make \"same-hand-shape\" [[3]] in working [[2]] (analogous to the [[0]] [[3]] made by the hearing population)."
+	}, {
+		"keys": ["language", "similar", "shapes"],
+		"sentence": "Their errors often involve confusions between different words that happen to have [[1]] hand [[2]] when expressed in sign [[0]].Let's be clear, though, that there's no reason for you, as a reader, to memorize this catalogue of different types of evidence."
+	}, {
+		"keys": ["memory"],
+		"sentence": "The answer to these questions lies in the fact that you rely on working [[0]] in a vast number of circumstances; and so, if we understand working [[0]], we move toward an understanding of this far broader set of problems and issues."
+	}, {
+		"keys": ["rehearsal", "language", "loop", "important"],
+		"sentence": "It also appears that the [[0]] [[2]] plays an [[3]] role when someone is learning new vocabulary, including vocabulary in a new [[1]] (Baddeley, Gathercole, & Papagno, 1998; Gathercole, Service, Hitch, Adams, & Martin, 1999;  Majerus, Poncelet, Elsen, & van der Linden, 2006)."
+	},  {
+		"keys": ["unconscious", "report", "events", "movement"],
+		"sentence": "Psychologists soon became disenchanted with this [[3]], however, for several reasons: Introspection cannot inform us about [[0]] mental [[2]]; even with conscious [[2]], claims rooted in introspection are often untestable because there is no way for an independent observer to check on the accuracy or completeness of an introspective [[1]]."
+	}, {
+		"keys": ["objective", "movement", "psychology", "processes"],
+		"sentence": "The behaviorist [[1]] rejected introspection as a method, insisting instead that [[2]] speak only of mechanisms and [[3]] that were [[0]] and out in the open for all to observe."
+	}, {
+		"keys": ["rehearsal", "speech", "loop", "memory"],
+		"sentence": "One theory of working [[3]] proposes that this [[3]] consists of a central executive and a small number of low-level assistants, including the articulatory [[0]] [[2]], which stores material by means of covert [[1]]."
+	}, {
+		"keys": ["system", "brain", "psychology"],
+		"sentence": "In the last decade or two, cognitive [[2]] has formed a productive partnership with the field of cognitive neuroscience\u2014the effort toward understanding our mental functioning by close study of the [[1]] and nervous [[0]]."
+	}, {
+		"keys": ["memory", "depends"],
+		"sentence": "As illustrations of this theme, in a few pages we'll consider the way in which your ability to cope with grief [[1]] on how your [[0]] functions."
+	}, {
+		"keys": ["psychology"],
+		"sentence": "When the field of cognitive [[0]] was first launched, it was broadly focused on the scientific study of knowledge, and this focus led immediately to a series of questions: How is knowledge acquired?"
+	}, {
+		"keys": ["depends", "world", "understand"],
+		"sentence": "But we also explore why we must study the mental [[1]] if we are to [[2]] behavior; the reason, in brief, is that our behavior [[0]], in crucial ways, on how we perceive and [[2]] the [[1]] around us."
+	},  {
+		"keys": ["directly", "psychology", "world"],
+		"sentence": "One idea is that the science of [[1]] cannot study the mental [[2]] [[0]]."
+	}, {
+		"keys": ["psychology", "world", "understand"],
+		"sentence": "A second idea is that the science of [[0]] must study the mental [[1]] if we are going to [[2]] behavior."
+	}, {
+		"keys": ["feelings", "psychology"],
+		"sentence": "In Wundt's and Titchener's view, [[1]] needed to focus largely on the study of conscious mental events\u2014[[0]], thoughts, perceptions, and recollections."
+	}, {
+		"keys": ["report", "complete", "observed"],
+		"sentence": "Instead, introspectors had to be meticulously trained: They were given a vocabulary to describe what they [[2]]; they were taught to be as careful and as [[1]] as possible; and above all, they were trained simply to [[0]] on their experiences, with a minimum of interpretation."
+	},  {
+		"keys": ["assertions", "test"],
+		"sentence": "But there is also another and deeper problem with introspection: In order for any science to proceed, there must be some way to [[1]] its claims; otherwise, we have no means of separating correct [[0]] from false ones, accurate descriptions of the world from fictions."
+	}, {
+		"keys": ["events", "objective", "world"],
+		"sentence": "Likewise, stimuli in the [[2]] are in the same \"[[1]]\" category: These are measurable, recordable, physical [[0]]."
+	}, {
+		"keys": ["directly", "entities", "studied"],
+		"sentence": "To put this point another way, the behaviorist perspective demands that we not talk about mental [[1]] such as beliefs, memories, and so on, because these things cannot be [[2]] [[0]] and therefore cannot be [[2]] scientifically."
+	}, {
+		"keys": ["entities", "subjective"],
+		"sentence": "Yet it seems that these [[1]] [[0]] play a pivotal role in guiding behavior, and so we must consider these [[0]] if we want to understand behavior."
+	}]
+}

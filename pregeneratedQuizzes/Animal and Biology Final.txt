@@ -1,0 +1,63 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["ermine"],
+		"sentence": "The weasel and the [[0]] are the same animal, differing only in color of the fur."
+	}, {
+		"keys": ["gnu"],
+		"sentence": "Another name for the wildebeest is the [[0]]."
+	}, {
+		"keys": ["grist"],
+		"sentence": "A group of bees can be called a hive, swarm or a [[0]]."
+	}, {
+		"keys": ["sperm"],
+		"sentence": "The [[0]] whale is the mammal with the heaviest brain, about six times heavier than the human's."
+	}, {
+		"keys": ["larks"],
+		"sentence": "A group of [[0]] is called an exaltation."
+	}, {
+		"keys": ["Ants"],
+		"sentence": "[[0]] live in a nest called a formicary."
+	}, {
+		"keys": ["paddling"],
+		"sentence": "A [[0]] is the collective term for ducks."
+	}, {
+		"keys": ["antlers"],
+		"sentence": "The cells inside of [[0]] are the fastest growing cells in nature."
+	}, {
+		"keys": ["females"],
+		"sentence": "Unusual for carnivores, hyena clans are dominates by [[0]]."
+	}, {	
+		"keys": ["Goldfish"],
+		"sentence": "[[0]] have four color receptors in their eyes, whereas humans have three."
+	}, {
+		"keys": ["rattlesnake"],
+		"sentence": "The canebrake, timber, and pygmy are all types of [[0]]."
+	}, {
+		"keys": ["peacocks"],
+		"sentence": "A group of [[0]] is called a muster."
+	}, {
+		"keys": ["butterflies"],
+		"sentence": "Lepidoptera is the scientific name for [[0]]."
+	}, {
+		"keys": ["mouse"],
+		"sentence": "The [[0]] is the most common mammal in the United States."
+	}, {
+		"keys": ["whales"],
+		"sentence": "Cetology is the study of [[0]]."
+	}, {
+		"keys": ["gray"],
+		"sentence": "Newborn [[0]] whale calves are always born in the region of Baja California."
+	}, {
+		"keys": ["swordfish"],
+		"sentence": "The fastest of all fish in the sea is the [[0]]."
+	}, {
+		"keys": ["badgers"],
+		"sentence": "Dachshunds were originally bred to hunt [[0]]."
+	}, {
+		"keys": ["llama"],
+		"sentence": "The vicuna is a member of the [[0]] family."
+	}, {
+		"keys": ["Camel"],
+		"sentence": "[[0]] milk is the only milk that doesn't curdle when boiled."
+	}]
+}

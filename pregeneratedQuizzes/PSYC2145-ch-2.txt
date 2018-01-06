@@ -1,0 +1,129 @@
+{
+	"fillInTheBlank": [{
+		"sentence": "Research with these patients has taught us a great deal about the specialized function of the brain's two hemispheres and has provided evidence, for example, that language capacities are generally lodged in the [[1]] [[2]], while the right [[2]] seems crucial for a number of [[0]] involving spatial judgment (see Figure 2.6).",
+		"keys": ["tasks", "left", "hemisphere"]
+	},  {
+		"sentence": "The cortex includes many distinct regions, each with its own function, but these regions are traditionally divided into three categories: [[0]] [[2]], which contain brain tissue crucial for organizing and controlling bodily movements; [[1]] [[2]], which contain tissue essential for organizing and analyzing the [[3]] we receive from the senses; and association [[2]].",
+		"keys": ["motor", "sensory", "areas", "information"]
+	}, {
+		"sentence": "Specifically, the visual [[0]] [[3]] in the right [[2]] receives [[4]] from both the [[1]] eye and the right, but the [[2]] it receives corresponds to the [[1]] half of visual space (i.e., all of the things visible to your [[1]] when you're looking straight ahead).",
+		"keys": ["projection", "left", "hemisphere", "area", "information"]
+	}, {
+		"sentence": "The primary [[1]] [[0]] [[2]] are the main points of arrival in the brain for [[3]] from the eyes, ears, and other sense organs.",
+		"keys": ["projection", "sensory", "areas", "information"]
+	}, {
+		"sentence": "Moreover, Capgras [[2]] tells us that this [[0]] evaluator works in a fashion separate from the evaluation of factual [[1]], providing us a way to think about the occasions in which someone's evaluation of the facts points toward one conclusion, while an [[0]] evaluation [[4]] toward a different conclusion.",
+		"keys": ["emotional", "information", "syndrome"]
+	}, {
+		"sentence": "A lesion (a specific [[2]] of damage) in the hippocampus produces memory problems but not language disorders; a lesion in the [[1]] cortex produces problems in vision but spares the other [[0]] modalities.",
+		"keys": ["sensory", "occipital", "area"]
+	}, {
+		"sentence": "Likewise, the consequences of brain lesions depend on which [[1]] is damaged: Damage to the [[0]] side of the [[2]] lobe, for example, is likely to produce a disruption of language use; damage to the right side of the [[2]] lobe generally doesn't have this effect.",
+		"keys": ["left", "hemisphere", "frontal"]
+	}, {
+		"sentence": "In some procedures, researchers measure recurrent [[0]] in the brain's [[2]], including the [[0]] that [[1]] the stages of sleep (Panel B).",
+		"keys": ["rhythms", "distinguish", "activity"]
+	}, {
+		"sentence": "Evidence for the [[1]] [[0]] [[3]] comes from studies in which investigators apply mild [[2]] current to this [[3]] in anesthetized animals.",
+		"keys": ["projection", "motor", "electrical", "area"]
+	}, {
+		"sentence": "These movements show a pattern of contralateral control, with stimulation to the [[0]] [[1]] leading to movements on the right side of the body, and vice versa.",
+		"keys": ["left", "hemisphere"]
+	}, {
+		"sentence": "The primary [[1]] [[0]] [[4]] is located at the rearmost edge of the [[3]] lobe, and each region within this [[0]] [[4]] controls the motion of a specific body part, as illustrated on the top [[2]].",
+		"keys": ["projection", "motor", "left", "frontal", "area"]
+	}, {
+		"sentence": "The primary [[3]] [[0]] [[2]], receiving [[4]] from the skin, is at the forward edge of the parietal lobe; each region within this [[2]] [[1]] input from a specific body part.",
+		"keys": ["projection", "receives", "area", "somatosensory", "information"]
+	}, {
+		"sentence": "The [[2]] [[0]] [[4]] differ from each other in important ways, but they also have features in common, and they're features that parallel the attributes of the [[1]] [[0]] [[3]].",
+		"keys": ["projection", "motor", "sensory", "area", "areas"]
+	}, {
+		"sentence": "The [[4]] [[3]] in the [[1]] [[2]], for example, [[0]] its main input from the right side of the body; the corresponding [[3]] in the right [[2]] [[0]] its input from the [[1]] side of the body.",
+		"keys": ["receives", "left", "hemisphere", "area", "somatosensory"]
+	}, {
+		"sentence": "The reverse is true for the visual [[3]] in the [[1]] [[2]]: It [[0]] [[4]] from both eyes, but from only the right half of visual space.",
+		"keys": ["receives", "left", "hemisphere", "area", "information"]
+	}, {
+		"sentence": "The answer likely lies in the fact that facial recognition [[1]] two [[0]] systems in the brain, one of which leads to a [[3]] appraisal (\"l know what my father looks like, and I can perceive that you closely resemble him\"), and the other to a more global, [[2]] appraisal (\"You look familiar to me and also trigger a warm response in me\").",
+		"keys": ["separate", "involves", "emotional", "cognitive"]
+	}, {
+		"sentence": "To find out, we turn to a different [[0]] technique, fMRI, which enables us to track moment-by-moment activity levels in different sites in a living brain.",
+		"keys": ["neuroimaging"]
+	}, {
+		"sentence": "Remarkably, Gage survived and continued to live a more-or-less normal [[0]], but his pattern of intellectual and [[1]] impairments provide valuable cues about the function of the brain's [[2]] lobes.",
+		"keys": ["life", "emotional", "frontal"]
+	}, {
+		"sentence": "Directly [[0]] the thalamus is the hypothalamus, a structure that plays a crucial role in controlling motivated activity such as eating, drinking, and sexual behaviors.",
+		"keys": ["underneath"]
+	}, {
+		"sentence": "Likewise, people ordinarily show more complete, longer-lasting memories for [[0]] [[1]], compared to similar but emotionally flat [[1]].",
+		"keys": ["emotional", "events"]
+	}, {
+		"sentence": "In all cases, [[3]] and subcortical, the [[1]] and right structures in each pair have roughly the same shape and the same pattern of [[0]] to other brain [[2]].",
+		"keys": ["connections", "left", "areas", "cortical"]
+	}, {
+		"sentence": "That happens because the [[0]] hand is controlled by the right [[1]], and this [[1]] receives visual [[2]] from the [[0]]-hand side of the visual world.",
+		"keys": ["left", "hemisphere", "information"]
+	}, {
+		"sentence": "A closely related technique, [[0]] magnetic resonance imaging (fMRl), measures the oxygen content in the blood flowing through each region of the brain; this turns out to be an accurate index of the level of [[2]] [[1]] in that region.",
+		"keys": ["functional", "activity", "neural"]
+	}, {
+		"sentence": "To record the brain's [[0]] [[1]], researchers generally use a cap that has electrodes attached to it.",
+		"keys": ["electrical", "signals"]
+	}, {
+		"sentence": "EEG data give us much more [[0]] information about timing but are much weaker in telling us where the activity took place.",
+		"keys": ["precise"]
+	}, {
+		"sentence": "In the same way, [[1]] data can tell us that a brain [[0]]'s activity is correlated with a particular function, but we need other data to ask whether the brain site plays a role in causing (or supporting, or allowing) that function.",
+		"keys": ["area", "neuroimaging"]
+	},  {
+		"sentence": "In the human brain, the map that constitutes the [[1]] [[0]] [[3]] is located on a strip of tissue toward the rear of the [[2]] lobe, and the pattern of mapping is illustrated in Figure 2.10; in this illustration, a drawing of a person has been overlaid on a depiction of the brain, with each part of the little person positioned on top of the brain [[3]] that controls its movement.",
+		"keys": ["projection", "motor", "frontal", "area"]
+	}, {
+		"sentence": "The figure makes clear that [[1]] of the body that we can move with great precision (e.g., fingers and lips) have a lot of [[2]] [[0]] [[3]] to them; [[1]] of the body over which we have less control (e.g., the shoulder and the back) receive less [[2]] coverage.",
+		"keys": ["area", "areas", "cortical", "devoted"]
+	}, {
+		"sentence": "Information arriving from the skin senses (your sense of touch or your sense of temperature) is projected to a region in the parietal lobe, just behind the [[1]] [[0]] [[2]]; this is labeled the \"[[3]]\" [[2]] in Figure 2.10.",
+		"keys": ["projection", "motor", "area", "somatosensory"]
+	}, {
+		"sentence": "An area in the [[1]] lobes is the primary [[0]] area for vision; stimulation here produces the experience of seeing flashes of light or visual patterns.",
+		"keys": ["projection", "occipital"]
+	}, {
+		"sentence": "In the [[2]] [[0]] [[1]], different  frequencies of sound have their own [[3]] sites, and adjacent brain sites are responsive to adjacent frequencies.",
+		"keys": ["projection", "area", "auditory", "cortical"]
+	}, {
+		"sentence": "Specialized glial cells also provide a layer of [[0]] insulation surrounding parts of some neurons; this insulation dramatically increases the speed with which neurons can send their [[1]].",
+		"keys": ["electrical", "signals"]
+	}, {
+		"sentence": "We've already noted that communication from one neuron to the next is generally made possible by a [[1]] signal: When a neuron has been sufficiently stimulated, it releases a minute quantity of a [[0]].",
+		"keys": ["neurotransmitter", "chemical"]
+	}, {
+		"sentence": "This has allowed a localization of function, an effort that is also supported by [[1]] research, which shows that the pattern of [[0]] in the brain depends on the particular task being performed.",
+		"keys": ["activation", "neuroimaging"]
+	}, {
+		"sentence": "The primary [[1]] [[0]] [[2]] are the departure points in the brain for nerve cells that initiate muscle movement.",
+		"keys": ["projection", "motor", "areas"]
+	}, {
+		"sentence": "In Capgras [[1]], though, the [[0]] processing is disrupted, leading to an intellectual identification without a familiarity response (Ellis & Lewis, 2001; Ellis & Young, 1990; Ramachandran & Blakeslee, 1998): \"You resemble my father but trigger no sense of familiarity, so you must be someone else.\"",
+		"keys": ["emotional", "syndrome"]
+	},  {
+		"sentence": "Some types of [[0]] data provide portraits of the physical makeup of the brain: What's where?",
+		"keys": [ "neuroimaging"]
+	}, {
+		"sentence": "Neuroimaging reveals [[0]] [[2]] in the [[1]] lobes whenever these patients are experiencing hallucinations.",
+		"keys": ["diminished", "frontal", "activity"]
+	}, {
+		"sentence": "Some of the evidence comes from the psychology laboratory and confirms the suggestion that recognition of all [[1]] (and not just faces) involves two separate mechanisms\u2014one that hinges on factual knowledge, and one that's more \"[[0]]\" and tied to the warm sense of familiarity (see Chapter 7).",
+		"keys": ["emotional", "stimuli"]
+	}, {
+		"sentence": "Facts like these tell us a lot about the various functions that make cognition possible and, more specifically, tell us that our theorizing needs to include a broadly useful \"[[0]] evaluator,\" involved in many [[1]] processes.",
+		"keys": ["emotional", "cognitive"]
+	}, {
+		"sentence": "Yet another brain [[0]] has the job of comparing this now-analyzed input to the factual [[1]] provided memory, to determine whether there's a match.",
+		"keys": ["area", "information"]
+	}, {
+		"sentence": "As the show made clear, though, humans are different\u2014and [[0]] evaluations are an important aspect of many [[1]] processes.",
+		"keys": ["emotional", "cognitive"]
+	}]
+}

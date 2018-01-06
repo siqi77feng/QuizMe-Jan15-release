@@ -1,0 +1,33 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["stone"],
+		"sentence": "In the sport of curling, one player uses a broom to clear ice from the path of the [[0]] as it slides to its target."
+	}, {
+		"keys": ["socks"],
+		"sentence": "Darrell Green, one of the fastest men in the history of the NFL, used to stuff his [[0]] full tootsie rolls before games."
+	}, {
+		"keys": ["hooker"],
+		"sentence": "In rugby, a scrummage or scrum is a way or restarting the game. The middle player in each front row of the scrum is called the [[0]]."
+	}, {
+		"keys": ["Eskimo roll"],
+		"sentence": "The technique used to right a capsized canoe is called an [[0]]."
+	}, {
+		"keys": ["Speedskater"],
+		"sentence": "[[0]] Bonnie Blair was the first American woman to win four Olympic gold medals."
+	}, {
+		"keys": ["hobs"],
+		"sentence": "In the game of quoits, projectiles such as metal, rope, or rubber are thrown at stakes called [[0]]."
+	}, {
+		"keys": ["chukkers"],
+		"sentence": "Polo consists of eight periods called [[0]]."
+	}, {
+		"keys": ["piste"],
+		"sentence": "Skiing and fencing are the only sports that take place on a [[0]]."
+	}, {
+		"keys": ["Basho"],
+		"sentence": "A Japanese sumo wrestling tournament is called a [[0]]."
+	}, {
+		"keys": ["Earthball"],
+		"sentence": "The game of [[0]] features the largest ball of any game."
+	}]
+}

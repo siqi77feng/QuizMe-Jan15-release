@@ -1,0 +1,92 @@
+/*stylesFinished.css*/
+.surveyQuiz {
+    background-color: rgba(220,220,220,1);
+}
+.surveyQuiz h2 {
+    text-decoration: underline;
+}
+
+/* survey */
+.survey h3 {
+    padding-left: 20px;
+}
+.survey p {
+    font-size: 1.2em;
+    padding-left: 50px;
+}
+.survey p select {
+    font-size: 1.2em;
+    height: 29px;
+    padding-top: 5px;
+    width: 50px;
+
+}
+.survey p input {
+    font-size: 1em;
+    height: 100%;
+    margin-right: 25px;
+    width: 100%;
+}
+
+textarea {
+    height: 150px;
+    width: 550px;
+    border: 2px solid rgba(0,159,161,1.0);
+    border-radius: 4px;
+    color: rgba(0,159,161,1.0);
+    outline: none;
+}
+
+.submitSurvey {
+    background-color: rgba(0,159,161,1.0);
+    border: none;
+    border-radius: 60px;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-left: 50px;
+}
+.submitSurvey:hover {
+    background-color: rgba(250,250,250,1.0);
+}
+.surveyBreak {
+    height: 40px;
+}
+.scale button {
+    background-color: rgba(0, 159, 161, 1.0);
+    border: none;
+    border-radius: 20px;
+    color: rgba(255,255,255,1.0);
+    padding: 10px;
+    font-size: 1em;
+}
+.scale button:hover {
+    color: rgba(0, 139, 141, 1.0);
+    background-color: rgba(255,255,255,1.0);
+    cursor: pointer;
+}
+.scale button:focus {
+    color: rgba(0, 139, 141, 1.0);
+    background-color: rgba(255,255,255,1.0);
+    cursor: pointer;
+}
+.scale .clicked {
+    color: rgba(0, 139, 141, 1.0);
+    background-color: rgba(255,255,255,1.0);
+    font-size: 1.2em;
+}
+
+/* restart */
+#button-restart {
+    background: rgba(0, 159, 161, 1); /* Default button color: teal */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    color: #000; /* Font text: black */
+    cursor: pointer; /* Show as clickable on hover */
+    display: block;
+    font-size: 1em;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 150px;
+}

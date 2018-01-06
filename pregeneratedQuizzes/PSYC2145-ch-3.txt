@@ -1,0 +1,87 @@
+{
+	"fillInTheBlank": [{
+		"sentence": "Instead, you manage to achieve size [[0]]\u2014correctly perceiving the sizes of objects in the world despite the changes in retinal-image size created by changes in viewing distance (see Figure 3.17).",
+		"keys": ["constancy"]
+	}, {
+		"sentence": "Light enters the eye through the cornea, and the cornea and lens refract the light rays to [[1]] a sharply [[0]] image on the retina.",
+		"keys": ["focused",  "produce"]
+	}, {
+		"sentence": "That leaves the narrow band of [[2]] between 750 and 360 nanometers\u2014the so-called visible [[1]].",
+		"keys": ["spectrum", "wavelengths"]
+	}, {
+		"sentence": "Part of what we know about the visual system\u2014indeed, part of what we know about the entire brain\u2014comes from a technique called single-cell [[0]].",
+		"keys": ["recording"]
+	}, {
+		"sentence": "This theme is also evident in another\u2014and crucial aspect of perception: namely, the achievement of [[1]] [[0]].",
+		"keys": ["constancy", "perceptual"]
+	}, {
+		"sentence": "Still, you achieve shape [[0]]\u2014that is, you correctly perceive the shapes of objects despite changes in the retinal image created by shifts in your viewing angle.",
+		"keys": ["constancy"]
+	}, {
+		"sentence": "More than a century ago, the [[0]] physicist [[1]] von [[2]] developed an influential hypothesis regarding this question.",
+		"keys": ["German", "Hermann", "Helmholtz"]
+	}, {
+		"sentence": "This relationship is guaranteed to hold true because of the principles of optics, and the relationship makes it possible for perceivers to [[0]] size [[1]] by means of a simple calculation.",
+		"keys": ["achieve", "constancy"]
+	}, {
+		"sentence": "We've already mentioned that in each eye, muscles adjust the shape of the lens to produce a [[1]] [[0]] image on the retina.",
+		"keys": ["focused", "sharply"]
+	}, {
+		"sentence": "The [[1]] our visual system can sense are only a tiny part of the broader electromagnetic [[0]].",
+		"keys": ["spectrum", "wavelengths"]
+	}, {
+		"sentence": "Within this [[0]], we usually see [[1]] close to 400 nanometers as violet, those close to 700 nanometers as red, and those in between as the rest of the colors in the rainbow.",
+		"keys": ["spectrum", "wavelengths"]
+	}, {
+		"sentence": "The [[0]] of single-cell [[1]] has been used with enormous success in the study of vision.",
+		"keys": ["technique", "recording"]
+	}, {
+		"sentence": "You also achieve brightness [[0]]\u2014you correctly perceive the brightness of objects whether they're illuminated by dim light or strong sun.",
+		"keys": ["constancy"]
+	}, {
+		"sentence": "Relationships do contribute to size [[1]], and that's why you are better able to judge size when comparison objects are in view or when the target you're judging sits on a surface that has a [[0]] visual texture (like the floor tiles in the example).",
+		"keys": ["uniform", "constancy"]
+	}, {
+		"sentence": "Size [[0]] is found even when the visual scene offers no basis for comparison\u2014if, for example, the object to be judged is the only object in view provided that other cues signal the distance of the target object (Harvey & Leibowitz, 1967; Holway & Boring, 1947).",
+		"keys": ["constancy"]
+	}, {
+		"sentence": "One proposal is that you achieve size [[0]] by focusing on relationships in the visual scene.",
+		"keys": ["constancy"]
+	}, {
+		"sentence": "\u2022 The active nature of perception is also evident in [[1]] [[0]].",
+		"keys": ["constancy", "perceptual"]
+	}, {
+		"sentence": "We achieve [[0]] through a process of unconscious inference, taking one aspect of the input (e.g., the distance to the target) into account in interpreting another aspect (e.g., the target's size).",
+		"keys": ["constancy"]
+	}, {
+		"sentence": "We'll sees for example, that your [[0]] apparatus doesn't just \"pick up\" the information that's available to you.",
+		"keys": ["perceptual"]
+	}, {
+		"sentence": "We discuss the mechanisms through which the visual system [[0]] patterns in the incoming light, but we also showcase the activity of the visual system, in interpreting and shaping the incoming information, so that, in many ways, the visual system goes \"beyond the information given\" in the input itself.",
+		"keys": ["detects"]
+	}, {
+		"sentence": "This is reflected in how much brain [[0]] is devoted to vision compared to any of the other senses.",
+		"keys": ["area"]
+	}, {
+		"sentence": "We discuss the mechanisms through which the visual system [[0]] patterns in the incoming light, but we also showcase the activity of the visual system, in interpreting and shaping the incoming information, so that, in many ways, the visual system goes \"beyond the information given\" in the input itself.",
+		"keys": ["detects"]
+	}, {
+		"sentence": "We also highlight the ways in which perception of one aspect of the input is shaped by perception of other aspects\u2014so that the detection of [[0]] features depends on how the overall form is organized, and the perception of size is shaped by the perceived distance of the target object.",
+		"keys": ["simple"]
+	}, {
+		"sentence": "[[0]] enters the eye through the cornea, and the cornea and lens refract the light rays to produce a sharply focused image on the retina.",
+		"keys": ["Light"]
+	}, {
+		"sentence": "The retina is made up of three main layers: the [[1]] and [[2]], which are the [[0]]; the [[3]] cells; and the [[4]] cells, whose axons make up the [[5]] nerve.",
+		"keys": ["photoreceptors", "rods", "cones", "bipolar", "ganglion", "optic"]
+	}, {
+		"sentence": "On the retina, there are two types of [[0]]\u2014specialized neural cells that respond directly to the incoming light (see Figure 3.2).",
+		"keys": ["photoreceptors"]
+	}, {
+		"sentence": "But the [[0]] are also color-blind: They can distinguish different intensities of light (and so contribute to your perception of brightness), but they provide no means of discriminating one hue from another.",
+		"keys": ["rods"]
+	}, {
+		"sentence": "More precisely, there are three different types of cones, each having its own pattern of sensitivities to different [[0]] (see Figure 3.3).",
+		"keys": ["wavelengths"]
+	}]
+}

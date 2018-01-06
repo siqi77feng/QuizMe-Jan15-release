@@ -1,0 +1,1719 @@
+<!-- tutorial.html -->
+<script src="src/js/app.js"></script>
+<div xmlns="http://www.w3.org/1999/html">
+    <div class="box">
+        <h1>Quiz-Me.Co</h1>
+        <div>
+            <section ng-hide="haveID()">
+                <h3>Being the Tutorial experience here!</h3>
+                <div class="researchParticipantLogin box">
+                    <h2>Be sure to sign in with <b> your school email</b>, to receive participation credit.</h2>
+                    <h2>Participation credits are only given once the Tutorial is complete. </h2>
+                    <form id="toturial-container" ng-submit="QuizMe()">
+                        <div class="loginForm">
+                            <p>
+                                <input type="text" id="identikey-box" placeholder=" " name="identikey-box" size="20" autofocus autocomplete="off">
+                                <button type="submit" id="button-QuizMe" class="tutorial-button" form="toturial-container">Login</button>
+                            </p>
+                        </div>
+                    </form>
+                </div><!--<div class="researchParticipantLogin">-->
+                <!-- used to upload a document by either route but doesn't need to be visable -->
+                <input hidden class ="hidden" id="upload-input" type="file" accept=".txt,.text,.jpg,.jpeg,.png,.bmp,.gif,.pdf" name="uploads[]" >
+            </section>
+        </div>
+        <div class="ifID" ng-show="haveID()">
+            <section>
+                <div class="tutorialReviews box">
+                    <div class="aaa" id="pageOne">
+                        <h1>Please read this consent form and indicate whether you would like to participate below</h1>
+
+                        <h2>PARTICIPANT INFORMED CONSENT FORM</h2>
+                        <p>Examining Student Self-Regulated Learning Techniques in Classroom and Online</p>
+                        <h2>Principal Investigator Adam P. Young</h2>
+                        <section>
+                            <img src="/src/img/consent1.png" style="width:900px;height:800px;">
+                            <img src="/src/img/consent2.png" style="width:900px;height:300px;">
+                            <img src="/src/img/consent3.png" style="width:900px;height:800px;">
+
+                            <div class="researchParticipantLogin box">
+                                <h2></h2>
+                                <form id="name-container" ng-submit="QuizMe2()">
+                                    <div class="nameForm">
+                                        <p>
+                                        <form action="">
+                                        <b> Use your official name known to your school</b><br/>
+                                            Your First Name:
+                                            <input type="text" id="firstName-box" placeholder="Your first name here." name="firstName-box" size="30" autofocus autocomplete="off"><br/>
+                                            Your Last Name:
+                                            <input type="text" id="lastName-box" placeholder="Your last name here." name="lastName-box" size="30" autofocus autocomplete="off"><br/>
+                                            My Student ID #:
+                                            <input type="text" id="studentID-box" placeholder="Your student ID # here." name="studentID-box" size="30" autofocus autocomplete="off"><br/>
+                                            My University:
+                                            <input type="text" id="university-box" placeholder="Your university here." name="university-box" size="30" autofocus autocomplete="off"><br/>
+                                            My Professor:
+                                            <input type="text" id="professor-box" placeholder="Your professor's name here." name="professor-box" size="30" autofocus autocomplete="off"><br/>
+                                            Today's Date:
+                                            <input type="text" id="date-box" placeholder="month(##)/day(##)/year(####)." name="date-box" size="30" autofocus autocomplete="off"><br/>
+                                            <h2></h2>
+                                            <h2></h2>
+                                            <h2></h2>
+                                            <td>I consent to take part in this study</td>
+                                            <input type="checkbox" unchecked="checked" id="consent_1" onchange= " document.getElementById('button-info').disabled = !this.checked; " ng-click="helpful8()" >Yes
+                                            <input type="checkbox" unchecked="checked" id="consent_2" onchange= " document.getElementById('button-info').disabled = !this.checked; " ng-click="helpful9()">No
+                                            <h2>
+                                                <button type="submit" id="button-info" class="name-button" form="name-container"  value=" Send " disabled='disable'>submit</button>
+                                            </h2>
+                                        </form>
+                                        </p>
+                                    </div>
+                                </form>
+                            </div><!--<div class="researchParticipantLogin">-->
+
+                        </section>
+
+                    </div>
+                    <div class="aaa" id="pageTwo">
+                        <h1>Brief Survey</h1>
+                        <div ng-show="!isTaken()">
+                            <form class="box survey" id="feedback-survey" ng-submit="">
+                                <h2>Please indicate the extent to which you agree or disagree with the following statement:</h2>
+                                <br>
+                                <h3> How beneficial do you believe that doing practice problems, self-test, or flashcards is for your memory?</h3>
+                                <p class="scale">
+                                    (Not at all effective) &nbsp;&nbsp;
+                                    <button id="additionalSurvey1_1" ng-click="additionalSurvey1_1()">1</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey1_2" ng-click="additionalSurvey1_2()">2</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey1_3" ng-click="additionalSurvey1_3()">3</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey1_4" ng-click="additionalSurvey1_4()">4</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey1_5" ng-click="additionalSurvey1_5()">5</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey1_6" ng-click="additionalSurvey1_6()">6</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey1_7" ng-click="additionalSurvey1_7()">7</button>
+                                    &nbsp;&nbsp;(Very effective)
+                                </p>
+                                <h3> How beneficial do you believe that rereading your notes or textbook is for your memory?</h3>
+                                <p class="scale">
+                                    (Not at all effective)&nbsp;&nbsp;
+                                    <button id="additionalSurvey2_1" ng-click="additionalSurvey2_1()">1</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey2_2" ng-click="additionalSurvey2_2()">2</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey2_3" ng-click="additionalSurvey2_3()">3</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey2_4" ng-click="additionalSurvey2_4()">4</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey2_5" ng-click="additionalSurvey2_5()">5</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey2_6" ng-click="additionalSurvey2_6()">6</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey2_7" ng-click="additionalSurvey2_7()">7</button>
+                                    &nbsp;&nbsp;(Very effective)
+                                </p>
+                                <h3> How often have you studied by using practice problems, self-tests, or flashcards in the last 7 days? </h3>
+                                <p class="scale">
+                                    (Not at all)&nbsp;&nbsp;
+                                    <button id="additionalSurvey3_1" ng-click="additionalSurvey3_1()">1</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey3_2" ng-click="additionalSurvey3_2()">2</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey3_3" ng-click="additionalSurvey3_3()">3</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey3_4" ng-click="additionalSurvey3_4()">4</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey3_5" ng-click="additionalSurvey3_5()">5</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey3_6" ng-click="additionalSurvey3_6()">6</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey3_7" ng-click="additionalSurvey3_7()">7</button>
+                                    &nbsp;&nbsp;(Very often)
+                                </p>
+                                <h3> How often have you studied by re-reading your notes and/or textbook in the last 7 days? </h3>
+                                <p class="scale">
+                                    (Not at all)&nbsp;&nbsp;
+                                    <button id="additionalSurvey4_1" ng-click="additionalSurvey4_1()">1</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey4_2" ng-click="additionalSurvey4_2()">2</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey4_3" ng-click="additionalSurvey4_3()">3</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey4_4" ng-click="additionalSurvey4_4()">4</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey4_5" ng-click="additionalSurvey4_5()">5</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey4_6" ng-click="additionalSurvey4_6()">6</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey4_7" ng-click="additionalSurvey4_7()">7</button>
+                                    &nbsp;&nbsp;(Very much)
+                                </p>
+                                <h3> How strongly would you recommend studying by doing practice problems, self-tests, or flashcards to a friend who needed help? </h3>
+                                <p class="scale">
+                                    (Not at all)&nbsp;&nbsp;
+                                    <button id="additionalSurvey5_1" ng-click="additionalSurvey5_1()">1</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey5_2" ng-click="additionalSurvey5_2()">2</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey5_3" ng-click="additionalSurvey5_3()">3</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey5_4" ng-click="additionalSurvey5_4()">4</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey5_5" ng-click="additionalSurvey5_5()">5</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey5_6" ng-click="additionalSurvey5_6()">6</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey5_7" ng-click="additionalSurvey5_7()">7</button>
+                                    &nbsp;&nbsp;(Very much)
+                                </p>
+                                <h3> How strongly would you recommend studying by re-reading your notes and/or textbook to a friend who needed help? </h3>
+                                <p class="scale">
+                                    (Not at all)&nbsp;&nbsp;
+                                    <button id="additionalSurvey6_1" ng-click="additionalSurvey6_1()">1</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey6_2" ng-click="additionalSurvey6_2()">2</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey6_3" ng-click="additionalSurvey6_3()">3</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey6_4" ng-click="additionalSurvey6_4()">4</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey6_5" ng-click="additionalSurvey6_5()">5</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey6_6" ng-click="additionalSurvey6_6()">6</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="additionalSurvey6_7" ng-click="additionalSurvey6_7()">7</button>
+                                    &nbsp;&nbsp;(Very much)
+                                </p>
+                                <h3> Being a good learner is important to me</h3>
+                                <p class="scale">
+                                    (Strongly Disagree) &nbsp;&nbsp;
+                                    <button id="helpful_1" ng-click="helpful1()">1</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="helpful_2" ng-click="helpful2()">2</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="helpful_3" ng-click="helpful3()">3</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="helpful_4" ng-click="helpful4()">4</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="helpful_5" ng-click="helpful5()">5</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="helpful_6" ng-click="helpful6()">6</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="helpful_7" ng-click="helpful7()">7</button>
+                                    &nbsp;&nbsp;(Strongly Agree)
+                                </p>
+                                <h3>Receiving good grades is important to me</h3>
+                                <p class="scale">
+                                    (Strongly Disagree)&nbsp;&nbsp;
+                                    <button id="appropriate_1" ng-click="appropriate1()">1</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="appropriate_2" ng-click="appropriate2()">2</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="appropriate_3" ng-click="appropriate3()">3</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="appropriate_4" ng-click="appropriate4()">4</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="appropriate_5" ng-click="appropriate5()">5</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="appropriate_6" ng-click="appropriate6()">6</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="appropriate_7" ng-click="appropriate7()">7</button>
+                                    &nbsp;&nbsp;(Strongly Agree)
+                                </p>
+                                <h3>Saving time by studying efficiently is important to me</h3>
+                                <p class="scale">
+                                    (Strongly Disagree)&nbsp;&nbsp;
+                                    <button id="easy_1" ng-click="easy1()">1</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="easy_2" ng-click="easy2()">2</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="easy_3" ng-click="easy3()">3</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="easy_4" ng-click="easy4()">4</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="easy_5" ng-click="easy5()">5</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="easy_6" ng-click="easy6()">6</button>
+                                    &nbsp;-&nbsp;
+                                    <button id="easy_7" ng-click="easy7()">7</button>
+                                    &nbsp;&nbsp;(Strongly Agree)
+                                </p>
+                                <br>
+                                <input type="submit" form="feedback-survey" class="submitSurvey" value="Submit" ng-click="consume_tutorialFeedback()">
+                            </form>
+                        </div>
+                        <div class="surveyBreak"></div>
+                    </div>
+                    <div class="aaa" id="pageThree">
+                        <h1>Tutorial: Instructions</h1>
+
+                        <p>In this Tutorial, you will first be asked to read 20 facts about the topic of your choice.
+                            Then, you will re-read half of them, and take a practice quiz
+                            on the other half of them.
+                            Later, you will take a "final exam" on these 20 facts, and we
+                            will show you how much practice quizzing helps your memory.</p>
+                        <p></p>
+
+                        <button class="GoPageFour">next</button>
+                    </div>
+                    <div class="aaa" id="pageTour">
+                        <section>
+                            <h3>Pick a topic below that you want to learn more about</h3>
+                            <p></p>
+
+                            <a href="" class="sportNextPage" ng-click=QuizMe3("Sports&Gaming")>Sports&Gaming  </a><p></p>
+                            <a href="" class="movieNextPage"ng-click=QuizMe3("Animal&Biology")>Animal&Biology  </a><p></p>
+                            <a href="" class="musicNextPage"ng-click=QuizMe3("Food&Drink")>Food&Drink  </a><p></p>
+                            <a href="" class="historyNextPage"ng-click=QuizMe3("WorldHistory")>World History  </a><p></p>
+                            <a href="" class="scienceNextPage"ng-click=QuizMe3("Anatomy&Medicine")>Anatomy&Medicine  </a>
+
+                        </section>
+                    </div>
+                    <div class="aaa" id="tutorialPage">
+                        <h1>Tutorial: Instructions</h1>
+
+                        <h3>In this Tutorial, you will first be asked to read 10 facts about
+                        the topic of your choice.
+                        Then, you will re-read half of them, and take a practice quiz
+                        on the other half of them.
+                        Later, you will take a "final exam" on these 10 facts, and we
+                        will show you how much practice quizzing helps your memory.</h3>
+                        <p></p>
+
+
+                        <button class="sportNextPage">Begin</button>
+                    </div>
+                    <div class="aaa" id="sportPage2">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 1 of 20</h2>
+                        <h2>The National Basketball Association established the Podololff Cup, named for the league s first commissioner, as its Most Valuable Player Award in 1956.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage3">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 2 of 20</h2>
+                        <h2>In the sport of curling, one player uses a broom to clear ice from the path of the stone as it slides to its target.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage4">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 3 of 20</h2>
+                        <h2>In early baseball, you could be called out on the bases by the act of patching, or being struck by a thrown ball.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage5">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 4 of 20</h2>
+                        <h2>Darrell Green, one of the fastest men in the history of the NFL, used to stuff his socks full tootsie rolls before games.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage6">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 5 of 20</h2>
+                        <h2>Alberto Arizmendi holds the record for youngest professional debut by a boxer, having turned pro at the age of 10.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage7">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 6 of 20</h2>
+                        <h2>In rugby, a scrummage or scrum is a way or restarting the game. The middle player in each front row of the scrum is called the hooker.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage8">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 7 of 20</h2>
+                        <h2>The technique used to right a capsized canoe is called an Eskimo roll.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage9">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 8 of 20</h2>
+                        <h2>In the 1928 Stanley Cup Final, a 44-year old coach came in to replace the goalie.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage10">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 9 of 20</h2>
+                        <h2>Speedskater Bonnie Blair was the first American woman to win four Olympic gold medals.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage11">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 10 of 20</h2>
+                        <h2>Prior to being named the Sharks, the winner of a vote for the San Jose hockey team name was the Blades.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage12">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 11 of 20</h2>
+                        <h2>In the game of quoits, projectiles such as metal, rope, or rubber are thrown at stakes called hobs.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage13">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 12 of 20</h2>
+                        <h2>In horse racing, there are eight furlongs to a mile.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage14">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 13 of 20</h2>
+                        <h2>Polo consists of eight periods called chukkers.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage15">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 14 of 20</h2>
+                        <h2>Rowing is the only sport in which the winning team only moves backwards.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage16">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 15 of 20</h2>
+                        <h2>Skiing and fencing are the only sports that take place on a piste.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage17">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 16 of 20</h2>
+                        <h2>The sport with the lightest weight ball is ping pong.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage18">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 17 of 20</h2>
+                        <h2>A Japanese sumo wrestling tournament is called a Basho.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage19">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 18 of 20</h2>
+                        <h2>In the game of snooker, a player can use a spider for extra reach.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage20">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 19 of 20</h2>
+                        <h2>The game of Earthball features the largest ball of any game.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sportPage21">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 20 of 20</h2>
+                        <h2>A game of cricket in which no runs are scored is called a duck.</h2>
+                        <button class="sportNextPage">Finish</button>
+                    </div>
+                    <div class="aaa" id="z">
+                        <h1>Instructions</h1>
+                        <p>In the next phase, you will be asked to restudy half of the facts from before,</p>
+                        <p>and to take a practice quiz on the other half of the items.</p>
+                        <p> </p>
+                        <p>On restudy items, certain keywords will be underlined.</p>
+                        <p></p>
+
+                        <button class="sportNextPage">Next</button>
+
+                    </div>
+                    <div class="aaa" id="restudy">
+                        <h1>Restudy The Sports Facts</h1>
+                        <h2>Fact 1 of 10</h2>
+                        <h2>The National Basketball Association's most valuable player award is named Podoloff Cup after the league's first <u>commissioner</u>.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy2">
+                        <h1>Restudy The Sports Facts</h1>
+                        <h2>Fact 2 of 10</h2>
+                        <h2>In early baseball, you could be called out on the bases by the act of <u>patching</u>, or being struck by a thrown ball.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy3">
+                        <h1>Restudy The Sports Facts</h1>
+                        <h2>Fact 3 of 10</h2>
+                        <h2>Alberto Arizmendi holds the record for youngest professional debut by a <u>boxer</u>, having turned pro at the age of 10.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy4">
+                        <h1>Restudy The Sports Facts</h1>
+                        <h2>Fact 4 of 10</h2>
+                        <h2>A game of cricket in which no runs are scored is called a <u>duck</u>.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy5">
+                        <h1>Restudy The Sports Facts</h1>
+                        <h2>Fact 5 of 10</h2>
+                        <h2>In the 1928 Stanley Cup Final, a 44-year old <u>coach</u> came in to replace the goalie.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy6">
+                        <h1>Restudy The Sports Facts</h1>
+                        <h2>Fact 6 of 10</h2>
+                        <h2>Prior to being named the Sharks, the winner of a vote for the San Jose hockey team name was the <u>Blades</u>.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy7">
+                        <h1>Restudy The Sports Facts</h1>
+                        <h2>Fact 7 of 10</h2>
+                        <h2>In horse racing, there are eight <u>furlongs</u> to a mile.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy8">
+                        <h1>Restudy The Sports Facts</h1>
+                        <h2>Fact 8 of 10</h2>
+                        <h2><u>Rowing</u> is the only sport in which the winning team only moves backwards.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy9">
+                        <h1>Restudy The Sports Facts</h1>
+                        <h2>Fact 9 of 10</h2>
+                        <h2>The sport with the lightest weight ball is <u>ping pong</u>.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy10">
+                        <h1>Restudy The Sports Facts</h1>
+                        <h2>Fact 10 of 10</h2>
+                        <h2>In the game of snooker, a player can use a <u>spider</u> for extra reach.</h2>
+                        <button class="sportNextPage">Finish</button>
+                    </div>
+                    <div class="aaa" id="restudyB">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 1 of 10</h2>
+                        <h2>In the sport of curling, one player uses a broom to clear ice from the path of the <u>stone</u> as it slides to its target.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy2B">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 2 of 10</h2>
+                        <h2>Darrell Green, one of the fastest men in the history of the NFL, used to stuff his <u>socks</u> full tootsie rolls before games.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy3B">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 3 of 10</h2>
+                        <h2>In rugby, a scrummage or scrum is a way or restarting the game. The middle player in each front row of the scrum is called the<u>hooker</u>.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy4B">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 4 of 10</h2>
+                        <h2>The technique used to right a capsized canoe is called an <u>Eskimo roll</u>.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy5B">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 5 of 10</h2>
+                        <h2><u>Speedskater</u> Bonnie Blair was the first American woman to win four Olympic gold medals.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy6B">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 6 of 10</h2>
+                        <h2>In the game of quoits, projectiles such as metal, rope, or rubber are thrown at stakes called <u>hobs</u>.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy7B">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 7 of 10</h2>
+                        <h2>Polo consists of eight periods called <u>chukkers</u>.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy8B">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 8 of 10</h2>
+                        <h2>Skiing and fencing are the only sports that take place on a <u>piste</u>.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy9B">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 9 of 10</h2>
+                        <h2>A Japanese sumo wrestling tournament is called a <u>Basho</u>.</h2>
+                        <button class="sportNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudy10B">
+                        <h1>Study The Sports Facts</h1>
+                        <h2>Fact 10 of 10</h2>
+                        <h2>The game of <u>Earthball</u> features the largest ball of any game.</h2>
+                        <button class="sportNextPage">Finish</button>
+                    </div>
+
+                    <div class="aaa" id="sportQuiz">
+                        <div class="tutorialQuiz box">
+                            <p></p>
+                            <p>On quiz items, certain keywords will be missing, like in the examples below. Enter your guess, </p>
+                            <p>then hit Check. Your answer will either be judged</p>
+                            <img src="/src/img/example.png" style="width:850px;height:700px;">
+                            <p></p>
+
+                            <ul>
+                                <h1>Click to begin the practice quiz</h1>
+                                <li>
+                                    <button type="button" ng-click="PSYC2145Ch1()">
+                                        It's Quiz Time
+                                    </button>
+                                </li>
+                            </ul>
+                            </ul>
+                        </div>
+                        <script>
+                            $.getScript("./src/js/quiz.js");
+                        </script>
+                    </div>
+                    <div class="aaa" id="tutorialPage2">
+                        <h1>Tutorial: Instructions</h1>
+
+                        <p>In this Tutorial, you will first be asked to read 10 facts about</p>
+                        <p>the topic of your choice</p>
+                        <p></p>
+                        <p>Then, you will re-read half of them, and take a practice quiz</p>
+                        <p>on the other half of them</p>
+                        <p></p>
+                        <p>Later, you will take a "final exam" on these 10 facts, and we</p>
+                        <p>will show you how much practice quizzing helps your memory</p>
+                        <p></p>
+
+                        <button class="movieNextPage">Begin</button>
+                    </div>
+                    <div class="aaa" id="moviePage2">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 1 of 20</h2>
+                        <h2>Another name for the wildebeest is the gnu.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage3">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 2 of 20</h2>
+                        <h2>The weasel and the ermine are the same animal, differing only in color of the fur.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage4">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 3 of 20</h2>
+                        <h2>The sperm whale is the mammal with the heaviest brain, about six times heavier than the human's.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage5">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 4 of 20</h2>
+                        <h2>A group of bees can be called a hive, swarm or a grist.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage6">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 5 of 20</h2>
+                        <h2>Ants live in a nest called a formicary.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage7">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 6 of 20</h2>
+                        <h2>A group of larks is called an exaltation.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage8">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 7 of 20</h2>
+                        <h2>The cells inside of antlers are the fastest growing cells in nature.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage9">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 8 of 20</h2>
+                        <h2>A paddling is the collective term for ducks.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage10">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 9 of 20</h2>
+                        <h2>Goldfish have four color receptors in their eyes, whereas humans have three.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage11">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 10 of 20</h2>
+                        <h2>Unusual for carnivores, hyena clans are dominated by females.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage12">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 11 of 20</h2>
+                        <h2>A group of peacocks is called a muster.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage13">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 12 of 20</h2>
+                        <h2>The "canebrake", "timber", and "pygmy" are all types of rattlesnake.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage14">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 13 of 20</h2>
+                        <h2>The mouse is the most common mammal in the United States.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage15">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 14 of 20</h2>
+                        <h2>Lepidoptera is the scientific name for butterflies.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage16">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 15 of 20</h2>
+                        <h2>Newborn gray whale calves are always born in the region of Baja California.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage17">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 16 of 20</h2>
+                        <h2>Cetology is the study of whales.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage18">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 17 of 20</h2>
+                        <h2>Dachshunds were originally bred to hunt badgers.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage19">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 18 of 20</h2>
+                        <h2>The fastest of all fish in the sea is the swordfish.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage20">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 19 of 20</h2>
+                        <h2>Camel milk is the only milk that doesn't curdle when boiled.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="moviePage21">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 20 of 20</h2>
+                        <h2>The vicuna is a member of the llama family.</h2>
+                        <button class="movieNextPage">Finish</button>
+                    </div>
+                    <div class="aaa" id="z1">
+                        <h1>Instructions</h1>
+                        <p>In the next phase, you will be asked to restudy half of the facts from before,</p>
+                        <p>and to take a practice quiz on the other half of the items.</p>
+                        <p> </p>
+                        <p>On restudy items, certain keywords will be underlined.</p>
+
+                        <button class="movieNextPage">Next</button>
+
+                    </div>
+                    <div class="aaa" id="restudyMovie">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 1 of 10</h2>
+                        <h2>Another name for the wildebeest is the <u>gnu</u>.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovie2">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 2 of 10</h2>
+                        <h2>The <u>sperm</u> whale is the mammal with the heaviest brain, about six times heavier than the human's.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovie3">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 3 of 10</h2>
+                        <h2><u>Ants</u> live in a nest called a formicary.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovie4">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 4 of 10</h2>
+                        <h2>The cells inside of <u>antlers</u> are the fastest growing cells in nature.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovie5">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 5 of 10</h2>
+                        <h2><u>Goldfish</u> have four color receptors in their eyes, whereas humans have three.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovie6">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 6 of 10</h2>
+                        <h2>A group of <u>peacocks</u> is called a muster.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovie7">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 7 of 10</h2>
+                        <h2>The <u>mouse</u> is the most common mammal in the United States.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovie8">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 8 of 10</h2>
+                        <h2>Newborn <u>gray</u> whale calves are always born in the region of Baja California.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovie9">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 9 of 10</h2>
+                        <h2>Dachshunds were originally bred to hunt <u>badgers</u>.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovie10">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 10 of 10</h2>
+                        <h2><u>Camel</u> milk is the only milk that doesn't curdle when boiled.</h2>
+                        <button class="movieNextPage">Finish</button>
+                    </div>
+                    <div class="aaa" id="restudyMovieB">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 1 of 10</h2>
+                        <h2>The weasel and the <u>ermine</u> are the same animal, differing only in color of the fur.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovieB2">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 2 of 10</h2>
+                        <h2>A group of bees can be called a hive, swarm or a <u>grist</u>.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovieB3">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 3 of 10</h2>
+                        <h2>A group of <u>larks</u> is called an exaltation.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovieB4">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 4 of 10</h2>
+                        <h2>A <u>paddling</u> is the collective term for ducks.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovieB5">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 5 of 10</h2>
+                        <h2>Unusual for carnivores, hyena clans are dominated by <u>females</u>.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovieB6">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 6 of 10</h2>
+                        <h2>The "canebrake", "timber", and "pygmy" are all types of <u>rattlesnake</u>.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovieB7">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 7 of 10</h2>
+                        <h2>Lepidoptera is the scientific name for <u>butterflies</u>.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovieB8">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 8 of 10</h2>
+                        <h2>Cetology is the study of <u>whales</u>.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovieB9">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 9 of 10</h2>
+                        <h2>The fastest of all fish in the sea is the <u>sworrdfish</u>.</h2>
+                        <button class="movieNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMovieB10">
+                        <h1>Study The Animal Biology Facts</h1>
+                        <h2>Fact 10 of 10</h2>
+                        <h2>The vicuna is a member of the <u>llama</u> family.</h2>
+                        <button class="movieNextPage">Finish</button>
+                    </div>
+                    <div class="aaa" id="movieQuiz">
+                        <div class="tutorialQuiz box">
+                            <p></p>
+                            <p>On quiz items, certain keywords will be missing, like in the examples below. Enter your guess, </p>
+                            <p>then hit Check. Your answer will either be judged</p>
+                            <img src="/src/img/example.png" style="width:850px;height:700px;">
+                            <p></p>
+
+                            <ul>
+                                <h1>Click to begin the practice quiz</h1>
+                                <li>
+                                    <button type="button" ng-click="PSYC2145Ch2()">
+                                        It's Quiz Time
+                                    </button>
+                                </li>
+                            </ul>
+                            </ul>
+                        </div>
+                        <script>
+                            $.getScript("./src/js/quiz.js");
+                        </script>
+                    </div>
+                    <div class="aaa" id="tutorialPage3">
+                        <h1>Tutorial: Instructions</h1>
+
+                        <p>In this Tutorial, you will first be asked to read 10 facts about</p>
+                        <p>the topic of your choice</p>
+                        <p></p>
+                        <p>Then, you will re-read half of them, and take a practice quiz</p>
+                        <p>on the other half of them</p>
+                        <p></p>
+                        <p>Later, you will take a "final exam" on these 10 facts, and we</p>
+                        <p>will show you how much practice quizzing helps your memory</p>
+                        <p></p>
+
+                        <button class="musicNextPage">Begin</button>
+                    </div>
+                    <div class="aaa" id="musicPage2">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 1 of 20</h2>
+                        <h2>Sweden is the European country with the most consumption of ice cream. </h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage3">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 2 of 20</h2>
+                        <h2>In Italy, if you were eating pesce martello, you would be eating shark.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage4">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 3 of 20</h2>
+                        <h2>A ramekin is a small casserole dish for baking and serving an individual portion of food.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage5">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 4 of 20</h2>
+                        <h2>The technical term for egg white is albumen.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage6">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 5 of 20</h2>
+                        <h2>Saffron is the world's most expensive spice.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage7">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 6 of 20</h2>
+                        <h2>The name of a barrel of beer containing nine gallons is called a firkin.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage8">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 7 of 20</h2>
+                        <h2>Licorice was used as a medicine in ancient Egypt.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage9">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 8 of 20</h2>
+                        <h2>Caviar is a delicacy that comes from the sturgeon fish.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage10">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 9 of 20</h2>
+                        <h2>The avocado is the fruit with the highest amount of calories.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage11">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 10 of 20</h2>
+                        <h2>Coconuts and dates are the two fruits that grow on palm trees.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage12">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 11 of 20</h2>
+                        <h2>Natural vanilla flavoring comes from the orchid plant.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage13">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 12 of 20</h2>
+                        <h2>Mozzarella cheese was traditionally made from buffaloes' milk.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage14">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 13 of 20</h2>
+                        <h2>Savoy and Late Flat Dutch are both varieties of cabbage.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage15">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 14 of 20</h2>
+                        <h2>President George H. W. Bush declared publically that he did not like broccoli.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage16">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 15 of 20</h2>
+                        <h2>Greek feta cheese is made from the milk of the ewe.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage17">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 16 of 20</h2>
+                        <h2>The bush nut is more commonly known as the Macadamia. </h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage18">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 17 of 20</h2>
+                        <h2>The term for the indentation at the base of a wine bottle is the punt.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage19">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 18 of 20</h2>
+                        <h2>Ireland consumes the most cornflakes per head than anywhere else in the world.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage20">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 19 of 20</h2>
+                        <h2>Mark Twain once described cauliflower as "cabbage with a college education".</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="musicPage21">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 20 of 20</h2>
+                        <h2>The radish and turnip belong to the mustard family.</h2>
+                        <button class="musicNextPage">Finish</button>
+                    </div>
+                    <div class="aaa" id="z2">
+                        <h1>Instructions</h1>
+                        <p>In the next phase, you will be asked to restudy half of the facts from before,</p>
+                        <p>and to take a practice quiz on the other half of the items.</p>
+                        <p> </p>
+                        <p>On restudy items, certain keywords will be underlined.</p>
+                        <p></p>
+
+                        <button class="musicNextPage">Next</button>
+
+                    </div>
+                    <div class="aaa" id="restudyMusic">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 1 of 10</h2>
+                        <h2>Sweden is the European country with the most consumption of <u>ice cream</u>. </h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic2">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 2 of 10</h2>
+                        <h2>A <u>ramekin</u> is a small casserole dish for baking and serving an individual portion of food.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic3">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 3 of 10</h2>
+                        <h2><u>Saffron</u> is the world's most expensive spice.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic4">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 4 of 10</h2>
+                        <h2>Licorice was used as a <u>medicine</u> in ancient Egypt.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic5">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 5 of 10</h2>
+                        <h2>The <u>avocado</u> is the fruit with the highest amount of calories.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic6">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 6 of 10</h2>
+                        <h2>Natural vanilla flavoring comes from the <u>orchid plant</u>.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic7">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 7 of 10</h2>
+                        <h2>Savoy and Late Flat Dutch are both varieties of <u>cabbage</u>.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic8">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 8 of 10</h2>
+                        <h2>Greek feta cheese is made from the milk of the <u>ewe</u>.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic9">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 9 of 10</h2>
+                        <h2>The term for the indentation at the base of a wine bottle is the <u>punt</u>.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic10">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 10 of 10</h2>
+                        <h2>Mark Twain once described <u>cauliflower</u> as "cabbage with a college education".</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusicB">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 1 of 10</h2>
+                        <h2>In Italy, if you were eating pesce martello, you would be eating <u>shark</u>.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic2B">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 2 of 10</h2>
+                        <h2>The technical term for egg white is <u>albumen</u>.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic3B">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 3 of 10</h2>
+                        <h2>The name of a barrel of beer containing nine gallons is called a <u>firkin</u>.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic4B">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 4 of 10</h2>
+                        <h2>Caviar is a delicacy that comes from the <u>sturgeon</u> fish.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic5B">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 5 of 10</h2>
+                        <h2>Coconuts and <u>dates</u> are the two fruits that grow on palm trees.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic6B">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 6 of 10</h2>
+                        <h2><u>Mozzarella</u> cheese was traditionally made from buffaloes' milk.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic7B">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 7 of 10</h2>
+                        <h2>President George H. W. Bush declared publically that he did not like <u>broccoli</u>.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic8B">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 8 of 10</h2>
+                        <h2>The <u>bush</u> nut is more commonly known as the Macadamia. </h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic9B">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 9 of 10</h2>
+                        <h2>Ireland consumes the most <u>cornflakes</u> per head than anywhere else in the world.</h2>
+                        <button class="musicNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="restudyMusic10B">
+                        <h1>Study The Food and Drink Facts</h1>
+                        <h2>Fact 10 of 10</h2>
+                        <h2>The radish and turnip belong to the <u>mustard</u> family.</h2>
+                        <button class="musicNextPage">Finish</button>
+                    </div>
+                    <div class="aaa" id="musicQuiz">
+                        <div class="tutorialQuiz box">
+                            <p></p>
+                            <p>On quiz items, certain keywords will be missing, like in the examples below. Enter your guess, </p>
+                            <p>then hit Check. Your answer will either be judged</p>
+                            <img src="/src/img/example.png" style="width:850px;height:700px;">
+                            <p></p>
+
+                            <ul>
+                                <h1>Click to begin the practice quiz</h1>
+                                <li>
+                                    <button type="button" ng-click="PSYC2145Ch3()">
+                                        It's Quiz Time
+                                    </button>
+                                </li>
+                            </ul>
+                            </ul>
+                        </div>
+                        <script>
+                            $.getScript("./src/js/quiz.js");
+                        </script>
+                    </div>
+                    <div class="aaa" id="tutorialPage4">
+                        <h1>Tutorial: Instructions</h1>
+
+                        <p>In this Tutorial, you will first be asked to read 10 facts about</p>
+                        <p>the topic of your choice</p>
+                        <p></p>
+                        <p>Then, you will re-read half of them, and take a practice quiz</p>
+                        <p>on the other half of them</p>
+                        <p></p>
+                        <p>Later, you will take a "final exam" on these 10 facts, and we</p>
+                        <p>will show you how much practice quizzing helps your memory</p>
+                        <p></p>
+
+                        <button class="historyNextPage">Begin</button>
+                    </div>
+                    <div class="aaa" id="historyPage2">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 1 of 20</h2>
+                        <h2>Without access to written language, the Inca used a system called quipu to communicate using knots in rope or string.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage3">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 2 of 20</h2>
+                        <h2>The shortest war in history was fought between the United Kingdom and Zanzibar over succession to the throne of the sultan and lasted approximately 38 minutes.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage4">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 3 of 20</h2>
+                        <h2>Ronald Reagan was known for always having jelly beans on his desk</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage5">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 4 of 20</h2>
+                        <h2>The most renowned of Greek temples was the Parthenon which held a giant statue of the goddess Athena.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage6">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 5 of 20</h2>
+                        <h2>In ancient Egypt, only the rich could afford pillows, which were commonly made from stone.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage7">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 6 of 20</h2>
+                        <h2>Johannes Gutenberg's printing press is widely regarded as the most important invention of the second millennium. </h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage8">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 7 of 20</h2>
+                        <h2>A ziggurat is a massive raised structure found in ancient Mesopotamia that served both as a shrine and as a place to escape rising flood waters.  </h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage9">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 8 of 20</h2>
+                        <h2>Ernest Shackleton led his first expedition to Antarctica and the South Pole on his boat, the Nimrod.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage10">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 9 of 20</h2>
+                        <h2>LEGO was launched by Dutch toymakers in 1958 and means "play well"</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage11">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 10 of 20</h2>
+                        <h2>Archimedes is commonly credited with first expressing the phrase Eureka!</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage12">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 11 of 20</h2>
+                        <h2>Spain ceded Florida to Britain in exchange for Cuba.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage13">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 12 of 20</h2>
+                        <h2>Hieroglyphics were deciphered as a result of the discovery of the Rosetta Stone.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage14">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 13 of 20</h2>
+                        <h2>Mozambique declared independence from Portugal in 1975.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage15">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 14 of 20</h2>
+                        <h2>Italian dictator Benito Mussolini invaded Ethiopia in 1935.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage16">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 15 of 20</h2>
+                        <h2>When the Pilgrims landed in Massachusetts, the first Native Americans they encountered were the Nauset tribe.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage17">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 16 of 20</h2>
+                        <h2>Among many other inventions, Nicola Tesla invented the precursor to remote control technology.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage18">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 17 of 20</h2>
+                        <h2>Pennsylvania was the first American colony to legalize witchcraft.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage19">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 18 of 20</h2>
+                        <h2>The last American president to have facial hair was President Taft.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage20">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 19 of 20</h2>
+                        <h2>The romans built aqueducts to convey water.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyPage21">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 20 of 20</h2>
+                        <h2>The first TV commercial advertisement was for a brand of toothpaste.</h2>
+                        <button class="historyNextPage">Finish</button>
+                    </div>
+                    <div class="aaa" id="z3">
+                        <h1>Instructions</h1>
+                        <p>In the next phase, you will be asked to restudy half of the facts from before,</p>
+                        <p>and to take a practice quiz on the other half of the items.</p>
+                        <p> </p>
+                        <p>On restudy items, certain keywords will be underlined.</p>
+                        <p></p>
+                        <button class="historyNextPage">Next</button>
+
+                    </div>
+                    <div class="aaa" id="historyRestory">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 1 of 10</h2>
+                        <h2>Without access to written language, the Inca used a system called <u>quipu</u> to communicate using knots in rope or string.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory2">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 2 of 10</h2>
+                        <h2>Ronald Reagan was known for always having <u>jelly beans</u> on his desk</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory3">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 3 of 10</h2>
+                        <h2>In ancient Egypt, only the rich could afford <u>pillows</u>, which were commonly made from stone.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory4">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 4 of 10</h2>
+                        <h2>A <u>ziggurat</u> is a massive raised structure found in ancient Mesopotamia that served both as a shrine and as a place to escape rising flood waters.  </h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory5">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 5 of 10</h2>
+                        <h2><u>LEGO</u> was launched by Dutch toymakers in 1958 and means "play well"</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory6">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 6 of 10</h2>
+                        <h2>Spain ceded Florida to Britain in exchange for <u>Cuba</u>.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory7">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 7 of 10</h2>
+                        <h2>Mozambique declared independence from <u>Portugal</u> in 1975.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory8">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 8 of 10</h2>
+                        <h2>When the Pilgrims landed in Massachusetts, the first Native Americans they encountered were the <u>Nauset</u> tribe.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory9">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 9 of 10</h2>
+                        <h2><u>Pennsylvania</u> was the first American colony to legalize witchcraft.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory10">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 10 of 10</h2>
+                        <h2>The romans built <u>aqueducts</u> to convey water.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestoryB">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 1 of 10</h2>
+                        <h2>The shortest war in history was fought between the United Kingdom and Zanzibar over succession to the throne of the <u>sultan</u> and lasted approximately 38 minutes.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory2B">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 2 of 10</h2>
+                        <h2>The most renowned of Greek <u>temples</u> was the Parthenon which held a giant statue of the goddess Athena.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory3B">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 3 of 10</h2>
+                        <h2>Johannes Gutenberg's <u>printing press</u> is widely regarded as the most important invention of the second millennium. </h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory4B">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 4 of 10</h2>
+                        <h2>Ernest Shackleton led his first expedition to Antarctica and the South Pole on his boat, the <u>Nimrod</u>.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory5B">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 5 of 10</h2>
+                        <h2>Archimedes is commonly credited with first expressing the phrase <u>Eureka</u>!</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory6B">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 6 of 10</h2>
+                        <h2>Hieroglyphics were deciphered as a result of the discovery of the <u>Rosetta stone</u>.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory7B">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 7 of 10</h2>
+                        <h2>Italian dictator Benito Mussolini invaded <u>Ethiopia</u> in 1935.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory8B">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 8 of 10</h2>
+                        <h2>Among many other inventions, Nicola Tesla invented the precursor to <u>remote control</u> technology.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory9B">
+                        <h1>Restudy The history Facts</h1>
+                        <h2>Fact 9 of 10</h2>
+                        <h2>The last American president to have <u>facial hair</u> was President Taft.</h2>
+                        <button class="historyNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="historyRestory10B">
+                        <h1>Study The history Facts</h1>
+                        <h2>Fact 10 of 10</h2>
+                        <h2>The first TV commercial advertisement was for a brand of <u>toothpaste</u>.</h2>
+                        <button class="historyNextPage">Finish</button>
+                    </div>
+                    <div class="aaa" id="historyQuiz">
+                        <div class="tutorialQuiz box">
+                            <p></p>
+                            <p>On quiz items, certain keywords will be missing, like in the examples below. Enter your guess, </p>
+                            <p>then hit Check. Your answer will either be judged</p>
+                            <img src="/src/img/example.png" style="width:850px;height:700px;">
+                            <p></p>
+
+                            <ul>
+                                <h1>Click to begin the practice quiz</h1>
+                                <li>
+                                    <button type="button" ng-click="PSYC2145Ch4()">
+                                        It's Quiz Time
+                                    </button>
+                                </li>
+                            </ul>
+                            </ul>
+                        </div>
+                        <script>
+                            $.getScript("./src/js/quiz.js");
+                        </script>
+                    </div>
+                    <div class="aaa" id="tutorialPage5">
+                        <h1>Tutorial: Instructions</h1>
+
+                        <p>In this Tutorial, you will first be asked to read 10 facts about</p>
+                        <p>the topic of your choice</p>
+                        <p></p>
+                        <p>Then, you will re-read half of them, and take a practice quiz</p>
+                        <p>on the other half of them</p>
+                        <p></p>
+                        <p>Later, you will take a "final exam" on these 10 facts, and we</p>
+                        <p>will show you how much practice quizzing helps your memory</p>
+                        <p></p>
+
+                        <button class="scienceNextPage">Begin</button>
+                    </div>
+                    <div class="aaa" id="sciencePage2">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 1 of 20</h2>
+                        <h2>The cornea receives oxygen without a blood supply.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage3">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 2 of 20</h2>
+                        <h2>The adjective renal refers to the kidneys.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage4">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 3 of 20</h2>
+                        <h2>In the early 20th century, rattlesnake venom was used to treat epilepsy.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage5">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 4 of 20</h2>
+                        <h2>Another name for German measles is rubella.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage6">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 5 of 20</h2>
+                        <h2>Another name for tetanus is lockjaw.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage7">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 6 of 20</h2>
+                        <h2>The kidney is part of the excretory system with small tubules called nephridia.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage8">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 7 of 20</h2>
+                        <h2>Tears are produced in lachrymal glands.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage9">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 8 of 20</h2>
+                        <h2>The spleen is a large bean-shaped lymph gland that can expand and contract.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage10">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 9 of 20</h2>
+                        <h2>The top set of vertebrae are called the cervical vertebrae.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage11">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 10 of 20</h2>
+                        <h2>The largest cell in the human body is the ovum.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage12">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 11 of 20</h2>
+                        <h2>Aspirin was originally extracted from tree bark.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage13">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 12 of 20</h2>
+                        <h2>The scapula is the term for the shoulder blade.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage14">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 13 of 20</h2>
+                        <h2>Ascorbic acid is commonly referred to as vitamin C.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage15">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 14 of 20</h2>
+                        <h2>The tongue is joined by the lingual nerve to the brain.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage16">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 15 of 20</h2>
+                        <h2>The largest artery in the human body is the aorta.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage17">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 16 of 20</h2>
+                        <h2>The common name for the sternum is the breastbone.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage18">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 17 of 20</h2>
+                        <h2>The otoscope is used to look at the ear.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage19">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 18 of 20</h2>
+                        <h2>The labyrinth in the ear allows for the maintenance of balance.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage20">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 19 of 20</h2>
+                        <h2>The function of the thyroid is to regular growth and metabolism.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="sciencePage21">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 20 of 20</h2>
+                        <h2>Infantile paralysis is commonly known as polio.</h2>
+                        <button class="scienceNextPage">Finish</button>
+                    </div>
+                    <div class="aaa" id="z4">
+                        <h1>Instructions</h1>
+                        <p>In the next phase, you will be asked to restudy half of the facts from before,</p>
+                        <p>and to take a practice quiz on the other half of the items.</p>
+                        <p> </p>
+                        <p>On restudy items, certain keywords will be underlined.</p>
+                        <p></p>
+
+                        <button class="scienceNextPage">Next</button>
+
+                    </div>
+                    <div class="aaa" id="scienceRestudy">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 1 of 10</h2>
+                        <h2>The <u>cornea</u> receives oxygen without a blood supply.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy2">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 2 of 10</h2>
+                        <h2>In the early 20th century, rattlesnake venom was used to treat <u>epilepsy</u>.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy3">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 3 of 10</h2>
+                        <h2>Another name for <u>tetanus</u> is lockjaw.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy4">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 4 of 10</h2>
+                        <h2><u>Tears</u> are produced in lachrymal glands.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy5">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 5 of 10</h2>
+                        <h2>The top set of vertebrae are called the <u>cervical</u> vertebrae.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy6">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 6 of 10</h2>
+                        <h2><u>Aspirin</u> was originally extracted from tree bark.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy7">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 7 of 10</h2>
+                        <h2>Ascorbic acid is commonly referred to as <u>vitamin C</u>.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy8">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 8 of 10</h2>
+                        <h2>The largest artery in the human body is the <u>aorta</u>.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy9">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 9 of 10</h2>
+                        <h2>The otoscope is used to look at the <u>ear</u>.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy10">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 10 of 10</h2>
+                        <h2>The function of the <u>thyroid</u> is to regular growth and metabolism.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudyB">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 1 of 10</h2>
+                        <h2>The adjective <u>renal</u> refers to the kidneys.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy2B">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 2 of 10</h2>
+                        <h2>Another name for German measles is <u>rubella</u>.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy3B">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 3 of 10</h2>
+                        <h2>The <u>kidney</u> is part of the excretory system with small tubules called nephridia.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy4B">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 4 of 10</h2>
+                        <h2>The <u>spleen</u> is a large bean-shaped lymph gland that can expand and contract.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy5B">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 5 of 10</h2>
+                        <h2>The largest cell in the human body is the <u>ovum</u>.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy6B">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 6 of 10</h2>
+                        <h2>The <u>scapula</u> is the term for the shoulder blade.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy7B">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 7 of 10</h2>
+                        <h2>The tongue is joined by the <u>lingual</u> nerve to the brain.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy8B">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 8 of 10</h2>
+                        <h2>The common name for the <u>sternum</u> is the breastbone.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy9B">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 9 of 10</h2>
+                        <h2>The <u>labyrinth</u> in the ear allows for the maintenance of balance.</h2>
+                        <button class="scienceNextPage">Continue</button>
+                    </div>
+                    <div class="aaa" id="scienceRestudy10B">
+                        <h1>Study The medicine Facts</h1>
+                        <h2>Fact 10 of 10</h2>
+                        <h2>Infantile paralysis is commonly known as <u>polio</u>.</h2>
+                        <button class="scienceNextPage">Finish</button>
+                    </div>
+                    <div class="aaa" id="scienceQuiz">
+                        <div class="tutorialQuiz box">
+                            <p></p>
+                            <p>On quiz items, certain keywords will be missing, like in the examples below. Enter your guess, </p>
+                            <p>then hit Check. Your answer will either be judged</p>
+                            <img src="/src/img/example.png" style="width:850px;height:700px;">
+                            <p></p>
+
+                            <ul>
+                                <h1>Click to begin the practice quiz</h1>
+                                <li>
+                                    <button type="button" ng-click="PSYC2145Ch5()">
+                                        It's Quiz Time
+                                    </button>
+                                </li>
+                            </ul>
+                            </ul>
+                        </div>
+                        <script>
+                            $.getScript("./src/js/quiz.js");
+                        </script>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</div>
+<div id = "processing"></div>

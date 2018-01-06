@@ -1,0 +1,99 @@
+{
+ 	"fillInTheBlank": [{
+ 		"keys": ["amnesic", "indirect", "damage", "test", "normal", "memory"],
+ 		"sentence": "Thus, someone who suffers hippocampal [[2]] will likely appear [[4]] on an [[1]] [[5]] [[3]] but seem [[0]] on a direct [[3]], while someone who suffers amygdala [[2]] will probably show the reverse pattern."
+ 	},  {
+ 		"keys": ["memory"],
+ 		"sentence": "The damage caused severe disruption of Cochrane's episodic [[0]], but left his semantic [[0]] intact."
+ 	}, {
+ 		"keys": ["amnesic", "loss", "normal", "memory"],
+ 		"sentence": "Many studies show similar results, with [[0]] patients showing profound [[3]] [[1]] on some measures but performance within the [[2]] range on other measures (Cohen & Squire, 1980; Graf & Schacter, 1985; Moscovitch, 1982; Schacter, 1996; Schacter & Tulving, 1982; Squire & McKee, 1993)."
+ 	},  {
+ 		"keys": ["brain", "test", "memory"],
+ 		"sentence": "The scans show heightened activity in the hippocampus when people indicate that they \"remember\" a particular [[1]] item, suggesting that this [[0]] structure is crucial for source [[2]]."
+ 	}, {
+ 		"keys": ["damage", "brain", "memory"],
+ 		"sentence": "In other words, we can learn a great deal about these various types of [[2]] by considering individuals who have suffered different forms of [[1]] [[0]]."
+ 	}, {
+ 		"keys": ["amnesic", "explicit", "implicit", "memory"],
+ 		"sentence": "The results with [[0]] patients provide powerful evidence that [[1]] [[3]] is indeed independent of [[2]] [[3]]."
+ 	}, {
+ 		"keys": ["explicit", "implicit", "reverse", "memory"],
+ 		"sentence": "Further data, also arguing for a separation between [[1]] and [[0]] [[3]], come from patients who have the [[2]] pattern of symptoms: [[1]] [[3]] disrupted but [[0]] [[3]] intact."
+ 	}, {
+ 		"keys": ["suffered", "explicit", "implicit", "normal", "memory"],
+ 		"sentence": "Patient SM046 had [[0]] damage to the amygdala and shows little evidence of [[2]] [[4]] (i.e., no fear response\u2014indexed by the skin conductance response, or SCR) but a [[3]] level of [[1]] [[4]]."
+ 	}, {
+ 		"keys": ["suffered", "explicit", "damage", "normal", "memory"],
+ 		"sentence": "Patient WC1606 had [[0]] [[2]] to the hippocampus and shows the opposite pattern: massively disrupted [[1]] [[4]] but a [[3]] fear response."
+ 	}, {
+ 		"keys": ["explicit", "tests", "memory"],
+ 		"sentence": "Amnesic patients perform badly on [[1]] requiring [[0]] [[2]] and may not even recall events that happened just minutes earlier."
+ 	}, {
+ 		"keys": ["memory", "activation", "nodes"],
+ 		"sentence": "Detectors, like [[0]] [[2]], receive their [[1]] from other detectors; they can accumulate [[1]] from different inputs, and once activated to threshold levels, they fire."
+ 	}, {
+ 		"keys": ["target", "activation", "nodes"],
+ 		"sentence": "If you're back in that context at the time of recall, the [[0]] [[2]] can receive a double input (i.e., [[1]] from two different sources), and this will help activate the [[0]] [[2]]."
+ 	}, {
+ 		"keys": ["nearby", "memory", "activation", "nodes"],
+ 		"sentence": "Before pressing on, though, we should mention that this process of spreading [[2]]\u2014with one node activating [[0]] [[3]]\u2014is not the whole story for [[1]] search."
+ 	}, {
+ 		"keys": ["brain", "tests", "activity", "memory"],
+ 		"sentence": "We can use fMRI scans to monitor participants' [[0]] [[2]] while they are taking these [[3]] [[1]], and the scans make it clear that \"remember\" and \"know\" judgments depend on different [[0]] areas."
+ 	},  {
+ 		"keys": ["test", "memory", "earlier"],
+ 		"sentence": "At a sufficient delay, the direct [[1]] [[0]] is likely to show that the participants have completely forgotten the words presented [[2]]; their recognition performance is essentially random."
+ 	}, {
+ 		"keys": ["specific", "show", "directly", "memory"],
+ 		"sentence": "It turns out that people are more likely to offer a [[0]] word if they've encountered it recently; once again, this priming effect is observed even if participants, when tested [[2]], [[1]] no conscious [[3]] of their recent encounter with that word (Graf, Mandler, & Haden, 1982)."
+ 	}, {
+ 		"keys": ["indirect", "testing", "effects", "memory"],
+ 		"sentence": "Implicit memories, however, are typically revealed by [[0]] [[3]] [[1]] and are often manifested as priming [[2]]."
+ 	}, {
+ 		"keys": ["nearby", "memory", "activation", "nodes"],
+ 		"sentence": "In the same way, we've proposed in this chapter that remembering often involves the [[2]] of a node, and this node triggers other, [[0]], [[3]] so that they become activated; they, in turn, trigger still other [[3]], leading (eventually) to the information you seek in [[1]]."
+ 	},   {
+ 		"keys": ["quiet", "test", "depends", "memory"],
+ 		"sentence": "Whether it's better to learn while listening to jazz or while sitting in a [[0]] room [[2]] on the music background of the [[3]] [[1]] environment."
+ 	}, {
+ 		"keys": ["fits", "individual", "memory", "nodes"],
+ 		"sentence": "This emphasis on [[2]] connections [[0]] well with a conceptualization of [[2]] as a vast \"network,\" with [[1]] [[3]] joined to each other via connections or associations."
+ 	}, {
+ 		"keys": ["target", "activation", "nodes", "receive"],
+ 		"sentence": "Hints are effective because the [[0]] node can [[3]] [[1]] from two sources simultaneously\u2014 from [[2]] representing the main cue or question, and also from [[2]] representing the hint."
+ 	}, {
+ 		"keys": ["target", "memory", "paths"],
+ 		"sentence": "Specifically, the connections serve as retrieval [[2]]: When you want to locate information in [[1]], you travel on those [[2]], moving from one [[1]] to the next until you reach the [[0]] material."
+ 	}, {
+ 		"keys": ["work", "memory", "paths"],
+ 		"sentence": "Do retrieval [[2]] in [[1]] [[0]] the same way?"
+ 	}, {
+ 		"keys": ["quiet", "test", "answers"],
+ 		"sentence": "When later given a short-answer [[1]], those who read the article in [[0]] did best if tested in [[0]]\u201467% correct [[2]], compared to 54% correct if tested in a noisy environment."
+ 	}, {
+ 		"keys": ["activation", "nodes", "receive"],
+ 		"sentence": "To put all of this more precisely, [[1]] [[2]] [[0]] from their neighbors, and as more and more [[0]] arrives at a particular node, the [[0]] level for that node increases."
+ 	}, {
+ 		"keys": ["subthreshold", "activation"],
+ 		"sentence": "Activation levels below the response threshold, so-called [[0]] [[1]], also have an important role to play: Activation is assumed to accumulate, so that two [[0]] inputs may add together, or summate, and bring the node to threshold."
+ 	}, {
+ 		"keys": ["nearby", "activation", "nodes"],
+ 		"sentence": "This will, we've hypothesized, trigger a spread of [[1]] outward from this node, bringing [[1]] to other, [[0]] [[2]]."
+ 	}, {
+ 		"keys": ["subthreshold", "primed", "activation"],
+ 		"sentence": "Responses to the second word were reliably faster if the word had been [[1]]\u2014providing clear evidence of the importance of [[0]] [[2]]."
+ 	}, {
+ 		"keys": ["memory", "activation"],
+ 		"sentence": "Even so, spreading [[1]] is a crucial mechanism: It plays a central role in retrieval, and it helps us understand why [[0]] connections are so important and so helpful."
+ 	}, {
+ 		"keys": ["memory", "activation", "paths"],
+ 		"sentence": "And, finally, we've now started to lay out what these [[2]] really are: connections that carry [[1]] from one [[0]] to another."
+ 	}, {
+ 		"keys": ["target", "link", "memory"],
+ 		"sentence": "In other words, [[2]] connections [[1]] the [[0]] material to thoughts about the setting in which you encountered that material, and these connections help you to recall when and where you saw that person, or heard that song, or smelled that perfume."
+ 	}, {
+ 		"keys": ["memory", "activation", "nodes"],
+ 		"sentence": "So here, too, we can speak of a processing pathway\u2014the sequence of [[2]], and connections between [[2]], that the [[1]] flows through during [[0]] retrieval."
+ 	}]
+}

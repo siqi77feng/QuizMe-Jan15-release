@@ -1,0 +1,63 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["shark"],
+		"sentence": "In Italy, if you were eating pesce martello, you would be eating [[0]]."
+	}, {
+		"keys": ["ice cream"],
+		"sentence": "Sweden is the European country with the most consumption of [[0]]. "
+	}, {
+		"keys": ["albumen"],
+		"sentence": "The technical term for egg white is [[0]]."
+	}, {
+		"keys": ["ramekin"],
+		"sentence": "A [[0]] is a small casserole dish for baking and serving an individual portion of food."
+	}, {
+		"keys": ["firkin"],
+		"sentence": "The name of a barrel of beer containing nine gallons is called a [[0]]."
+	}, {
+		"keys": ["Saffron"],
+		"sentence": "[[0]] is the world's most expensive spice."
+	}, {
+		"keys": ["sturgeon"],
+		"sentence": "Caviar is a delicacy that comes from the [[0]] fish."
+	}, {
+		"keys": ["medicine"],
+		"sentence": "Licorice was used as a [[0]] in ancient Egypt."
+	}, {
+		"keys": ["dates"],
+		"sentence": "Coconuts and [[0]] are the two fruits that grow on palm trees."
+	}, {
+		"keys": ["avocado"],
+		"sentence": "The [[0]] is the fruit with the highest amount of calories."
+	}, {
+		"keys": ["Mozzarella"],
+		"sentence": "[[0]] cheese was traditionally made from buffaloes' milk."
+	}, {
+		"keys": ["orchid"],
+		"sentence": "Natural vanilla flavoring comes from the [[0]] plant."
+	}, {
+		"keys": ["broccoli"],
+		"sentence": "President George H. W. Bush declared publically that he did not like [[0]]."
+	}, {
+		"keys": ["cabbage"],
+		"sentence": "Savoy and Late Flat Dutch are both varieties of [[0]]."
+	}, {
+		"keys": ["bush"],
+		"sentence": "The [[0]] nut is more commonly known as the Macadamia. "
+	}, {
+		"keys": ["ewe"],
+		"sentence": "Greek feta cheese is made from the milk of the [[0]]."
+	}, {
+		"keys": ["cornflakes"],
+		"sentence": "Ireland consumes the most [[0]] per head than anywhere else in the world."
+	}, {
+		"keys": ["punt"],
+		"sentence": "The term for the indentation at the base of a wine bottle is the [[0]]."
+	}, {
+		"keys": ["mustard"],
+		"sentence": "The radish and turnip belong to the [[0]] family."
+	}, {
+		"keys": ["cauliflower"],
+		"sentence": "Mark Twain once described [[0]] as cabbage with a college education."
+	}]
+}

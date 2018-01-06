@@ -1,0 +1,25 @@
+{
+  "name": "quizme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amcharts3": "github:amcharts/amcharts3",
+    "angular": "^1.5.9",
+    "body-parser": "^1.16.1",
+    "browser-sync": "^2.18.2",
+    "express": "^4.14.0",
+    "formidable": "^1.0.17",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "helmet": "^3.4.0",
+    "json2csv": "^3.7.3",
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.2.0",
+    "mongodb": "^2.2.24",
+    "package-name": "^0.1.0",
+    "pdftoimage": "^1.0.0"
+  }
+}

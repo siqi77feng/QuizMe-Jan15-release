@@ -1,0 +1,11 @@
+/*footer.css*/
+footer {
+	background-color: rgba(0,159,161,1.0);
+	float: left;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+footer p {
+	padding:25px;
+}

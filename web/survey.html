@@ -1,0 +1,75 @@
+<!-- surveyQuiz.html -->
+<!-- all of this HTML is inserted into the <div ng-view></div> tag in index.html -->
+
+<div class="surveyQuiz">
+    <section>
+        <h1>Brief Survey</h1>
+        <div ng-show="!isTaken()">
+            <br class="box survey" id="feedback-survey" ng-submit="">
+            <h2>please indicate the extent to which you agree or disagree with the following statement</h2>
+            <br>
+            <h3> Being a good learner is important to me</h3>
+            <p class="scale">
+                (Strongly Disagree) &nbsp;&nbsp;
+                <button id="helpful_1" ng-click="helpful1()">1</button>
+                &nbsp;-&nbsp;
+                <button id="helpful_2" ng-click="helpful2()">2</button>
+                &nbsp;-&nbsp;
+                <button id="helpful_3" ng-click="helpful3()">3</button>
+                &nbsp;-&nbsp;
+                <button id="helpful_4" ng-click="helpful4()">4</button>
+                &nbsp;-&nbsp;
+                <button id="helpful_5" ng-click="helpful5()">5</button>
+                &nbsp;-&nbsp;
+                <button id="helpful_6" ng-click="helpful6()">6</button>
+                &nbsp;-&nbsp;
+                <button id="helpful_7" ng-click="helpful7()">7</button>
+                &nbsp;&nbsp;(Strongly Agree)
+            </p>
+            <h3>Receiving good grades is important to me</h3>
+            <p class="scale">
+                (Strongly Disagree)&nbsp;&nbsp;
+                <button id="appropriate_1" ng-click="appropriate1()">1</button>
+                &nbsp;-&nbsp;
+                <button id="appropriate_2" ng-click="appropriate2()">2</button>
+                &nbsp;-&nbsp;
+                <button id="appropriate_3" ng-click="appropriate3()">3</button>
+                &nbsp;-&nbsp;
+                <button id="appropriate_4" ng-click="appropriate4()">4</button>
+                &nbsp;-&nbsp;
+                <button id="appropriate_5" ng-click="appropriate5()">5</button>
+                &nbsp;-&nbsp;
+                <button id="appropriate_6" ng-click="appropriate6()">6</button>
+                &nbsp;-&nbsp;
+                <button id="appropriate_7" ng-click="appropriate7()">7</button>
+                &nbsp;&nbsp;(Strongly Agree)
+            </p>
+            <h3>Saving time by studying efficiently is important to me</h3>
+            <p class="scale">
+                (Strongly Disagree)&nbsp;&nbsp;
+                <button id="easy_1" ng-click="easy1()">1</button>
+                &nbsp;-&nbsp;
+                <button id="easy_2" ng-click="easy2()">2</button>
+                &nbsp;-&nbsp;
+                <button id="easy_3" ng-click="easy3()">3</button>
+                &nbsp;-&nbsp;
+                <button id="easy_4" ng-click="easy4()">4</button>
+                &nbsp;-&nbsp;
+                <button id="easy_5" ng-click="easy5()">5</button>
+                &nbsp;-&nbsp;
+                <button id="easy_6" ng-click="easy6()">6</button>
+                &nbsp;-&nbsp;
+                <button id="easy_7" ng-click="easy7()">7</button>
+                &nbsp;&nbsp;(Strongly Agree)
+            </p>
+            <br>
+            <input type="submit" form="feedback-survey" class="submitSurvey" value="Send Feedback" ng-click="consume_feedback()">
+            <div class="surveyBreak"></div>
+        </div>
+
+    </section>
+
+</div>
+<div class="box">
+    <button id="button-restart" ng-click="Nextstep()">Next</button>
+</div>

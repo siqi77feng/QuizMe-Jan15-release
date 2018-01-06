@@ -1,0 +1,19 @@
+<!-- uploadADoc.html -->
+<div class="box upload">
+    <form id="upload-a-doc" ng-submit="uploadADoc()">
+        <div class="uploadForm">
+        	<h3> Create a Custom Quiz from a Document </h3>
+            <p>Upload a file of reading material to generate a quiz. Valid formats: .txt, .jpg, .png, .pdf</p>
+            <p>
+                <button type="submit" class="startAQuiz-button" form="upload-a-doc">Upload a Document</button>
+            </p> 
+        </div>
+        <!-- used to upload a document by either route but doesn't need to be visable -->
+        <input hidden class ="hidden" id="upload-input" type="file" accept=".txt,.text,.jpg,.jpeg,.png,.bmp,.gif" name="uploads[]" enctype="multipart/form-data" multiple="">
+    </form>
+</div>
+
+<!-- functions of the upload button have been implemented in quiz.js for ease of use / to limit passing around the JSON object -->
+<script>
+    $.getScript("./src/js/quiz.js");
+</script>

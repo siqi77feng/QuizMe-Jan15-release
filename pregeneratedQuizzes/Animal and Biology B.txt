@@ -1,0 +1,33 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["gnu"],
+		"sentence": "Another name for the wildebeest is the [[0]]."
+	}, {
+		"keys": ["sperm"],
+		"sentence": "The [[0]] whale is the mammal with the heaviest brain, about six times heavier than the human's."
+	}, {
+		"keys": ["Ants"],
+		"sentence": "[[0]] live in a nest called a formicary."
+	}, {
+		"keys": ["antlers"],
+		"sentence": "The cells inside of [[0]] are the fastest growing cells in nature."
+	}, {	
+		"keys": ["Goldfish"],
+		"sentence": "[[0]] have four color receptors in their eyes, whereas humans have three."
+	}, {
+		"keys": ["peacocks"],
+		"sentence": "A group of [[0]] is called a muster."
+	}, {
+		"keys": ["mouse"],
+		"sentence": "The [[0]] is the most common mammal in the United States."
+	}, {
+		"keys": ["gray"],
+		"sentence": "Newborn [[0]] whale calves are always born in the region of Baja California."
+	}, {
+		"keys": ["badgers"],
+		"sentence": "Dachshunds were originally bred to hunt [[0]]."
+	}, {
+		"keys": ["Camel"],
+		"sentence": "[[0]] milk is the only milk that doesn't curdle when boiled."
+	}]
+}

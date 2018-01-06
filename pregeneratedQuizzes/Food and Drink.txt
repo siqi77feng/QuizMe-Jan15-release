@@ -1,0 +1,33 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["shark"],
+		"sentence": "In Italy, if you were eating pesce martello, you would be eating [[0]]."
+	}, {
+		"keys": ["albumen"],
+		"sentence": "The technical term for egg white is [[0]]."
+	}, {
+		"keys": ["firkin"],
+		"sentence": "The name of a barrel of beer containing nine gallons is called a [[0]]."
+	}, {
+		"keys": ["sturgeon"],
+		"sentence": "Caviar is a delicacy that comes from the [[0]] fish."
+	}, {
+		"keys": ["dates"],
+		"sentence": "Coconuts and [[0]] are the two fruits that grow on palm trees."
+	}, {
+		"keys": ["Mozzarella"],
+		"sentence": "[[0]] cheese was traditionally made from buffaloes' milk."
+	}, {
+		"keys": ["broccoli"],
+		"sentence": "President George H. W. Bush declared publically that he did not like [[0]]."
+	}, {
+		"keys": ["bush"],
+		"sentence": "The [[0]] nut is more commonly known as the Macadamia. "
+	}, {
+		"keys": ["cornflakes"],
+		"sentence": "Ireland consumes the most [[0]] per head than anywhere else in the world."
+	}, {
+		"keys": ["mustard"],
+		"sentence": "The radish and turnip belong to the [[0]] family."
+	}]
+}

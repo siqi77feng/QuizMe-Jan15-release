@@ -1,0 +1,93 @@
+{
+	"fillInTheBlank": [{
+		"sentence": "Psychologists use the term [[0]] [[1]] to refer to the amount of time that elapses between the initial learning and the subsequent retrieval; as this [[1]] grows, you're likely to forget more and more of the earlier event (see Figure 8.8).",
+		"keys": ["retention", "interval"]
+	},  {
+		"sentence": "We can maintain our claim, therefore, that the passage of time is the enemy of memory: Longer [[3]] [[0]] [[1]] [[2]] levels of recall.",
+		"keys": ["intervals", "produce", "lower", "retention"]
+	}, {
+		"sentence": "But long-[[1]] [[0]] also depends on another factor that we mentioned in the chapter\u2014whether you occasionally \"revisit\" the material you learned [[2]].",
+		"keys": ["retention", "term", "earlier"]
+	}, {
+		"sentence": "Some [[1]] [[0]] give rise to very clear, long-[[2]] memories called \"flashbulb memories.\"",
+		"keys": ["events", "emotional", "lasting"]
+	}, {
+		"sentence": "In fact, there are at least some indications that this sort of [[0]] can be a problem, because these individuals' vivid, [[1]] memories sometimes provide [[2]] associations, creating a disruption to their lives.",
+		"keys": ["remembering", "detailed", "uncontrollable"]
+	},  {
+		"sentence": "This, too, can [[0]] [[2]] [[1]], in which elements that were part of your thinking get misremembered as if they were actually part of the original experience.",
+		"keys": ["produce", "errors", "transplant"]
+	}, {
+		"sentence": "And in each of these variations, the outcome is the same: A substantial number of participants\u2014in some studies, more than one third of the participants end up incorporating the [[0]] suggestion into their memory of the original event.",
+		"keys": ["false"]
+	}, {
+		"sentence": "Participants were much more likely to \"remember\" the stunt (and so more likely to develop a [[1]] memory) if the experimenter showed them a copy of their actual second-grade class [[0]].",
+		"keys": ["photo", "false"]
+	}, {
+		"sentence": "Obviously, [[1]] memories can persist and have [[2]] behavioral [[0]].",
+		"keys": ["effects", "false", "lasting"]
+	}, {
+		"sentence": "If we now assume that your perspective is likely to change as time goes by, we can make a prediction about forgetting: The greater the [[0]] [[1]], the greater the likelihood that your perspective has changed, and therefore the greater the likelihood of retrieval [[2]].",
+		"keys": ["retention", "interval", "failure"]
+	}, {
+		"sentence": "Several studies have confirmed this optimistic suggestion\u2014that is, have shown that the step of taking a college exam can [[1]] long-[[2]] [[0]] (e.g., Carpenter, Pashler, & Cepeda, 2009; Halamish & Bjork, 2011; Karpicke, 2012; Karpicke & Blunt, 2011; McDaniel, Anderson, Derbish, & Morrisette, 2007; Pashler, Rohrer, Cepeda, & Carpenter, 2007; Rowland, 2014).",
+		"keys": ["retention", "promote", "term"]
+	},  {
+		"sentence": "But here, too, we can find memory [[1]], in part because your \"memory\" for your own life is (just like other memories) a mix of genuine recall and some amount of [[0]]-based reconstruction.",
+		"keys": ["schema", "errors"]
+	}, {
+		"sentence": "At a biological level, [[0]] arousal seems to promote the process of memory [[1]]\u2014the process through which memories are biologically \"cemented in place.\"",
+		"keys": ["emotional", "consolidation"]
+	}, {
+		"sentence": "A related proposal suggests that [[1]] [[0]] lead you to set certain goals: If you're afraid, your goal is to escape; if you're angry, your goal is to deal with the person who's made you angry; if you're happy, your goal may be to relax and enjoy!",
+		"keys": ["events", "emotional"]
+	},  {
+		"sentence": "These are the socalled flashbulb memories\u2014memories of extraordinary clarity, [[0]] for highly [[2]] [[1]], retained despite the passage of many years.",
+		"keys": ["typically", "events", "emotional"]
+	}, {
+		"sentence": "The answer involves several People often have especially clear and long-lasting memories for events like their first hearing about [[0]] Diana's death in 1997, the attack on the [[1]] in September 2001, or the news of [[2]] Jackson's death in 2009.",
+		"keys": ["Princess", "World Trade Center", "Michael"]
+	},  {
+		"sentence": "Here, too, the recovery is of enormous importance for the person finally [[1]] the long-[[0]] episodes; but again, this merely [[2]] the role of an already documented memory mechanism, with no need for theorizing about repression.",
+		"keys": ["lost", "remembering", "confirms"]
+	}, {
+		"sentence": "Away from the lab, however, people routinely try to remember [[1]] from years\u2014perhaps Remembering Complex Events  [[0]]\u2014[[2]].",
+		"keys": ["decades", "events", "back"]
+	}, {
+		"sentence": "We've mentioned that these [[1]] [[2]] [[0]] are, in general, associated with a greater amount of forgetting.",
+		"keys": ["intervals", "longer", "retention"]
+	}, {
+		"sentence": "In an [[2]] section, we argued that the [[0]] [[1]] is crucial for memory and that memory gets worse and worse as times goes by.",
+		"keys": ["retention", "interval", "earlier"]
+	}, {
+		"sentence": "All of these things seem to be true whether we're talking about relatively recent memories or memories from long ago, [[2]] memories or memories of calm [[0]], memories for complex episodes or memories for simple word [[1]].",
+		"keys": ["events", "lists", "emotional"]
+	},  {
+		"sentence": "Memory [[1]] can also arise through the misinformation effect, in which people are exposed to some ([[0]]) suggestion about a previous event.",
+		"keys": ["false", "errors"]
+	}, {
+		"sentence": "Emotion seems to improve memory [[0]], but it may also produce a pattern of memory narrowing.",
+		"keys": ["consolidation"]
+	}, {
+		"sentence": "The memory [[0]] produced by your prior knowledge tend to be quite systematic, with the result that you often end up recalling the past as more \"normal,\" more in line with your expectations, than it actually was.",
+		"keys": ["errors"]
+	}, {
+		"sentence": "With all of these connections in place, information ends up being stored in memory in a [[0]] that looks like a vast spider [[1]], with each bit of information connected by many threads to other bits of information elsewhere in the [[1]].",
+		"keys": ["system", "web"]
+	},  {
+		"sentence": "Thus, you become vulnerable to what we might think of as \"[[1]]\" [[0]], in which a bit of information encountered in one context is transplanted into another context.",
+		"keys": ["errors", "transplant"]
+	}, {
+		"sentence": "Similar [[1]], with memory connections helping and hurting memory, can be demonstrated with simple word [[0]], provided that the [[0]] are even arranged so that they make appropriate contact with prior knowledge.",
+		"keys": ["lists", "effects"]
+	}, {
+		"sentence": "When asked how confident they are in their memories, participants are just as confident in their ([[0]]) recall of \"sleep\" as they are in their (correct) memory of genuine list words (Gallo, 2010; for earlier and classic papers in this arena, see Deese, 1957; Roediger & McDermott, 1995, 2000).",
+		"keys": ["false"]
+	},  {
+		"sentence": "Moreover, the types of [[0]] produced by schemata are quite predictable: Bear in mind that schemata summarize the broad pattern of your experience, and so they tell you, in essence, what's typical or ordinary in a given situation.",
+		"keys": ["errors"]
+	}, {
+		"sentence": "Mistaken eyewitness evidence [[0]] for more of these [[1]] convictions than all other causes combined.",
+		"keys": ["accounts", "false"]
+	}]
+}

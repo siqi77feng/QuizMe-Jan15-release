@@ -1,0 +1,120 @@
+{
+	"fillInTheBlank": [{
+		"sentence": "Recent findings suggest, in fact, that people who speak languages with a richer color vocabulary may [[0]] [[1]] [[2]]\u2014making finer and more sharply defined [[3]] (\u00d6zgen, 2004; Roberson, Davies, & Davidoff, 2000).",
+		"keys": ["perceive", "colors", "differently","distinctions"]
+	}, {
+		"sentence": "To put the matter simply, our [[0]] biology gives us a fabulous start on language [[1]], but to turn this \"start\" into \"language [[2]],\" we also need a communicative partner.",
+		"keys": ["human", "learning", "capacity"]
+	},  {
+		"sentence": "Examples of bound morphemes in Figure 10.1 are the [[0]]-tense morpheme \"ed\" and the plural morpheme Then, finally, in [[1]] language, morphemes are conveyed by sounds s.\" called phonemes, defined as the smallest unit of sound that can serve to distinguish words in language.",
+		"keys": ["past", "spoken"]
+	}, {
+		"sentence": "Speech [[0]] therefore has to \"read past\" these context differences in order to identify the phonemes [[1]].",
+		"keys": ["perception", "produced"]
+	}, {
+		"sentence": "In this way, the [[0]] [[1]] of a sentence provides an initial \"road map\" that is useful in understanding the sentence.",
+		"keys": ["phrase", "structure"]
+	}, {
+		"sentence": "Confirmation for the role of [[1]] [[2]] comes from cases in which two different [[1]] [[0]] can lead to the same sequence of words; if you encounter one of these sequences, you may not know which [[1]] [[2]] was intended.",
+		"keys": ["structures", "phrase", "structure"]
+	}, {
+		"sentence": "If, as we've suggested, [[1]] [[0]] [[2]] interpretation, then with multiple [[1]] [[0]] available, there should be more than one way to interpret the sentence.",
+		"keys": ["structures", "phrase", "guide"]
+	}, {
+		"sentence": "If the person hears a sentence that violates semantic expectations (e.g., a sentence like, \"He drinks his coffee with cream and dog\"), this triggers a brain wave termed the N400 (so-called because the wave [[0]] a negative voltage roughly 400 ms after the trigger (\"dog\") is encountered.",
+		"keys": ["involves"]
+	}, {
+		"sentence": "If the person hears a sentence that violates syntactic expectations, though, (e.g., a sentence like, \"He prefers to solve problems herself\"), a different brain wave is observed\u2014the so-called [[0]] anterior negativity (LAN).",
+		"keys": ["left"]
+	}, {
+		"sentence": "People also tend to assume that they'll be hearing (or reading) active-voice sentences rather than passive-voice sentences, so they generally interpret a sentence's [[1]] noun [[0]] as the \"doer\" of the action and not the recipient.",
+		"keys": ["phrase", "initial"]
+	},  {
+		"sentence": "According to many authors, the answer lies in the fact that humans are equipped with sophisticated neural machinery specialized for [[0]], and then using, language.",
+		"keys": ["learning"]
+	}, {
+		"sentence": "Damage to the [[0]] frontal lobe of the brain, especially a [[2]] known as Broca's area (see Figure 10.14) usually [[1]] a pattern of symptoms known as nonfluent aphasia.",
+		"keys": ["left", "produces", "region"]
+	}, {
+		"sentence": "As a related point, if language [[1]] is somehow tied to [[0]] genetics, then we might expect not to find language [[2]] in other species\u2014no matter how the other species is trained or encouraged to use language.",
+		"keys": ["human", "learning", "capacity"]
+	}, {
+		"sentence": "Of course, other species do have sophisticated [[2]] [[0]]\u2014including the songs and clicks of dolphins and whales, the dances of honeybees, and the various forms of alarm calls used by [[1]].",
+		"keys": ["systems", "monkeys", "communication"]
+	}, {
+		"sentence": "These [[0]] will certainly not support the sort of generativity that is a prominent feature of [[1]] language\u2014and so these other species don't have anything approaching our [[2]] to produce an unending variety of new sentences or our ability to understand an unending variety of new ideas.",
+		"keys": ["systems", "human", "capacity"]
+	}, {
+		"sentence": "The fact remains, though, that no naturally occurring animal [[0]] [[1]] comes close to [[2]] language in richness or complexity  Some of the projects have tried to train dolphins to communicate with humans; one project involved an African grey parrot; other projects have focused on primates\u2014asking what a chimpanzee, gorilla, or bonobo might be capable of.",
+		"keys": ["communication", "system", "human"]
+	}, {
+		"sentence": "Kanzi's abilities, though, after an enormous amount of careful [[1]], are way below those of the average 3 or 4-year-old [[0]] who has received no explicit language [[1]].",
+		"keys": ["human", "training"]
+	}, {
+		"sentence": "Thus, it seems that other species (especially those closely related to us) can [[1]] the rudiments of language, but nothing in their performance undercuts the amazing differences between [[0]] language [[2]] and that in other organisms.",
+		"keys": ["human", "learn", "capacity"]
+	}, {
+		"sentence": "Nonetheless, the consistency of these findings underscores an important point: Language [[1]] may depend on both a [[0]] genome and a [[0]] environment.",
+		"keys": ["human", "learning"]
+	}, {
+		"sentence": "The Berinmo people, living in Papua New Guinea, have only five words for [[1]] [[2]], and so, for example, they use a single word (\"nol\") to describe [[2]] that English speakers call \"[[0]]\" and [[2]] we call \"blue.\"",
+		"keys": ["green", "describing", "colors"]
+	}, {
+		"sentence": "The [[0]] people, living in [[1]] New Guinea, have only five words for describing colors, and so, for example, they use a single word (\"nol\") to describe colors that [[2]] speakers call \"green\" and colors we call \"blue.\"",
+		"keys": ["Berinmo", "Papua", "English"]
+	}, {
+		"sentence": "If you're a speaker of Berinmo (a language spoken in New Guinea), your language makes no distinction between \"[[1]]\" and \"blue,\" so your language never leads you to think about these as [[0]] categories.",
+		"keys": ["separate", "green"]
+	}, {
+		"sentence": "Like all the rules discussed in this chapter, though, [[0]] [[1]] rules are descriptive, not [[2]].",
+		"keys": ["phrase", "structure", "prescriptive"]
+	}, {
+		"sentence": "Her case is typical, though, in other ways: Different brain [[0]] control the comprehension and the production of speech, so it is common for one of these capacities to be spared while the other is damaged, and the prospects for recovery are generally better for language comprehension than for production.",
+		"keys": ["areas"]
+	}, {
+		"sentence": "Finally, language surely [[0]] our thoughts, but in an indirect fashion: Language is one of many ways to draw our attention to this or that aspect of the environment.",
+		"keys": ["influences"]
+	}, {
+		"sentence": "Plainly, then, language capacity is crucial for us all, and in this chapter we'll consider the nature of this extraordinary and uniquely [[0]] skill.",
+		"keys": ["human"]
+	}, {
+		"sentence": "In [[0]] phonemes, the symbols correspond to the actual sounds [[1]], independent of how these sounds are expressed in ordinary writing.",
+		"keys": ["describing", "produced"]
+	}, {
+		"sentence": "It's these [[0]], in the form of air-pressure changes, that reach the ear, and so, in an important sense, the figure shows the pattern of input with which \"real\" speech [[1]] begins.",
+		"keys": ["amplitudes", "perception"]
+	}, {
+		"sentence": "[[0]] perception is further complicated by a phenomenon known as coarticulation (Liberman, 1970; also Daniloff & Hammarberg, 1973).",
+		"keys": ["Speech"]
+	}, {
+		"sentence": "The need for segmentation in a [[1]] speech stream, the variations caused by coarticulation, the variations from speaker to speaker\u2014all make speech [[0]] rather complex.",
+		"keys": ["perception", "continuous"]
+	}, {
+		"sentence": "Demonstrations of categorical [[0]] generally rely on a series of stimuli, created by computer.",
+		"keys": ["perception"]
+	},  {
+		"sentence": ") These limits, however, are simply facts about English; they are not at all a limit on what [[0]] ears can hear or [[0]] tongues can produce, and other languages routinely use combinations that for English speakers seem unspeakable.",
+		"keys": ["human"]
+	}, {
+		"sentence": "Virtually any speaker of the language would agree that these sequences have something wrong in them, suggesting that speakers somehow [[1]] the rules of syntax\u2014rules governing the sequence of words in a [[0]] or sentence.",
+		"keys": ["phrase", "respect"]
+	}, {
+		"sentence": "Colorless [[1]] ideas [[0]] furiously.",
+		"keys": ["sleep", "green"]
+	}, {
+		"sentence": "These sentences are, of course, without meaning: Colorless things aren't [[1]]; ideas don't [[0]]; toves aren't slithy.",
+		"keys": ["sleep", "green"]
+	}, {
+		"sentence": "You can read the structure from top to bottom, and as you move from one level to the next, you can see that each element has been \"expanded\" in a fashion that's strictly governed by the [[0]] [[1]] rules.",
+		"keys": ["phrase", "structure"]
+	}, {
+		"sentence": "The selection of [[0]] rules, therefore, may simply reflect the preferences of a particular group\u2014and in most settings, the group that defines these rules will of course be the group with the most prestige or social cachet (Labov, 2007).",
+		"keys": ["prescriptive"]
+	}, {
+		"sentence": "Phrase [[0]] rules, in contrast, are not at all [[1]]; they are instead descriptive rules\u2014that is, rules characterizing the language as it is ordinarily used by fluent speakers and listeners.",
+		"keys": ["structure", "prescriptive"]
+	}, {
+		"sentence": "Perhaps more important, [[0]] [[1]] rules help us understand the sentences we hear or read, because syntax in general specifies the relationships among the words in each sentence.",
+		"keys": ["phrase", "structure"]
+	}]
+}

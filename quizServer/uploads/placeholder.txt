@@ -1,0 +1,2 @@
+This text file is so that Git will track this directory, so that /app.js can save pasted-text files in the directory.
+

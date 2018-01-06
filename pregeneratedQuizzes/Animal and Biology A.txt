@@ -1,0 +1,33 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["ermine"],
+		"sentence": "The weasel and the [[0]] are the same animal, differing only in color of the fur."
+	}, {
+		"keys": ["grist"],
+		"sentence": "A group of bees can be called a hive, swarm or a [[0]]."
+	}, {
+		"keys": ["larks"],
+		"sentence": "A group of [[0]] is called an exaltation."
+	}, {
+		"keys": ["paddling"],
+		"sentence": "A [[0]] is the collective term for ducks."
+	}, {
+		"keys": ["females"],
+		"sentence": "Unusual for carnivores, hyena clans are dominates by [[0]]."
+	}, {
+		"keys": ["rattlesnake"],
+		"sentence": "The canebrake, timber, and pygmy are all types of [[0]]."
+	}, {
+		"keys": ["butterflies"],
+		"sentence": "Lepidoptera is the scientific name for [[0]]."
+	}, {
+		"keys": ["whales"],
+		"sentence": "Cetology is the study of [[0]]."
+	}, {
+		"keys": ["swordfish"],
+		"sentence": "The fastest of all fish in the sea is the [[0]]."
+	}, {
+		"keys": ["llama"],
+		"sentence": "The vicuna is a member of the [[0]] family."
+	}]
+}

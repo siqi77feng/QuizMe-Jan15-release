@@ -1,0 +1,90 @@
+{
+	"fillInTheBlank": [{
+		"sentence": "Interference between tasks is plainly increased if the tasks are [[1]] to each other, presumably because [[1]] tasks overlap in their processing requirements and so make competing [[0]] on [[2]] resources that are specialized for that sort of task.",
+		"keys": ["demands", "similar", "mental"]
+	}, {
+		"sentence": "Patients with unilateral [[1]] [[0]] were much more sensitive to targets appearing within the [[2]] circle (on the right) and missed many of the targets appearing within the blue circle (on the left); this observation simply confirms their clinical diagnosis.",
+		"keys": ["syndrome", "neglect", "red"]
+	}, {
+		"sentence": "We've noted that there are, in fact, several of these general resources: an [[2]] [[3]] needed for [[0]] tasks; a response selector needed whenever a task involves the launching of successive steps; [[1]] control, needed whenever a task requires \"rising above\" prior habits and tendencies; and probably others as well.",
+		"keys": ["mental", "executive", "energy", "supply"]
+	}, {
+		"sentence": "In selective listening experiemnts, they [[2]] and accurately report whether the [[1]] channel contained human [[0]], musical instruments, or silence.",
+		"keys": ["speech", "unattended", "easily"]
+	}, {
+		"sentence": "These studies confirm that the [[3]] activity for attended inputs is [[2]] from that for [[0]] inputs just 80 ms or so after the stimulus presentation\u2014a time interval in which [[1]] sensory processing is still under way (Hillyard, Vogel, & Luck, 1998).",
+		"keys": ["unattended", "early", "distinguishable", "brain"]
+	}, {
+		"sentence": "In some circumstances, you make an [[1]] [[2]] of the desired input, so that the [[0]] input receives relatively little processing.",
+		"keys": ["unattended", "early", "selection"]
+	},  {
+		"sentence": "The [[0]] [[1]] of a task can, however, be [[2]] through practice.",
+		"keys": ["resource", "demand", "diminished"]
+	}, {
+		"sentence": "This [[0]] [[2]] results from damage to the right parietal lobe, and so the [[1]] is for the left side of space.",
+		"keys": ["syndrome", "neglect", "typically"]
+	}, {
+		"sentence": "According to the [[1]] [[2]] hypothesis, the attended input is privileged from the start, so that the [[0]] input receives little (maybe even zero?)",
+		"keys": ["unattended", "early", "selection"]
+	}, {
+		"sentence": "First, To the symptoms of [[1]] [[0]] plainly reveal a spatially defined bias: These patients [[1]] half of space.",
+		"keys": ["syndrome", "neglect"]
+	}, {
+		"sentence": "A different mental resource is needed for many tasks: namely, the mind's [[0]] control.",
+		"keys": ["executive"]
+	}, {
+		"sentence": "Researchers have offered a variety of proposals for how exactly the [[1]] operates and how the [[2]] tissue [[0]] [[1]] function (Baddeley, 1986, 1996; Brown, Reynolds & Braver, 2007; Duncan et al., 2008; Engle & Kane, 2004; Gilbert & Shallice, 2002; Kane, Conway, Hambrick, & Engle, 2007; Miller & Cohen, 2001; Miyake & Friedman, 2012; Stuss & Alexander, 2007; Unsworth & Engle, 2007; Vandierendonck, Liefooghe, & Verbruggen, 2010).",
+		"keys": ["enables", "executive", "brain"]
+	}, {
+		"sentence": "Pedestrians engaged in phone conversations tend to walk more [[0]] and more erratically change [[2]] more often, and are less likely to check [[1]] carefully before they cross a street.",
+		"keys": ["slowly", "traffic", "directions"]
+	}, {
+		"sentence": "No matter what the [[0]], though, the key principle will be the same: Tasks will interfere with each other if their combined [[1]] for a [[0]] is greater than the amount available\u2014that is, if the [[1]] exceeds the [[2]].",
+		"keys": ["resource", "demand", "supply"]
+	}, {
+		"sentence": "Thus, it's no surprise that practice makes divided attention [[0]]\u2014enabling the skilled driver to continue chatting with her passenger as they cruise down the highway, even though this combination is hopelessly difficult for the novice driver.",
+		"keys": ["easier"]
+	}, {
+		"sentence": "If two tasks make competing demands on task-general resources (the response selector or [[0]] control), again the result will be interference.",
+		"keys": ["executive"]
+	}, {
+		"sentence": "In addition, it will be especially difficult to combine tasks that involve [[0]] stimuli\u2014combining two tasks that both involve printed text, for example, or that both involve speech.",
+		"keys": ["similar"]
+	}, {
+		"sentence": "Instead, attention is an achievement\u2014an achievement of performing multiple activities [[0]] or an achievement of successfully avoiding [[2]] when you wish to focus on a [[1]] task.",
+		"keys": ["simultaneously", "single", "distraction"]
+	}, {
+		"sentence": "This provides a ready account of divided attention: It is possible to perform two tasks [[0]] only if the two tasks do not in combination demand more resources than are available.",
+		"keys": ["simultaneously"]
+	}, {
+		"sentence": "In many cases, people with attention deficit also have problems with [[0]] and impulsivity\u2014and so they suffer from attention deficit [[0]] [[1]] (ADHD).",
+		"keys": ["hyperactivity", "disorder"]
+	}, {
+		"sentence": "Nothing in this range, however, approaches a far more extreme disruption in attention, termed unilateral [[1]] [[0]].",
+		"keys": ["syndrome", "neglect"]
+	},{
+		"sentence": "A patient with [[1]] [[0]] will eat food from only one side of the plate, will wash only half of his or her face, and will fail to locate sought-for objects if they're on the neglected side (see Logie, 2012; Sieroff, Pollatsek, & Posner, 1988).",
+		"keys": ["syndrome", "neglect"]
+	}, {
+		"sentence": "The participants were instructed to pay attention to one of these inputs\u2014the attended channel\u2014and told simply to ignore the message in the other ear\u2014the [[0]] channel.",
+		"keys": ["unattended"]
+	}, {
+		"sentence": "Participants' shadowing [[1]] is generally [[0]] to perfect: They repeat almost 100% of the words they hear.",
+		"keys": ["close", "performance"]
+	}, {
+		"sentence": "For example, they failed to notice when someone wearing a [[0]] costume walked through the middle of the game, pausing briefly to thump his chest before exiting.",
+		"keys": ["gorilla"]
+	}, {
+		"sentence": "If the [[1]] channel actually did contain human [[0]], they can report whether the speaker was male or female, had a high or low voice, or was speaking loudly or softly.",
+		"keys": ["speech", "unattended"]
+	}, {
+		"sentence": "We have all experienced some version of the so-called cocktail [[0]] effect.",
+		"keys": ["party"]
+	}, {
+		"sentence": "For purposes of theory, this distinction is crucial, but for the moment let's emphasize what the two proposals have in common: By either account, our normal ability to see what's around us, and to [[0]] use of what we see, is dramatically [[1]] in the absence of attention.",
+		"keys": ["make", "diminished"]
+	}, {
+		"sentence": "[[0]] and [[1]] (2010) call attention to the reports of traffic accidents in which (for example) a driver says, \"I never saw the bicyclist!",
+		"keys": ["Chabris", "Simons"]
+	}]
+}

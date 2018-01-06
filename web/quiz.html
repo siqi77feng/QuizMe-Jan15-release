@@ -1,0 +1,135 @@
+<!-- quiz.html -->
+<!-- Authors: Ryan Tabler -->
+<!-- All of this HTML is inserted into the <div ng-view></div> tag in index.html -->
+
+<!-- quiz interface -->
+<form id="quiz-container" ng-submit="btCheckOrNextOrRetry()">
+    <!-- Upper white area where the question will be shown-->
+    <div id="finish-bar">
+        <div id="quiz-title">
+            <h2><strong>{{myDocName}}</strong></h2></div>
+    </div>
+    <div id="question-viewer" class="question-viewer">
+        <div class="full-question">
+            <span class="question-text">{{questionPreBlank}}</span>
+            <input type="text" id="answer-box" name="answer-box" size="20" autofocus autocomplete="off" spellcheck="true" placeholder="Fill in the blank"></input>
+    <script>
+    $('#answer-box').inputAutogrow({maxWidth: 300, minWidth: 200, trailingSpace: 10});
+    </script> 
+            <span class="question-text">{{questionPostBlank}}</span>
+        </div>
+    </div>
+    <!-- Buttons -->
+    <div class="quizButtons">
+        <ul>
+            <!--<li>
+                <button type="button" id="button-toss" ng-click="btDiscardQuestion()">Discard</button>
+            </li>-->
+            <div class="fr">
+               <!-- <li>
+                    <button type="button" id="button-skip" ng-show="!answerChecked()" ng-click="btSkipQuestion()">Skip</button>
+                </li><script type="text/javascript">
+                        var clicks = 0;
+                        function onClick() {
+                            clicks += 1;
+                            document.getElementById("clicks").innerHTML = clicks;
+                        };
+                    </script>-->
+                <li>
+
+                    <button type="submit" class="check-or-next" id="button-check-next-retry" form="quiz-container">{{answerChecked() ?  usedHint() ? 'Next' : 'Check again' : 'Check' }}</button>
+                    <button id="button-finish" class="finishedQuiz-button" type="button" ng-click="btFinishQuiz()">Finish Quiz!</button>
+                    <button id="button-finish2" class="finishedQuiz-button2" type="button">Finish Quiz!</button>
+                </li>
+            </div>
+        </ul> 
+    </div>
+    <div class="finishedQuiz">
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;Thanks!Please come back after <u>24</u> hours.</h2>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;You will receive an Email will a link to return in 24 hours,</h2>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;You must return to receive credit. </h2>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;*<u>Please close this window now to earn credit for today’s experiment</u></h2>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+    </div>
+    <!-- lower colored area that will load feedback -->
+    <div id="feedback">
+        <div ng-show="showFeedback()">
+            <div ng-show="answerCorrect()">
+                <div class="correct" ng-show="!mispelled()">
+                    <div class="checkOrX">
+                        <i class="fa fa-check-circle-o fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="solution">
+                        That is correct!<br>
+                        <br>
+                        Your Answer: <strong>{{submittedAnswer}}</strong><br>
+                        Correct Answer: <strong>{{correctAnswer}}</strong><br>
+                        <br>
+                        Correct Solution:<br>
+                        {{questionPreBlank}}
+                        <strong>{{correctAnswer}}</strong>
+                        {{questionPostBlank}}
+                    </div>
+                </div>
+                <div class="mispelled" ng-show="mispelled()">
+                    <div class="checkOrX">
+                        <i class="fa fa-check-circle-o fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="solution">
+                        Correct, but you may want to check your spelling...<br>
+                        <br>
+                        Your Answer: <strong>{{submittedAnswer}}</strong><br>
+                        Correct Answer: <strong>{{correctAnswer}}</strong><br>
+                        <br>
+                        Correct Solution:<br>
+                        {{questionPreBlank}}
+                        <strong>{{correctAnswer}}</strong>
+                        {{questionPostBlank}}
+                    </div>
+                </div>
+            </div><!-- if correct -->
+
+            <div ng-if="!correct" class="incorrect" ng-show="!answerCorrect()">
+                <div ng-if="!correct" class="incorrect" ng-show="usedHint()">
+                    <div class="checkOrX">
+                        <i class="fa fa-times-circle-o fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="solution">
+                        That answer is not correct...<br>
+                        <br>
+                        Your Answer: <strong>{{submittedAnswer}}</strong><br>
+                        Correct Answer: <strong>{{correctAnswer}}</strong><br>
+                        <br>
+                        Correct Solution:<br>
+                        {{questionPreBlank}}
+                        <strong>{{correctAnswer}}</strong>
+                        {{questionPostBlank}}
+                    </div>
+                </div>
+                <div ng-if="!correct" class="incorrect" ng-show="!usedHint()">
+                    <div class="checkOrX">
+                        <i class="fa fa-times-circle-o fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <div class="solution">
+                        That answer is not correct...<br>
+                        <br>
+                        Your Answer : <strong>{{submittedAnswer}}</strong><br>
+                        <br>
+                        Here's a hint:<br>
+                        The answer starts with the letter: <strong>{{correctAnswer.slice(0,1)}}</strong><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quizBreak"></div>
+</form>
+
+
+
+
+

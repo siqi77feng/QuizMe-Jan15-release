@@ -1,0 +1,151 @@
+/* stylesQuiz.css */
+/* Authors: Ryan Tabler */
+/* Contains styles for the quiz interface specifically */
+
+#quiz-container {
+    background: #ddd; /* (I think this is currently not doing anything) */
+}
+/* Styles for submit button area */
+#finish-bar {
+    /*background-color: rgba(255,255,255,1.0);*/
+    background-color: rgba(214,214,214,1.0);
+    /*background-color: rgba(255,255,255, 0.8);*/
+    float: left;
+    min-height: 90px;
+    width: 100%;
+}
+#quiz-title {
+    float: left;
+    text-decoration: underline;
+    margin-left: 60px;
+    margin-top: 15px;
+    max-width: 50%;
+}
+#button-finish {
+    /*background: rgba(0, 159, 161, 1);*/
+    /*background-color: rgba(255,255,255,1.0);*/
+    background-color: rgba(255,255,255,1.0);
+    border-color: rgba(0,159,161,1.0);
+    border-radius: 20px; /* Rounded corners */
+    color: rgba(0,159,161,1.0);; /* Font text: black */
+    cursor: pointer; /* Show as clickable on hover */
+    float: right;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.5em;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 40px;
+    text-align: center;
+    width: 150px;
+    float: right;
+}
+#button-finish:hover {
+    background-color: rgba(0,159,161,1.0);
+    color: rgba(255,255,255,1.0);
+}
+/* Styles for question area */
+.question-viewer {
+    background-color: rgba(255,255,255,.7);
+    float: left;
+    min-height: 150px; /* Defined minimum height */
+    width: 100%;
+
+}
+.full-question { /* Contains the entire question part. */
+   padding: 5% 10% 0% 10%;
+}
+.full-question span,
+.full-question #answer-box {
+    font-size: 16px;
+    text-align: center;
+}
+
+.full-question #answer-box {
+    border: 2px solid rgba(0,159,161,1.0);
+    border-radius: 4px;
+    color: rgba(0,159,161,1.0);
+    outline: none;
+}
+
+.full-question .question-text {
+    display: inline;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    font-family: "museo-sans-rounded", sans-serif;
+}
+
+/* Button properties */
+.quizButtons {
+    background-color: rgba(220,220,220,1);
+    float: left;
+    padding-top: 13px;
+    width: 100%;
+}
+.quizButtons ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.quizButtons ul li button {
+    background: rgba(0, 159, 161, 1); /* Default button color: teal */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    color: #000; /* Font text: black */
+    cursor: pointer; /* Show as clickable on hover */
+    float: left;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1em;
+    height: 40px;
+    margin-right: 40px;
+    text-align: center;
+    width: 150px;  
+}
+/*feedback*/
+.feedback{
+    float: left;
+    width: 100%;
+    height: 100%
+}
+.correct{
+    background: #9f9; /* "correct" -> green color */
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.mispelled{
+     background: #EEE8AA; /* "correct" -> green color */
+    float: left;
+    height: 100%;
+    width: 100%;
+
+}
+.incorrect {
+    background: #f99;  /* Default is "incorrect" -> red color */
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.checkOrX{
+    float:left;
+    padding: 30px;
+}
+.solution{
+    float: left;
+    padding: 30px;
+    font-family: "Titillium Web", sans-serif;
+    width: 70%;
+}
+#solution strong {
+    text-decoration: underline; /* Emphasize the filled-in part of the full answer */
+}
+.fr{
+    float: right;
+}
+.fl{
+    float:left;
+}
+
+.quizBreak {
+    float:left;
+    height: 100px;
+    width: 100%;
+}

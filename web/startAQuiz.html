@@ -1,0 +1,33 @@
+<!-- startAQuiz.html -->
+<div> 
+    <div class="box"> 
+        <h1> Starting a Quiz</h1>
+        <section>
+            <p>To take a quiz please enter your University of Colorado <b>IdentiKey</b> username. Then choose one of the quiz-generator options.</p>
+            <p>By using QuizMe, you agree to have your usage of this
+                tool recorded for research purposes.</p>
+            <div class="researchParticipantLogin box">
+                <h2>Research Participant Login</h2>
+                <form id="startAQuiz-container" ng-submit="QuizMe()">
+                    <div class="loginForm">
+                        <p>
+                            IdentiKey: 
+                            <input type="text" id="identikey-box" placeholder="Your Identikey here." name="identikey-box" size="20" autofocus autocomplete="off">
+                            <button type="submit" id="button-QuizMe" class="startAQuiz-button" form="startAQuiz-container">QuizMe!</button>
+                        </p> 
+                    </div>
+                </form>
+            </div><!--<div class="researchParticipantLogin">-->
+            <!-- used to upload a document by either route but doesn't need to be visable -->
+            <input hidden class ="hidden" id="upload-input" type="file" accept=".txt,.text,.jpg,.jpeg,.png,.bmp,.gif,.pdf" name="uploads[]" >
+        </section>
+        <div class="ifID" ng-show="haveID()"> 
+            <div ng-include="'./uploadADoc.html'"></div>
+            <div ng-include="'./uploadText.html'"></div>
+            <div ng-include="'./usePremadeQuiz.html'"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Show if processing -->
+<div id = "processing"></div>

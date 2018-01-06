@@ -1,0 +1,33 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["cornea"],
+		"sentence": "The [[0]] receives oxygen without a blood supply."
+	}, {
+		"keys": ["epilepsy"],
+		"sentence": "In the early 20th century, rattlesnake venom was used to treat [[0]]."
+	}, {
+		"keys": ["tetanus"],
+		"sentence": "Another name for [[0]] is lockjaw."
+	}, {
+		"keys": ["Tears"],
+		"sentence": "[[0]] are produced in lachrymal glands."
+	}, {
+		"keys": ["cervical"],
+		"sentence": "The top set of vertebrae are called the [[0]] vertebrae."
+	}, {
+		"keys": ["Aspirin"],
+		"sentence": "[[0]] was originally extracted from tree bark."
+	}, {
+		"keys": ["vitamin C"],
+		"sentence": "Ascorbic acid is commonly referred to as [[0]]."
+	}, {
+		"keys": ["aorta"],
+		"sentence": "The largest artery in the human body is the [[0]]."
+	}, {
+		"keys": ["ear"],
+		"sentence": "The otoscope is used to look at the [[0]]."
+	}, {
+		"keys": ["thyroid"],
+		"sentence": "The function of the [[0]] is to regular growth and metabolism."
+	}]
+}

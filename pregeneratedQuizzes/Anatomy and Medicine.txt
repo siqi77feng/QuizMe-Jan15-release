@@ -1,0 +1,33 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["renal"],
+		"sentence": "The adjective [[0]] refers to the kidneys."
+	}, {
+		"keys": ["rubella"],
+		"sentence": "Another name for German measles is [[0]]."
+	}, {
+		"keys": ["kidney"],
+		"sentence": "The [[0]] is part of the excretory system with small tubules called nephridia."
+	}, {
+		"keys": ["spleen"],
+		"sentence": "The [[0]] is a large bean-shaped lymph gland that can expand and contract."
+	}, {
+		"keys": ["ovum"],
+		"sentence": "The largest cell in the human body is the [[0]]."
+	}, {
+		"keys": ["scapula"],
+		"sentence": "The [[0]] is the term for the shoulder blade."
+	}, {
+		"keys": ["lingual"],
+		"sentence": "The tongue is joined by the [[0]] nerve to the brain."
+	}, {
+		"keys": ["sternum"],
+		"sentence": "The common name for the [[0]] is the breastbone."
+	}, {
+		"keys": ["labyrinth"],
+		"sentence": "The [[0]] in the ear allows for the maintenance of balance."
+	}, {
+		"keys": ["polio"],
+		"sentence": "Infantile paralysis is commonly known as [[0]]."
+	}]
+}

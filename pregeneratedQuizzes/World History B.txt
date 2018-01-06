@@ -1,0 +1,33 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["quipu"],
+		"sentence": "Without access to written language, the Inca used a system called [[0]] to communicate using knots in rope or string."
+	}, {
+		"keys": ["jelly beans"],
+		"sentence": "Ronald Reagan was known for always having [[0]] on his desk."
+	}, {
+		"keys": ["pillows"],
+		"sentence": "In ancient Egypt, only the rich could afford [[0]], which were commonly made from stone."
+	}, {
+		"keys": ["ziggurat"],
+		"sentence": "A [[0]] is a massive raised structure found in ancient Mesopotamia that served both as a shrine and as a place to escape rising flood waters."
+	}, {
+		"keys": ["LEGO"],
+		"sentence": "[[0]] was launched by Dutch toymakers in 1958 and means play well."
+	}, {
+		"keys": ["Cuba"],
+		"sentence": "Spain ceded Florida to Britain in exchange for [[0]]."
+	}, {
+		"keys": ["Portugal"],
+		"sentence": "Mozambique declared independence from [[0]] in 1975."
+	}, {
+		"keys": ["Nauset"],
+		"sentence": "When the Pilgrims landed in Massachusetts, the first Native Americans they encountered were the [[0]] tribe."
+	}, {
+		"keys": ["Pennsylvania"],
+		"sentence": "[[0]] was the first American colony to legalize witchcraft."
+	}, {
+		"keys": ["aqueducts"],
+		"sentence": "The romans built [[0]] to convey water."
+	}]
+}

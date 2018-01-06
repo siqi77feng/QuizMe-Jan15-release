@@ -1,0 +1,65 @@
+<!-- finishedQuiz.html -->
+<!-- Authors: Spencer Wilson -->
+<!-- all of this HTML is inserted into the <div ng-view></div> tag in index.html -->
+
+<!--<div class="finishedQuiz" id ="1">
+    <div class="box">
+        <p> Credits % for A version: <span>{{Acredit}}</span></p>
+        <p> Credits % for B version: <span>{{Bcredit}}</span></p>
+        <p> Number Correct for Return version: <span>{{number_correct4Return}}</span></p>
+    </div>--><!-- div class="box"-->
+<div class ="fq" id="1" style="text-align:center">
+    <h2>How do you think you did? If you are like most people,</h2>
+    <h2> you did better on Tested(fill-in-the-blank)than</h2>
+    <h2> Restudied items! The data below show typical results,</h2>
+    <h2>with a clear advantage for items that were practice tested.</h2>
+    <h2> (data from Rohrer, Taylor, &, Sholar, 2010)</h2>
+</div>
+<div class ="fq" id="2" style="text-align:center">
+    <h2>How do you think you did? Here are your personal results,</h2>
+    <h2>separated by whether you took a practice test or simply re-read</h2>
+    <h2>the items yesterday. Which practice strategy led to better result for you?</h2>
+
+</div>
+<!-- Resources -->
+<div class="chart">
+    <script src="/src/amcharts/amcharts.js"></script>
+    <script src="/src/amcharts/serial.js"></script>
+    <link rel="stylesheet" href="/src/amcharts/plugins/export/export.css" type="text/css" media="all" />
+    <script src="/src/amcharts/themes/light.js"></script>
+    <!-- HTML -->
+    <div id="chartdiv"></div>
+    <p></p>
+    <img src="/src/img/HowToQuizYourself.jpeg" style="width:750px;height:800px;">
+    <p></p>
+    <div ng-show="!isTaken()">
+        <form class="box survey" id="feedback-survey" ng-submit="">
+
+            <h2>&nbsp;&nbsp;&nbsp;&nbsp;Write your new plan to quiz yourself below:</h2>
+            <br>
+            <h3>IF:</h3>
+            <p>:<br>
+                <textarea name="textarea" id="appropriate-comments" form="feedback-survey" placeholder="Your comments here" autocomplete="off" spellcheck="true"></textarea>
+            </p>
+            <br>
+            <h3>Then</h3>
+            <p><br>
+                <textarea name="textarea" id="easy-comments" form="feedback-survey" placeholder="Your comments here" autocomplete="off" spellcheck="true"></textarea>
+            </p>
+            <br>
+            <input type="submit" form="feedback-survey" class="submitSurvey" value="Finish Day 2 of 3" ng-click="consume_feedback()">
+        </form>
+    </div>
+    <div class="surveyBreak"></div>
+</div>
+<div class="LastPage">
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;Thanks! Your will receive an email in <u>7</u> days</h2>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;that asks you to comeback and finish the experiment.</h2>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;Be sure to return within 24 hours of receiving that email in order to receive participation credit. </h2>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;Last, *Please close the window !!</h2>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+    <h2>&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+</div>

@@ -1,0 +1,111 @@
+{
+	"fillInTheBlank": [{
+		"keys": ["members", "response", "fastest"],
+		"sentence": "In fact, this outcome sets the pattern of evidence for prototype theory: Over and over, in category after category, [[0]] of a category that are \"privileged\" on one task (e.g., yield the [[2]] [[1]] times) turn out also to be privileged on other tasks (e.g., are most likely to be mentioned)."
+	}, {
+		"keys": ["verification", "sentence", "fastest", "links", "task"],
+		"sentence": "In a [[1]] [[0]] [[4]], participants' responses were [[2]] when the test required them to traverse zero [[3]] in memory (\"A canary is a canary\"), slower when the necessary ideas were separated by one link, and slower still if the ideas were separated by two [[3]]."
+	}, {
+		"keys": ["sentence", "involves", "close", "creatures"],
+		"sentence": "For example, we saw earlier in the chapter that verifications are faster if a [[0]] [[1]] [[3]] [[2]] to the prototype\u2014and so responses are faster to, say, \"A canary is a bird\" than to \"An ostrich is a bird.\""
+	},  {
+		"keys": ["features", "members", "shared"],
+		"sentence": "There may be no features that are [[2]] by all dogs or all games, but even so, we can identify \"characteristic features\" for each category\u2014[[0]] that many (and perhaps most) category [[1]] have."
+	}, {
+		"keys": ["verification", "fast", "response"],
+		"sentence": "By this logic, the first birds to be mentioned in the production task should be the birds that yielded [[1]] [[2]] times In the [[0]] task; that's because what matters in both tasks is proximity to the prototype."
+	}, {
+		"keys": ["closely", "related", "members"],
+		"sentence": "In several studies, participants' ratings of attractiveness have been [[0]] [[1]] to (other participants') ratings of typicality\u2014so that people seem to find more-typical category [[2]] to be more attractive (e.g., Halberstadt & Rhodes, 2003)."
+	}, {
+		"keys": ["members", "specific"],
+		"sentence": "The idea here is that in some cases categorization relies on knowledge about [[1]] category [[0]] (\"Jerry's chair\") rather than the prototype (e.g., the ideal chair)."
+	}, {
+		"keys": ["judging"],
+		"sentence": "Several pieces of evidence point this way, including the fact that whenever you use a prototype or exemplar, you're relying on a judgment of resemblance, and resemblance, we've now seen, depends on other [[0]] about which attributes to pay attention to in [[0]] resemblance, and which ones to regard as trivial."
+	}, {
+		"keys": ["difficulty", "persons", "brain"],
+		"sentence": "Panel B offers a different summary of the data: Patients with damage in the [[2]]'s temporal pole (T P, shown in blue) had [[0]] naming [[1]] (only 59.8% correct) but were easily able to name animals and tools."
+	},  {
+		"keys": ["representations", "specific", "individual"],
+		"sentence": "When we first introduced this example, we phrased it in terms of local [[0]], with [[2]] nodes having [[1]] referents."
+	}, {
+		"keys": ["courts", "robbery", "trial"],
+		"sentence": "It turns out that, in the [[0]], jurors do the same in making legal judgments, and so they're more likely to convict someone if [[2]] facts fit with their prototype for the crime\u2014if the facts fit the jurors' the notion of, say, a \"typical bank [[1]]\" or a \"typical hit-and run violation.\""
+	}, {
+		"keys": ["terms"],
+		"sentence": "Among other problems, Funes complains that he is incapable of thinking in general [[0]]; he remembers so much about how individuals differ that he has a hard time focusing on what these individuals might have in common: \"Not only was it difficult for him to comprehend that the generic symbol dog embraces so many unlike individuals of diverse size and form; it bothered him that the dog at 3:14 (seen from the side) should have the same name as the dog at 3:15 (seen from the front)\" (Borges, 1964)."
+	}, {
+		"keys": ["exceptions"],
+		"sentence": "However, attempts at defining these concepts usually fail because we easily find [[0]] to virtually any definition that might be proposed."
+	},  {
+		"keys": ["members", "phrasing", "shared"],
+		"sentence": "This probabilistic [[1]] preserves what's good about definitions\u2014the fact that they do name sensible, relevant features, [[2]] by most [[0]] of the category members. But this [[1]] also allows a degree of uncertainty, some number of egory."
+	}, {
+		"keys": ["members", "membership"],
+		"sentence": "In technical terms, we'd say that categories, on this view, have a graded [[1]], such that objects closer to the prototype are \"better\" [[0]] of the category than objects farther from the prototype."
+	}, {
+		"keys": ["verification", "sentence", "task"],
+		"sentence": "In a [[1]] [[0]] [[2]], research participants are presented with a succession of sentences; their job is to indicate (by pressing the appropriate button) whether each [[1]] is true or false."
+	}, {
+		"keys": ["specific", "terms", "earlier"],
+		"sentence": "Moreover, children learning to talk often acquire basic-level [[1]] [[2]] than either the more [[0]] subcategories or the more general, more encompassing categories."
+	}, {
+		"keys": ["membership"],
+		"sentence": "Clearly, therefore, there's some basis for judging category [[0]] that's separate from the assessment of typicality, and we obviously need some explanation for this point."
+	}, {
+		"keys": ["shared"],
+		"sentence": "The solution to this puzzle is easy: Resemblance does depend on [[0]] properties, but\u2014more precisely\u2014resemblance depends on whether the objects share important, essential properties."
+	}, {
+		"keys": ["cases"],
+		"sentence": "These examples remind us of one of the reasons that categorization is so important: Categorization enables you to apply your general knowledge (e.g., knowledge about dogs) to new [[0]] you encounter (e.g., Boaz)."
+	}, {
+		"keys": ["CATS", "ANIMALS", "HAVE"],
+		"sentence": "To confirm that cats have hearts, therefore, you must traverse two links: from [[0]] to [[1]], and from [[1]] to [[2]] HEARTS."
+	},  {
+		"keys": ["links"],
+		"sentence": "Nodes are connected by associative [[0]]."
+	}, {
+		"keys": ["representations", "broad"],
+		"sentence": "In short, a network using distributed [[0]] must use processes that are similarly distributed, so that one widespread activation pattern can have [[1]] enough effects to evoke a different (but equally widespread) pattern."
+	}, {
+		"keys": ["relies", "processing", "brain"],
+		"sentence": "We know that the [[2]] [[0]] on parallel [[1]], with ongoing activity in many regions simultaneously."
+	}, {
+		"keys": ["individual"],
+		"sentence": "We have now covered ground discusssing both [[0]] concepts and also how these concepts might be woven together, via the network, to form larger patterns of knowledge."
+	},  {
+		"keys": ["base", "terms"],
+		"sentence": "In this chapter, we'll begin with the obvious hypothesis: that understanding a concept is analogous to knowing a dictionary definition, and so, if someone knows what a \"house\" is, or a \"taxi,\" he or she can offer something like a definition for these [[1]]\u2014 and likewise for all the other concepts in each person's knowledge [[0]]."
+	},  {
+		"keys": ["terms"],
+		"sentence": "Examples like these make it clear that even simple [[0]], [[0]] denoting concepts we use easily and often, resist being defined."
+	}, {
+		"keys": ["members"],
+		"sentence": "In a similar spirit, Wittgenstein proposed that [[0]] of a category have a family resemblance to one another."
+	}, {
+		"keys": ["defining"],
+		"sentence": "There are probably no \"[[0]] features\" for your family, features that every family member has."
+	}, {
+		"keys": ["shared"],
+		"sentence": "Many concepts have the same character with many features [[0]] among the instances of the concept, but no features [[0]] by all of the instances."
+	}, {
+		"keys": ["members"],
+		"sentence": "In most cases, this \"ideal\"\u2014the prototype\u2014will be an average of the various category [[0]] you've encountered."
+	}, {
+		"keys": ["depends"],
+		"sentence": "This sounds plausible enough, but note an important implication: Membership in a category [[0]] on resemblance to the prototype, and resemblance is a matter of degree."
+	}, {
+		"keys": ["membership"],
+		"sentence": "As a result, [[0]] in the category is not a simple \"yes or no\" decision; instead, it's a matter of \"more\" or \"less.\""
+	},  {
+		"keys": ["close", "items"],
+		"sentence": "When there is [[0]] similarity between the test case and the prototype, participants can make their decisions quickly; judgments about [[1]] more distant from the prototype take more time."
+	}, {
+		"keys": ["resembles"],
+		"sentence": "According to a prototype view, they will do this task by first locating their bird or dog prototype in memory and then asking themselves what [[0]] this prototype."
+	}, {
+		"keys": ["close"],
+		"sentence": "people are easily able to render these judgments, and quite consistently they rate items as being very \"birdy\" or \"doggy\" when these instances are [[0]] to the prototype (as determined in the other tasks)."
+	}]
+}

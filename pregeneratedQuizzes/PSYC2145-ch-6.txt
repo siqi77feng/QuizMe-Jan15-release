@@ -1,0 +1,114 @@
+{
+	"fillInTheBlank": [{
+		"sentence": "The activity inherent in this overall system is reflected in the flexible way material can be chunked in [[0]] [[3]]; the activity is also reflected in current measures of [[0]] [[3]], via [[2]] [[1]].",
+		"keys": ["working", "span", "operation", "memory"]
+	}, {
+		"sentence": "Instead, Miller proposed, [[2]] [[3]] [[1]] 7 plus-or-minus 2 [[0]], and what those [[0]] contain is largely up to the individual person.",
+		"keys": ["packages", "holds",  "working", "memory"]
+	}, {
+		"sentence": "This point confirms the advantage of the more dynamic measures and, more broadly, strengthens the idea that we're now thinking about [[1]] [[2]] in the right way: not as a [[0]] storage box but instead as a highly active information processor.",
+		"keys": ["passive", "working", "memory"]
+	}, {
+		"sentence": "Many studies have shown that [[2]] [[1]] [[3]] to [[0]] [[4]] [[5]] later on, even if the [[2]] [[1]] occurred with no intention of memorizing the target material.",
+		"keys": ["good", "processing", "deep", "leads", "memory", "performance"]
+	}, {
+		"sentence": "Rehearsal is effective only if the person engages the materials in some way; this is reflected, for example, in the contrast between [[1]] [[0]] (which leads to excellent [[3]]) and mere maintenance [[2]] (which produces virtually no [[4]] benefit).",
+		"keys": ["processing", "deep", "rehearsal",  "memory"]
+	}, {
+		"sentence": "Likewise, the picture implies that [[2]] [[4]] [[0]] the \"movement\" of information out of storage and [[3]] into [[1]] [[2]].",
+		"keys": ["involves", "working", "memory", "back", "retrieval"]
+	}, {
+		"sentence": "Specifically, modern theorizing continues to [[1]] on several of the modal [[3]]'s claims about how [[0]] [[2]] and long-term [[2]] differ from each other, so let's start by [[4]] through those differences.",
+		"keys": ["working", "build", "memory", "model", "counting"]
+	}, {
+		"sentence": "First, these [[3]] [[0]] indications about when it's helpful to have a [[2]] [[1]] [[4]], which in turn helps us understand when and how [[1]] [[4]] is used.",
+		"keys": ["provide", "working", "larger", "correlations", "memory"]
+	}, {
+		"sentence": "The primacy portion of this curve reflects those items that have had extra opportunity to [[1]] long-term [[2]]; the [[3]] portion of this curve reflects the accurate [[4]] of items currently in [[0]] [[2]].",
+		"keys": ["working", "reach", "memory", "recency", "retrieval"]
+	}, {
+		"sentence": "Retrieval [[0]] [[3]] on connections linking one [[4]] to another; each connection provides a [[1]] potentially [[2]] to a target [[4]].",
+		"keys": ["paths", "path", "leading", "depend", "memory"]
+	}, {
+		"sentence": "As a result, these items won't benefit from the swift and easy [[3]] that [[0]] [[1]] allows, and, of course, that [[3]] was the presumed source of the [[2]] effect.",
+		"keys": ["working", "memory", "recency", "retrieval"]
+	},  {
+		"sentence": "In this case, the manipulation should affect all [[2]] except for [[3]] (which, again, is dependent on [[0]] [[1]], not LTM).",
+		"keys": ["working", "memory", "performance", "recency"]
+	}, {
+		"sentence": "In contrast, if participants [[0]] 30 seconds on some other [[3]] between hearing the list and the subsequent [[1]] test, the [[2]] effect is eliminated.",
+		"keys": ["spend", "memory", "recency", "activity"]
+	}, {
+		"sentence": "The results confirm these claims:  Slowing the list [[1]] improves [[0]] of all the pre-[[3]] items but does not [[2]] the [[3]] effect (see Figure 6.4).",
+		"keys": ["retention", "presentation", "improve", "recency"]
+	}, {
+		"sentence": "We earlier counted four fundamental differences between [[0]] [[1]] and LTM\u2014the size of these two stores, the ease of entry, the ease of [[3]], and the fact that [[0]] [[1]] is dependent on current [[2]] (and hence fragile) while LTM is not.",
+		"keys": ["working", "memory", "activity", "retrieval"]
+	}, {
+		"sentence": "Framing things in this way makes it clear how important [[0]] [[1]] is: You use [[0]] [[1]] whenever you have multiple ideas in your mind, multiple elements that you're seeking to combine or compare.",
+		"keys": ["working","memory"]
+	}, {
+		"sentence": "For many years, the holding capacity of [[0]] [[3]] was measured with a [[2]]-[[1]] task.",
+		"keys": ["working", "span", "digit", "memory"]
+	}, {
+		"sentence": "In a classic paper, George Miller (one of the founders of the field of cognitive psychology) proposed that [[1]] [[3]] [[0]] 7 plus-or-minus 2 [[2]] (Miller, 1956).",
+		"keys": ["holds", "working", "chunks", "memory"]
+	}, {
+		"sentence": "Modern researchers therefore measure this [[3]]'s capacity in terms of [[2]] [[1]], a procedure explicitly designed to measure [[0]] [[3]] when it is \"[[0]].\"",
+		"keys": ["working", "span", "operation", "memory"]
+	}, {
+		"sentence": "Our hypothesis, of course, is that someone with a higher [[2]] has a [[1]] [[0]] [[3]], and if this is right, then someone with a higher [[2]] should have an advantage in tasks that make heavy use of this [[3]].",
+		"keys": ["working", "larger", "span", "memory"]
+	}, {
+		"sentence": "In Chapter 1, we described the functioning of [[1]] [[3]]'s [[2]] [[0]] and discussed some of the evidence confirming this [[0]]'s existence.",
+		"keys": ["loop", "working", "rehearsal", "memory"]
+	}, {
+		"sentence": "We've now updated the modal [[2]] (Figure 6.1) in important ways, and in particular we've abandoned the notion of a relatively [[0]] short-term [[1]] serving largely as storage container.",
+		"keys": ["passive", "memory", "model"]
+	}, {
+		"sentence": "The two sets of results here derive from studies described in the text, but are just part of an avalanche of data confirming the broad pattern: Shallow [[0]] [[1]] to poor [[2]].",
+		"keys": ["processing", "leads", "memory"]
+	}, {
+		"sentence": "Apparently, then, [[1]] and [[2]] [[0]] leads to better recall than [[1]] [[0]] on its own.",
+		"keys": ["processing", "deep", "elaborate"]
+	}, {
+		"sentence": "Second, the multiple links will help you retrieve this information later on: We've already suggested that [[2]] connections serve as [[3]] [[0]], and the more [[0]] there are, the [[1]] it will be to find the target material later.",
+		"keys": ["paths", "easier", "memory", "retrieval"]
+	}, {
+		"sentence": "Once again, therefore, we're led to the idea that your goal in studying should be an active search for understanding and connections that will both enrich your comprehension and also serve as [[1]] [[0]] later.",
+		"keys": ["active", "retrieval"]
+	}, {
+		"sentence": "Deep [[1]] has beneficial effects by [[2]] effective [[3]] [[0]] that can be used later on.",
+		"keys": ["paths", "processing", "creating", "retrieval"]
+	}, {
+		"sentence": "The [[0]] nature of [[2]] is also evident in the process of [[1]].",
+		"keys": ["active", "rehearsal", "memory"]
+	}, {
+		"sentence": "In other words, you somehow locate the information in the vast warehouse that is [[1]] and you bring it into [[0]] use; this is called [[2]].",
+		"keys": ["active", "memory", "retrieval"]
+	}, {
+		"sentence": "According to the modal [[2]], when information first arrives, it is stored briefly in sensory [[1]], which [[0]] on to the input in \"raw\" sensory form\u2014an iconic [[1]] for visual inputs and an echoic [[1]] for auditory inputs.",
+		"keys": ["holds", "memory", "model"]
+	},  {
+		"sentence": "The idea, roughly, is that information has to \"pass through\" [[0]] [[2]] on the way into [[1]]-term storage.",
+		"keys": ["working", "longer", "memory"]
+	}, {
+		"sentence": "Thus, when we say that ideas are \"in [[0]] [[1]],\" this simply means that these ideas are currently activated and being worked on by a specific set of operations.",
+		"keys": ["working", "memory"]
+	}, {
+		"sentence": "Consequently, as participants try to keep up with the list presentation, they will be placing the words just heard into [[0]] [[1]], and this will bump the previous words out of this [[1]].",
+		"keys": ["working", "memory"]
+	}, {
+		"sentence": "Of course, the last few words on the list don't get bumped out of [[0]] [[2]], because no further input arrives to [[1]] these words.",
+		"keys": ["working", "displace", "memory"]
+	}, {
+		"sentence": "First, note that we're claiming the [[2]] portion of the curve is coming from [[0]] [[1]], while the other items on the list are being recalled from LTM.",
+		"keys": ["working", "memory", "recency"]
+	}, {
+		"sentence": "Therefore, any manipulation of [[0]] [[1]] should affect recall of the [[2]] items but should have little impact on the other items on the list.",
+		"keys": ["working", "memory", "recency"]
+	}, {
+		"sentence": "In contrast, the [[2]] backward should have no impact on recall of the items earlier in the list: These items are (by hypothesis) being recalled from long-term [[1]], not [[0]] [[1]], and there's no reason to think the [[2]] task will interfere with LTM.",
+		"keys": ["working", "memory", "counting"]
+	}]
+}

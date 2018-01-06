@@ -1,0 +1,95 @@
+/* stylesBody.css */
+/* Authors: Spencer Wilson */
+/* Contains styles for general things like headBar.html */
+
+/*
+* Total body standard
+*/
+*, *: before, *: after {
+    margin: 0;
+    padding: 0,
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}/* *, *: before, *: after */
+body {
+    background: rgba(220,220,220,1);
+} /* body */
+.hidden {
+    position: absolute;
+    top: -9999em;
+    left: -9999em;
+}/* .hidden */
+
+/* 
+ * Header
+ */
+.mainheader h1 {
+    left: -9999em;
+    position: absolute;
+    top: -9999em;
+}/* .mainheader h1 */
+
+/* 
+ * Title and Navigation
+ */
+table, th, td {
+    /*border: 1px solid black;*/
+    border: 2px;
+    padding: 10px;    
+    /*border-collapse: collapse;*/
+}/* table, th, td */
+.headTable {
+    width: 100%;
+    font-family: "Titillium Web", sans-serif;
+}/* .headTable */
+.leftHead {
+    padding: 20px;
+    background: rgba(233, 245, 61, 1);
+}/* .leftHead */
+.rightHead {
+    background: rgba(0, 159, 161, 1);
+}/* .rightHead */
+.logoHead {
+    background: rgba(0, 159, 161, 1);
+}/* .logoHead */
+.navigation {
+    background: rgba(238, 238, 238, 1);
+}
+.navigation th a {
+    background-color: rgba(0, 159, 161, 1);
+    font-family: "Titillium Web", sans-serif;
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.navigation #upload-input {
+  display: none;
+}/* .navigation */
+
+/* 
+ * Center space
+ */
+.container {
+    font-family: "Titillium Web", sans-serif;
+    background: rgba(105,105,105,.2);
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 960px;
+    min-height: 1000px;
+}/* .container */
+.box {
+    background: rgba(255,255,255,.7);
+    padding: 20px;
+}/* .box */
+/* 
+ * Footer
+ */
+footer {
+    text-align: center;
+}/* footer */
+

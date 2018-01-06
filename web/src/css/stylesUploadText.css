@@ -1,0 +1,12 @@
+/*stylesUploadText.css*/
+
+.upload-text {
+	/*background-color: rgba(0,159,161,0.6);*/
+}
+
+.pasted-textarea {
+	color: black;
+	width: 100%;
+	height: 160px;
+	resize: vertical;	
+}

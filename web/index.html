@@ -1,0 +1,84 @@
+﻿<!DOCTYPE HTML>
+<html ng-app="quizMeApp">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>QuizMe</title>
+        <!-- from web -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <!-- local -->
+        <link rel="styleSheet" type="text/css" href="./src/css/stylesBody.css">
+        <link rel="styleSheet" type="text/css" href="./src/css/stylesFooter.css">
+        <link rel="styleSheet" type="text/css" href="./src/css/stylesFinishedQuiz.css">
+        <link rel="styleSheet" type="text/css" href="./src/css/stylesNavigation.css">
+        <link rel="styleSheet" type="text/css" href="./src/css/stylesStartAQuiz.css">
+        <link rel="styleSheet" type="text/css" href="./src/css/stylestutorial.css"><!-- added tutorial -->
+        <link rel="styleSheet" type="text/css" href="./src/css/stylesUploadADoc.css">
+        <link rel="styleSheet" type="text/css" href="./src/css/stylesUploadText.css">
+        <link rel="styleSheet" type="text/css" href="./src/css/stylesUsePremadeQuiz.css">
+        <link rel="styleSheet" type="text/css" href="./src/css/stylessurveyQuiz.css">
+        <link rel="styleSheet" type="text/css" href="./src/css/stylesQuiz.css">
+        <link rel="styleSheet" type="text/css" href="./src/css/stylesDay3.css">
+
+
+        <!-- Google Analytics (copied from Adam Young's email on 16 March 2017) -->
+        <!-- Initializes the global function ga(),
+             creates a new tracker object,
+             then sends a pageview to Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-93838337-1', 'auto');
+            console.log("Google Analytics tracker initialized");
+            ga('send', 'pageview');
+            console.log("Google Analytics pageview sent");
+        </script>
+    </head>
+    <body>
+
+        <header class="mainheader">
+            <h1>QuizMe</h1>
+        </header><!-- header class="mainHeader" --><!-- absolutely necessary for good development... there are ways of hidding its display though using css --> 
+
+        <div id="quizMeApp">
+            <div ng-include="'./navigation.html'"></div>
+        </div>
+        
+        <main class="main" role="main">
+            <div class="wrapper">
+                <div class="container">
+                    <div ng-view></div> <!-- This is where views are inserted by Angular. -->
+                </div>
+            </div>
+        </main>
+        
+        <div ng-include="'./footer.html'"></div>
+
+        
+
+        <!-- Vendor libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Application Files -->
+        <script type="text/javascript" src="src/js/levenshtein.js"></script>
+        <script src="src/js/input-autogrow.js"></script>
+        <script src="src/js/app.js"></script>
+        <script src="src/js/about.js"></script>
+        <script src="src/js/startAQuiz.js"></script>
+        <script src="src/js/tutorial.js"></script><!-- added tutorial -->
+        <script src="src/js/quiz.js"></script>
+        <script src="src/js/finishedQuiz.js"></script>
+        <script src="src/js/survey.js"></script>
+        <script src="src/js/returnPage.js"></script>
+        <script src="src/js/day3.js"></script>
+
+
+    </body>
+</html>
+
